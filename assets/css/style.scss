@@ -1,8 +1,11 @@
 ---
 ---
 
-$header-bg-color: #448ade;
+$light-blue: #448ade;
+
+$header-bg-color: $light-blue;
 $header-bg-color-secondary: #01a0a0;
-$section-headings-color: #448ade;
+
+$section-headings-color: $light-blue;
 
 @import "{{ site.theme }}";
