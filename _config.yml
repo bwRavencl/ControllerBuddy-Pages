@@ -1,1 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: ControllerBuddy
+description: Highly advanced game controller mapping
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://controllerbuddy.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: bwRavencl
+github_username:  bwRavencl
+
+author:
+  name: Matteo Hausner
+  url: https://bwravencl.de/
+  twitter: bwravencl
+
+twitter:
+  username: bwravencl
+
+logo: https://github.com/bwRavencl/ControllerBuddy/raw/master/src/main/resources/icon_128.png
+
+show_downloads: true
+
+github:
+  repository_name: ControllerBuddy
+  repository_url: https://github.com/bwRavencl/ControllerBuddy
+
+download_url: https://github.com/bwRavencl/ControllerBuddy/releases/latest
+
+# Build settings
 theme: jekyll-theme-cayman
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
