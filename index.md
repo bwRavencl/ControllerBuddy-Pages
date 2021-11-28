@@ -8,6 +8,13 @@ accordion:
         The presented method is applicable to most desktop flight simulators and types of airplanes and helicopters.
 
         Secondly, it shall serve as a guide for **ControllerBuddy**, an advanced open-source game controller mapping software developed by the author of this document.
+  - title: What is ControllerBuddy?
+    content: |
+        ControllerBuddy is a highly advanced gamepad mapping software, which supports the creation of input profiles for complex target applications such as flight simulators.  
+        
+        In addition to the simplistic mapping of buttons and axes of a physical game-controller to keyboard and mouse input, ControllerBuddy also supports the feeding of input commands to a virtual joystick, provided by the awesome vJoy device driver created by Shaul Eizikovich.  
+
+        ControllerBuddy's goal is to enable the user to control target applications solely via a gamepad and not having to reach for a keyboard or mouse at any point in time.
   - title: What exactly do you mean by the term 'gamepad'?
     content: |
         A Windows compatible game controller as used by current generation gaming consoles, with two analog sticks, a D-Pad, a number of face buttons, two triggers and two shoulder buttons.
