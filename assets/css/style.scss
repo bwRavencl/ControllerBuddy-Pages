@@ -8,7 +8,6 @@ $light-green: #01a0a0;
 
 $header-bg-color: $light-blue;
 $header-bg-color-secondary: $light-green;
-
 $section-headings-color: $light-blue;
 
 @import "{{ site.theme }}";
@@ -34,11 +33,10 @@ $section-headings-color: $light-blue;
 }
 
 .main-content {
-    padding: 2rem 1rem;
+    max-width: 80rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
     a.anchor-symbol {
         padding-left: 0.375em;
         opacity: 0;
@@ -67,8 +65,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .toc {
     display: none;
-    margin-inline-start: -0.5em;
-    padding-inline-end: 0.7em;
+    margin-left: -0.5em;
+    padding-right: 0.7em;
     font-size: large;
     color: white;
 
@@ -79,4 +77,35 @@ h1, h2, h3, h4, h5, h6 {
     a {
         color: white;
     }
+}
+
+.profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    :first-child {
+        display: none;
+    }
+}
+
+.profile-item {
+    @extend .btn;
+
+    text-align: center;
+    margin: 1em;
+    background-color: $lighter-blue;
+    border-color: black;
+    color: white;
+
+    &:hover {
+        background-color: lighten($lighter-blue, 10);
+        border-color: lighten(black, 25);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.profile-viewer {
+    border-style: none;
 }
