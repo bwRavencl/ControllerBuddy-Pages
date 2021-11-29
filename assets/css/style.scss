@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .toc {
     display: none;
+    margin-inline-start: -0.5em;
+    padding-inline-end: 0.7em;
+    font-size: large;
+    color: white;
 
     body.menuopen & {
         display: block;
@@ -75,9 +79,4 @@ h1, h2, h3, h4, h5, h6 {
     a {
         color: white;
     }
-
-    margin-inline-start: -0.5em;
-    padding-inline-end: 0.7em;
-    font-size: large;
-    color: white;
 }
