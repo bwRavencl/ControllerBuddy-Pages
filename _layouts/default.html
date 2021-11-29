@@ -28,13 +28,18 @@
     {% endif %}
   </section>
 
-  <aside class="toc">
-    {% include toc.html html=content sanitize="true" h_min=2 h_max=2 %}
-  </aside>
+  <div class="main">
+    <div class="nav">
+      {% include toggle-menu.html %}
+      <div class="toc">
+        {% include toc.html html=content sanitize="true" h_min=2 h_max=2 %}
+      </div>
+    </div>
 
-  <section class="main-content">
-    {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor-symbol" %}
-  </section>
+    <section class="main-content">
+      {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor-symbol" %}
+    </section>
+  </div>
 
   <script type="text/javascript" src="js/lightbox.js"></script>
   <link rel="stylesheet" href="css/lightbox.css">
