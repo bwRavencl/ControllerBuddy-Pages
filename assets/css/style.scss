@@ -5,6 +5,7 @@ $light-blue: #448ade;
 $lighter-blue: #459dc6;
 $blue-green: #1b9cab;
 $light-green: #01a0a0;
+$dark-red: #a40000ed;
 
 $header-bg-color: $light-blue;
 $header-bg-color-secondary: $light-green;
@@ -56,21 +57,20 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.main {
-    display: flex;
-}
-
 .nav {
-    background-image: linear-gradient(170deg, $light-green, $lighter-blue);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: $dark-red;
     height: fit-content;
     border-radius: 5px;
-    margin: 0.3em;
+    margin: 0.5em;
 }
 
 .toc {
     display: none;
-    margin-left: -0.5em;
-    padding-right: 0.7em;
+    padding: 1em 1em 0 0;
     font-size: large;
     color: white;
 

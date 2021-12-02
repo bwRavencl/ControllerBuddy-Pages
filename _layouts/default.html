@@ -12,6 +12,13 @@
 </head>
 
 <body>
+  <div class="nav">
+    {% include toggle-menu.html %}
+    <div class="toc">
+      {% include toc.html html=content sanitize="true" h_min=2 h_max=2 %}
+    </div>
+  </div>
+
   <section class="page-header">
     <div class="headline">
       <img src="{{ site.logo }}" alt="ControllerBuddy Logo" class="logo">
@@ -29,14 +36,7 @@
     {% endif %}
   </section>
 
-  <div class="main">
-    <div class="nav">
-      {% include toggle-menu.html %}
-      <div class="toc">
-        {% include toc.html html=content sanitize="true" h_min=2 h_max=2 %}
-      </div>
-    </div>
-
+  <div>
     <section class="main-content">
       {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor-symbol" %}
     </section>
