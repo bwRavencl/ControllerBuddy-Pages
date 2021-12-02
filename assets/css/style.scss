@@ -12,6 +12,10 @@ $section-headings-color: $light-blue;
 
 @import "{{ site.theme }}";
 
+.html {
+    scroll-behavior: smooth;
+}
+
 .page-header {
     padding: 1rem;
 }
