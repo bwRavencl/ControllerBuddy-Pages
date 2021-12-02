@@ -187,6 +187,7 @@ accordion:
   - title: Where can I get premade profiles?
     content: |
         ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators on the Windows platform. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.  
+        To download the a ZIP-package containing the latest versions of all profiles and configurations [click here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.  
         Please follow the instructions listed in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} to get you started.  
         Additionally is is recommended to check out the visualization for each profile either inside ControllerBuddy's visualization tab, after loading the profile, or [below](#profiles) on this website.
   - title: Which controller do you recommend?
