@@ -58,7 +58,7 @@ accordion:
     content: |
         **Switching between Modes** is done via a specialized type of action for Mode switching that can be assigned to a button of your gamepad. A Mode-swichting action can be configured to either temporarily switch to a Mode, for as long as the corresponding button is depressed or to permanently toggle a Mode on and off by a single press of the button. Depending on the concrete usage scenario one or the other configuration may be preferable.  
         All axes and buttons that do not have a different actions assigned by the currently active Mode retain the actions of the Mode one level below.
-  - title: How does a basic input profile look like?
+  - title: What does a basic profile look like?
     content: |
         Usually you will want to create a custom profile at least for each simulator and in many cases even for each simulated aircraft. Yet most profiles will have a common foundation which can look as follows:
 
@@ -178,12 +178,9 @@ accordion:
   - title: How much does it cost?
     content: |
         It's all free!
-  - title: How do I set the software up?
+  - title: How do I set the software up and how does the ControllerBuddy user-interface work?
     content: |
-        TODO
-  - title: How does the ControllerBuddy user-interface work?
-    content: |
-        TODO
+        Please check out the [Getting Started section](#getting-started).
   - title: Where can I get premade profiles?
     content: |
         ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators on the Windows platform. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.  
@@ -219,6 +216,9 @@ accordion:
         ControllerBuddy is free and open-source software, licensed under the [GNU General Public License v2.0](https://github.com/bwRavencl/ControllerBuddy/blob/master/LICENSE){:target="_blank"}.  
         This principally enables anyone to take part in its development.  
         If you feel a useful feature is missing feel free to implement it and open a create a pull-request on GitHub. Please be aware that the author will only accept features that he personally finds useful and adhere to his standards for code quality.
+  - title: How can I get in touch with you?
+    content: |
+        Please refer to the [ControllerBuddy Discord](https://discord.gg/2Sg9ggZrAp){:target="_blank"} if you have any additional questions that were not covered here.
 ---
 
 ## Welcome
@@ -230,7 +230,11 @@ On this page you will find everything you need to get you up in the air with you
 
 ## Getting Started
 
-TODO
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nHhCSEwaTEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Links:
+- [Download vJoy](https://github.com/jshafer817/vJoy/releases/latest){:target="_blank"}
+- [Download ControllerBuddy](https://github.com/bwRavencl/ControllerBuddy/releases/latest){:target="_blank"}
+- [Download ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}
 
 ## FAQ
 
