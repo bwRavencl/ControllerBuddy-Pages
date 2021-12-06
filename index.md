@@ -173,7 +173,7 @@ accordion:
         - Windows 7 / 8 / 10 / 11 (x64)
   - title: Where can I get the necessary software?
     content: |
-        - [vJoy 2.2](https://github.com/njz3/vJoy/releases){:target="_blank"}
+        - [vJoy](https://github.com/jshafer817/vJoy/releases/latest){:target="_blank"}
         - [ControllerBuddy](https://github.com/bwRavencl/ControllerBuddy/releases/latest){:target="_blank"}
   - title: How much does it cost?
     content: |
