@@ -230,7 +230,7 @@ On this page you will find everything you need to get you up in the air with you
 
 ## Getting Started
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nHhCSEwaTEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/nHhCSEwaTEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Links:
 - [Download vJoy](https://github.com/jshafer817/vJoy/releases/latest){:target="_blank"}
 - [Download ControllerBuddy](https://github.com/bwRavencl/ControllerBuddy/releases/latest){:target="_blank"}
