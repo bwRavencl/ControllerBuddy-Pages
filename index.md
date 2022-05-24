@@ -17,7 +17,7 @@ accordion:
         ControllerBuddy's goal is to enable the user to control target applications solely via a gamepad and not having to reach for a keyboard or mouse at any point in time.
   - title: What exactly do you mean by the term 'gamepad'?
     content: |
-        A Windows compatible game controller as used by current generation gaming consoles, with two analog sticks, a D-Pad, a number of face buttons, two triggers and two shoulder buttons.
+        A game controller as used by current generation gaming consoles, with two analog sticks, a D-Pad, a number of face buttons, two triggers and two shoulder buttons.
 
         Popular examples for this type of input device are:
         - DualShock 4 Controller  
@@ -170,7 +170,7 @@ accordion:
   - title: What are the hardware and software requirements?
     content: |
         - A gamepad supported by the [SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB){:target="_blank"} project (e.g. XBox Controller, DualShock 4 or DualSense)
-        - Windows 7 / 8 / 10 / 11 (x64)
+        - Windows 7 / 8 / 10 / 11 (x64) or Linux (x64)
   - title: Where can I get the necessary software?
     content: |
         - [vJoy](https://github.com/jshafer817/vJoy/releases/latest){:target="_blank"}
@@ -180,10 +180,11 @@ accordion:
         It's all free!
   - title: How do I set the software up and how does the ControllerBuddy user-interface work?
     content: |
-        Please check out the [Getting Started section](#getting-started).
+        Please check out the [Getting Started section](#getting-started).  
+        Linux users should refer to the [README.md](https://github.com/bwRavencl/ControllerBuddy#linux){:target="_blank"} for setup instructions.
   - title: Where can I get premade profiles?
     content: |
-        ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators on the Windows platform. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.  
+        ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.  
         To download the a ZIP-package containing the latest versions of all profiles and configurations [click here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.  
         Please follow the instructions listed in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} to get you started.  
         Additionally is is recommended to check out the visualization for each profile either inside ControllerBuddy's visualization tab, after loading the profile, or [below](#profiles) on this website.
