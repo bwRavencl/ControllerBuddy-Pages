@@ -203,6 +203,9 @@ accordion:
         ControllerBuddy supports multiple command line parameters which are listed [here](https://github.com/bwRavencl/ControllerBuddy/blob/master/README.md#command-line-parameters){:target="_blank"}.  
         ControllerBuddy is a single-instance application, this means that if an instance of ControllerBuddy is already running, and the user launches a second instance, any supplied command line parameters are passed on to the first instance and the second instance terminates immediately.  
         This behavior can be useful in automation scripts to integrate ControllerBuddy tightly with other applications. For more information check out [this](https://github.com/bwRavencl/ControllerBuddy-DCS-Integration){:target="_blank"} exemplary integration of ControllerBuddy into [DCS World](https://www.digitalcombatsimulator.com){:target="_blank"}.
+  - title: Is there a way to automatically update ControllerBuddy?
+    content: |
+        If you are technically savvy, check out the bash script located in the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"} repository. It streamlines up-to-dating your ControllerBuddy installation.
   - title: What else should I be aware of as a user of ControllerBuddy?
     content: |
         ControllerBuddy is in permanent active development and has a very small userbase as of this writing. This means that new versions are released very frequently and sometimes stuff might break. As there is currently no update functionality included a user should regularly check the latest release page for updates.  
