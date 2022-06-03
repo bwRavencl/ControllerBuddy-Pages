@@ -45,16 +45,14 @@
   <script type="text/javascript" src="js/lightbox.js"></script>
   <link rel="stylesheet" href="css/lightbox.css">
   {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
-    (function (g, d, p, r) {
-      g[p] = g[p] || function (a, b, c) {
-        g[d] = g[d] || {}; g[d][a] = g[d][a] || []; g[d][a].push([b, c]);
-      };
-    })(window, 'GDPRGoogleAnalytics', 'gdpr');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gdpr('dependency', 'https://www.googletagmanager.com/gtm.js?id={{ site.google_analytics }}');
+      gtag('config', '{{ site.google_analytics }}');
   </script>
-  <script src="https://www.gdpr-google-analytics.com/analytics.js"></script>
   {% endif %}
 </body>
 
