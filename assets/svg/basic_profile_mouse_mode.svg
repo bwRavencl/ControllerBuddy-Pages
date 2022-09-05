@@ -1019,7 +1019,7 @@
 
 <g
    id="Left_Trigger_Line"
-   style="display:visible">
+   style="display:none">
 	<g
    id="Shape_17_copy_4">
 		<g
@@ -1038,7 +1038,7 @@
 
 <g
    id="Right_Trigger_Line"
-   style="display:visible">
+   style="display:none">
 	<g
    id="Shape_17_copy_3">
 		<g
@@ -1062,7 +1062,7 @@
 
 <g
    id="Right_Bumper_Line"
-   style="display:visible">
+   style="display:none">
 	<g
    id="Shape_19">
 		<g
@@ -1081,7 +1081,7 @@
 <g
    id="Y_Button_Line"
    transform="translate(-91.237437,-68)"
-   style="display:none">
+   style="display:visible">
 	<g
    id="Shape_22">
 		<g
@@ -1123,7 +1123,7 @@
 
 <g
    id="Left_Bumper_Line"
-   style="display:visible">
+   style="display:none">
 	<g
    id="Shape_19_copy">
 		<g
@@ -1190,9 +1190,7 @@
      x="395.87878"
      y="539.43359"
      id="tspan3492"
-     style="text-align:end;text-anchor:end">Yaw</tspan></text>
-
-
+     style="text-align:end;text-anchor:end">Mouse x-Axis</tspan></text>
 
 
 
@@ -1204,12 +1202,10 @@
    y="271.67969"
    id="Right_Bumper_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1561.0742"
      y="271.67969"
-     id="tspan3502">Look Mode</tspan></text>
-
-
+     id="tspan3502">Right Bumper</tspan></text>
 
 
 
@@ -1221,13 +1217,11 @@
    y="271.89413"
    id="Left_Bumper_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="440.07422"
      y="271.89413"
      id="tspan3510"
-     style="text-align:end;text-anchor:end">Trim Mode</tspan></text>
-
-
+     style="text-align:end;text-anchor:end">Left Bumper</tspan></text>
 
 
 
@@ -1237,13 +1231,11 @@
    y="77.679283"
    id="Left_Trigger_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="643.31317"
      y="77.679283"
      id="tspan3514"
-     style="text-align:center;text-anchor:middle">Left Brake</tspan></text>
-
-
+     style="text-align:center;text-anchor:middle">Left Trigger</tspan></text>
 
 
 
@@ -1253,13 +1245,11 @@
    y="77.679688"
    id="Right_Trigger_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1360.1948"
      y="77.679688"
      id="tspan3518"
-     style="text-align:center;text-anchor:middle">Right Brake</tspan></text>
-
-
+     style="text-align:center;text-anchor:middle">Right Trigger</tspan></text>
 
 
 
@@ -1279,8 +1269,6 @@
 
 
 
-
-
 <text
    x="1201.6738"
    y="429.43359"
@@ -1291,8 +1279,6 @@
      y="429.43359"
      id="tspan3530"
      style="text-align:center;text-anchor:middle">Start</tspan></text>
-
-
 
 
 
@@ -1311,8 +1297,6 @@
 
 
 
-
-
 <g
    transform="matrix(-1,0,0,1,1908.6615,31.182948)"
    style="display:visible;overflow:visible"
@@ -1322,7 +1306,7 @@
          d="m 1313.4969,355.96696 183.5083,0.008 v 3.38551 l -182.4433,0.32912 -54.6879,59.8236 v 24.30386 h -3.401 v -26.12678 z"
          id="rect536-1" /></g></g></g><g
    transform="rotate(90,966.9845,363.92454)"
-   style="display:visible;overflow:visible"
+   style="display:none;overflow:visible"
    id="D_PAD_Right_Line"><g
      id="Shape_27-3-7"><g
        id="g534-5-8"><path
@@ -1341,7 +1325,7 @@
      id="Shape_27-3-7-9-1"><g
        id="g534-5-8-1-8" /></g></g><g
    transform="matrix(0,1,1,0,26.510625,-601.51236)"
-   style="display:visible;overflow:visible"
+   style="display:none;overflow:visible"
    id="D_PAD_Left_Line"><g
      id="Shape_27-3-7-9-5"><g
        id="g534-5-8-1-2"><path
@@ -1355,35 +1339,35 @@
          d="m 1303.4969,365.96696 1.065,3.72263 -54.6879,59.8236 V 949.278 h 20.2995 l 2e-4,3.401 h -23.7005 l -2e-4,-524.98873 z"
          id="rect536-1-3-1-1-0" /></g></g></g><g
    transform="translate(0.26095,-16.89205)"
-   style="display:visible;overflow:visible"
+   style="display:none;overflow:visible"
    id="X_Button_Line"><g
      id="Shape_27-3-7-3"><g
        id="g534-5-8-9"><path
          d="m 1313.4969,355.96696 398.2422,0.008 v 3.38551 l -397.1772,0.32912 -54.6879,59.8236 v 46.30386 h -3.401 v -48.12678 z"
          id="rect536-1-3-9" /></g></g></g><g
    transform="rotate(-90,1437.1733,442.75119)"
-   style="display:none;overflow:visible"
+   style="display:visible;overflow:visible"
    id="A_Button_Line"><g
      id="Shape_27-3-7-9-9"><g
        id="g534-5-8-1-6"><path
          d="m 1313.4969,355.96696 1.065,3.72263 -54.6879,59.8236 v 298.0647 h -3.401 V 417.69027 Z"
          id="rect536-1-3-1-8" /></g></g></g><g
    transform="rotate(90,1262.326,696.18118)"
-   style="display:visible;overflow:visible"
+   style="display:none;overflow:visible"
    id="Right_Stick_X_Axis_Line"><g
      id="Shape_27-3-7-9-5-1"><g
        id="g534-5-8-1-2-16"><path
          d="m 1313.4969,293.96696 1.065,3.72263 -54.6879,59.8236 v 376.30386 h -3.401 V 355.69027 Z"
          id="rect536-1-3-1-1-9" /></g></g></g><g
    transform="matrix(1,0,0,-1,-93.7392,1227.892)"
-   style="display:visible;overflow:visible"
+   style="display:none;overflow:visible"
    id="Right_Stick_Y_Axis_Line"><g
      id="Shape_27-3-5"><g
        id="g534-5-3"><path
          d="m 1313.1433,357.29279 183.5083,0.008 v 3.38551 l -182.4433,0.32912 -54.6879,59.8236 v 72.30386 h -3.401 V 419.0161 Z"
          id="rect536-1-8" /></g></g></g><g
    transform="rotate(-90,1447.4097,352.2825)"
-   style="display:none;overflow:visible"
+   style="display:visible;overflow:visible"
    id="B_Button_Line"><g
      id="Shape_27-3-7-9-9-1"><g
        id="g534-5-8-1-6-2"><path
@@ -1393,13 +1377,11 @@
    y="754.26953"
    id="D_PAD_Left_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="383.48828"
      y="754.26953"
      id="tspan3510-9"
-     style="text-align:end;text-anchor:end">Flaps Up</tspan></text>
-
-
+     style="text-align:end;text-anchor:end">D-PAD Left</tspan></text>
 
 
 <text
@@ -1411,9 +1393,7 @@
      x="282.23956"
      y="686.18768"
      id="tspan3510-9-0"
-     style="text-align:end;text-anchor:end">Air Brake</tspan></text>
-
-
+     style="text-align:end;text-anchor:end">Scroll Up</tspan></text>
 
 
 <text
@@ -1425,13 +1405,11 @@
      x="763.98053"
      y="869.21246"
      id="tspan3510-9-0-2"
-     style="text-align:end;text-anchor:end">Gear</tspan><tspan
+     style="text-align:end;text-anchor:end">Scroll Down</tspan><tspan
      x="763.98053"
      y="869.21246"
      id="tspan5715"
      style="text-align:end;text-anchor:end" /></text>
-
-
 
 
 <text
@@ -1439,13 +1417,11 @@
    y="899.45514"
    id="D_PAD_Right_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="972.94818"
      y="899.45514"
      id="tspan3510-9-0-9"
-     style="text-align:center;text-anchor:middle">Flaps Down</tspan></text>
-
-
+     style="text-align:center;text-anchor:middle">D-PAD Right</tspan></text>
 
 
 <text
@@ -1457,9 +1433,7 @@
      x="396.01758"
      y="403.5293"
      id="tspan3492-6"
-     style="text-align:end;text-anchor:end">Throttle (relative)</tspan></text>
-
-
+     style="text-align:end;text-anchor:end">Mouse y-Axis</tspan></text>
 
 
 <text
@@ -1467,12 +1441,10 @@
    y="764.3642"
    id="Right_Stick_X_Axis_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1672.3582"
      y="764.3642"
-     id="tspan3492-2">Roll</tspan></text>
-
-
+     id="tspan3492-2">Right-Stick X Axis</tspan></text>
 
 
 <text
@@ -1480,12 +1452,10 @@
    y="886.63354"
    id="Right_Stick_Y_Axis_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1413.4187"
      y="886.63354"
-     id="tspan3492-6-5">Pitch</tspan></text>
-
-
+     id="tspan3492-6-5">Right-Stick Y Axis</tspan></text>
 
 
 <text
@@ -1493,25 +1463,21 @@
    y="353.06445"
    id="X_Button_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1724.0352"
      y="353.06445"
-     id="tspan3502-0">Center View + Reset Zoom + View Mode</tspan></text>
-
-
+     id="tspan3502-0">X Button</tspan></text>
 
 
 <text
-    x="1724.0349"
+   x="1724.0349"
    y="411.23828"
    id="Y_Button_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1724.0349"
      y="411.23828"
-     id="tspan3502-0-4">Y Button</tspan></text>
-
-
+     id="tspan3502-0-4">Middle Mouse Button</tspan></text>
 
 
 <text
@@ -1519,12 +1485,10 @@
    y="553.73828"
    id="B_Button_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1721.4568"
      y="553.73828"
-     id="tspan3502-0-5">B Button</tspan></text>
-
-
+     id="tspan3502-0-5">Right Mouse Button</tspan></text>
 
 
 <text
@@ -1532,12 +1496,10 @@
    y="636.23828"
    id="A_Button_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1724.8552"
      y="636.23828"
-     id="tspan3502-0-1">A Button</tspan></text>
-
-
+     id="tspan3502-0-1">Left Mouse Button</tspan></text>
 
 
 <g
@@ -1565,14 +1527,14 @@
      id="Shape_17_copy-9"><g
        id="g459-0" /></g></g><g
    transform="rotate(180,985.43774,440.97944)"
-   style="display:visible;overflow:visible"
+   style="display:none;overflow:visible"
    id="Left_Thumb_Line"><g
      id="Shape_27-3-7-9-56"><g
        id="g534-5-8-1-3"><path
          d="m 1313.4969,355.96696 1.065,3.72263 -54.6879,59.8236 v 124.30386 h -3.401 l 0,-126.12678 z"
          id="rect536-1-3-1-16" /></g></g></g><g
    transform="rotate(180,1242.2587,523.946)"
-   style="display:visible;overflow:visible"
+   style="display:none;overflow:visible"
    id="Right_Thumb_Line"><g
      id="Shape_27-3-7-9-56-2"><g
        id="g534-5-8-1-3-9"><path
@@ -1582,13 +1544,11 @@
    y="332.04416"
    id="Left_Thumb_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="712.39697"
      y="332.04416"
      id="tspan3526-3"
-     style="text-align:center;text-anchor:middle">Mouse Mode</tspan></text>
-
-
+     style="text-align:center;text-anchor:middle">Left Thumb</tspan></text>
 
 
 <text
@@ -1596,13 +1556,11 @@
    y="559.15063"
    id="Right_Thumb_Text"
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:visible;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:none;overflow:visible;fill:#000000;fill-opacity:1;stroke:none"><tspan
      x="1297.8324"
      y="559.15063"
      id="tspan3526-3-3"
-     style="text-align:end;text-anchor:end">On-Screen Keyboard Mode</tspan></text>
-
-
+     style="text-align:end;text-anchor:end">Right Thumb</tspan></text>
 
 
 </svg>

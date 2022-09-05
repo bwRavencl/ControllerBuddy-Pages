@@ -76,8 +76,7 @@ accordion:
         - In *Look Mode* the left stick controls the view and is used for looking around. Usually you will want to use two relative vJoy axes for mapping these controls.
         - The D-Pad shifts the head up and down and left and right.
         - The Y and A buttons shift the head forward and back.
-
-        Zooming the view is done by pressing down the left and right stick, however these mappings are not part of the *Look Mode* but of the underlying *Default Mode* and are not used for any other function.
+        - Pressing down the left or right stick zooms the view in or out.
 
         - **Changing and centering the view** is done with the X button:
         - As soon as the X button gets pressed the view is centered and the zoom level gets reset.  
@@ -93,14 +92,23 @@ accordion:
         - For some aircraft a *Center Trim* command may be available and can for example be mapped to the A button.
         - For most helicopters no dedicated Mode is necessary, instead the left shoulder button should simply be mapped to a *Force Trim* command if available.
 
-        - The **On-Screen Keyboard** is activated by pressing the Guide button.  
-        In this case the Mode-switching is configured to toggle between *Default Mode* and *On-Screen Keyboard Mode*, this means that pressing Guide once activates the On-Screen Keyboard and pressing it again toggles it off again, thus holding down the Guide button is not required.  
+        - The *Mouse Mode* allows controlling basic mouse functions via your gamepad. It is activated by pressing down the left stick.  
+        In this case the Mode-switching is configured to toggle between *Default Mode* and *Mouse Mode*, this means that pressing down the left stick once activates the *Mouse Mode* and pressing it again toggles it off again.  
+        When *Mouse Mode* is active you can perform mouse inputs as follows:
+        - The left stick controls the mouse cursor
+        - The A button performs a left-click
+        - The B button performs a right-click
+        - The Y button performs a middle-click
+        - Pressing D-Pad up or down scrolls up or down
+
+        - The **On-Screen Keyboard** can be toggled on and off by pressing down the right stick.  
         In *On-Screen Keyboard Mode* the following actions are configured:
         - The D-Pad moves the key selector of the On-Screen Keyboard around.
         - The A button presses down the currently selected On-Screen Keyboard key - if the A button is released also the respective key on the keyboard gets released.
-        - The B button locks the currently selected On-Screen Keyboard key down - the key stays in the pressed down state until it is unlocked in the same way.  
+        - The B button locks the currently selected On-Screen Keyboard key down - the key stays in the pressed down state until it is unlocked in the same way.
+        - The Y button releases all keys of the On-Screen Keyboard  
         By locking down multiple keys it is possible to perform key-strokes that consist of multiple keys pressed simultaneously.  
-        If the *On-Screen Keyboard Mode* is toggled of by pressing the Guide button, all locked keys are automatically released.
+        When the *On-Screen Keyboard Mode* is toggled off by pressing down the right stick, all locked keys are automatically released.
 
         This concludes the foundation on which a profile can expand upon. It is important to note, that you should keep these basics of all your profiles as similar as possible, this will make it a lot easier when switching between different aircraft models and simulators!  
         As you may have noticed we practically have already covered all the typical controls required for flying a virtual aircraft and controlling the most important aspects of the simulator. And most importantly we now still have quite a few buttons available for mapping some of the more specialized controls of an aircraft.
@@ -112,13 +120,16 @@ accordion:
         [![Basic Profile Look Mode](assets/svg/basic_profile_look_mode.svg)](assets/svg/basic_profile_look_mode.svg)
 
         ##### View Mode (*hold X*):
-        [![Basic Profile View Mode](assets/svg//basic_profile_view_mode.svg)](assets/svg//basic_profile_view_mode.svg)
+        [![Basic Profile View Mode](assets/svg/basic_profile_view_mode.svg)](assets/svg/basic_profile_view_mode.svg)
 
         ##### Trim Mode (*hold LB*):
-        [![Basic Profile Trim Mode](assets/svg//basic_profile_trim_mode.svg)](assets/svg//basic_profile_trim_mode.svg)
+        [![Basic Profile Trim Mode](assets/svg/basic_profile_trim_mode.svg)](assets/svg/basic_profile_trim_mode.svg)
 
-        ##### On-Screen Keyboard Mode (*toggled with Guide*):
-        [![Basic Profile On-Screen Keyboard Mode](assets/svg//basic_profile_on_screen_keyboard_mode.svg)](assets/svg//basic_profile_on_screen_keyboard_mode.svg)
+        ##### Mouse Mode (*toggled by pressing left stick*):
+        [![Basic Profile Mouse Mode](assets/svg/basic_profile_mouse_mode.svg)](assets/svg/basic_profile_mouse_mode.svg)
+
+        ##### On-Screen Keyboard Mode (*toggled by pressing right stick*):
+        [![Basic Profile On-Screen Keyboard Mode](assets/svg/basic_profile_on_screen_keyboard_mode.svg)](assets/svg/basic_profile_on_screen_keyboard_mode.svg)
   - title: What about more complex profiles?
     content: |
         The more complex the simulated aircraft is, the more time it will take to create a profile and to figure out what is most intuitive. However nothing is impossible and in the author's experience even the most complex systems can be mapped to the limited amount of buttons a gamepad offers.
