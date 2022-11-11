@@ -199,13 +199,17 @@ accordion:
         To download the a ZIP-package containing the latest versions of all profiles and configurations [click here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.  
         Please follow the instructions listed in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} to get you started.  
         Additionally is is recommended to check out the visualization for each profile either inside ControllerBuddy's visualization tab, after loading the profile, or [below](#profiles) on this website.
+  - title: What is haptic feedback?
+    content: |
+        Haptic feedback is a special feature only supported in conjunction with a Sony DualSense or DualShock 4 controller and XInput controllers on Windows, which can be enabled for relative axis mappings. Haptic feedback will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached.
   - title: Which controller do you recommend?
     content: |
         The author recommends a Sony DualSense or DualShock 4 controller, connected via bluetooth to your computer.  
-        Both of these Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like a usual touchpad of a laptop computer.  
-        A special feature only supported in conjunction with these two Sony controllers, is the so called haptic feedback,  which can be enabled for relative axis mappings. Haptic feedback will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached.  
-        Furthermore, ControllerBuddy reads the charging state and displays this it in the tooltip of the tray icon and changes the controller lighting to make the user aware of the charging state.
-  - title: Can I use this ControllerBuddy in VR?
+        Both of these Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like a usual touchpad of a laptop computer.
+  - title: How can I keep track of the battery status of wireless controllers?
+    content: |
+        When using a Sony DualSense or DualShock 4 controller or a XInput controller on Windows, ControllerBuddy reads the battery state of the device and displays it in the tooltip of the tray icon. For both Sony controllers, ControllerBuddy also adjusts the lighting to keep the user aware of the battery state at a glance.
+  - title: Can I use ControllerBuddy in VR?
     content: |
         ControllerBuddy allows the user to fully control all input aspects (game controls and the UI) solely via a gamepad. Hence, the user never has to put his gamepad aside in order to reach for a mouse or keyboard. This makes ControllerBuddy predestined for a VR environment, in which the user cannot see any peripherials.  
         Both the overlay and the on-screen-keyboard of ControllerBuddy are available as overlays inside OpenVR applications, just as they are in a regular non-VR application.
