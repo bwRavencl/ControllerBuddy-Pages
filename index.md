@@ -201,7 +201,7 @@ accordion:
         Additionally is is recommended to check out the visualization for each profile either inside ControllerBuddy's visualization tab, after loading the profile, or [below](#profiles) on this website.
   - title: What is haptic feedback?
     content: |
-        Haptic feedback is a special feature only supported in conjunction with a Sony DualSense or DualShock 4 controller and XInput controllers on Windows, which can be enabled for relative axis mappings. Haptic feedback will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached.
+        Haptic feedback is a special feature, which can be enabled for relative axis mappings. It will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached. Support for this feature is implemented for the most common controllers on both Windows and Linux.
   - title: Which controller do you recommend?
     content: |
         The author recommends a Sony DualSense or DualShock 4 controller, connected via bluetooth to your computer.  
