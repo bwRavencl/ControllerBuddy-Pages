@@ -6,6 +6,7 @@ $lighter-blue: #459dc6;
 $blue-green: #1b9cab;
 $light-green: #01a0a0;
 $dark-red: #a40000ed;
+$darker-red: #5c0000ed;
 
 $header-bg-color: $light-blue;
 $header-bg-color-secondary: $light-green;
@@ -62,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     right: 0;
     z-index: 1;
-    background-color: $dark-red;
+    background-image: linear-gradient(45deg, $dark-red, $darker-red);
     height: fit-content;
     border-radius: 5px;
     margin: 0.5em;
