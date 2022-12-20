@@ -34,8 +34,18 @@ $section-headings-color: $light-blue;
     margin-right: 1em;
 }
 
+%btn-common {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
 .btn {
+    @extend %btn-common;
     min-width: 15em;
+
+    &+.btn {
+        @extend %btn-common;
+    }
 }
 
 .main-content {
