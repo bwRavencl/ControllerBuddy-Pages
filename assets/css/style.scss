@@ -118,7 +118,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile-viewer {
     position: relative;
-    width: 80vw;
+
+    @media only screen and (orientation: landscape) {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    @media only screen and (orientation: portrait) {
+        width: 80vw;
+        height: 30vh;
+    }
+
     left: 50%;
     right: 50%;
     margin-block: 1em;
