@@ -266,7 +266,7 @@ Please note that these profiles are continuously updated and improved by the aut
 
 The links below will take you to a visualization of the mappings of each profile.
 
-<iframe id="iframe" width="100%" height="700px" class="profile-viewer" style="display: none"></iframe>
+<iframe id="iframe" width="100%" height="355px" class="profile-viewer" style="display: none"></iframe>
 <div class="profiles-container">
     <a class="profile-item"></a>
     {% for file in site.static_files %}
