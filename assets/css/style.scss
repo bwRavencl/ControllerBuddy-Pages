@@ -3,6 +3,7 @@
 
 $light-blue: #448ade;
 $lighter-blue: #459dc6;
+$lightest-blue: #d3e2e7;
 $blue-green: #1b9cab;
 $light-green: #01a0a0;
 $brown: #a52a2a;
@@ -116,23 +117,39 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.profile-viewer {
-    position: relative;
+.profile-iframe-container {
+    position: fixed;
 
     @media only screen and (orientation: landscape) {
-        width: 80vw;
-        height: 60vh;
+        width: 80%;
+        height: 80%;
     }
 
     @media only screen and (orientation: portrait) {
-        width: 80vw;
-        height: 30vh;
+        width: 90%;
+        height: 50%;
     }
 
+    max-height: 35em;
+    top: 50%;
     left: 50%;
-    right: 50%;
-    margin-block: 1em;
-    margin-left: -40vw;
-    margin-right: -40vw;
-    border-style: dashed;
+    transform: translate(-50%, -50%);
+    max-width: 80em;
+    max-height: 50em;
+    background: $lightest-blue;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-iframe {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+
+.close-button {
+    min-width: 5em;
+    margin: 0.5em;
 }

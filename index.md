@@ -266,7 +266,11 @@ Please note that these profiles are continuously updated and improved by the aut
 
 The links below will take you to a visualization of the mappings of each profile.
 
-<iframe id="iframe" class="profile-viewer" style="display: none"></iframe>
+<div id="profile-iframe-container" class="profile-iframe-container" style="display: none">
+  <iframe id="profile-iframe" class="profile-iframe"></iframe>
+  <button class="close-button" onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.setAttribute('style', 'display: none');">Close</button>
+</div>
+
 <div class="profiles-container">
     <a class="profile-item"></a>
     {% for file in site.static_files %}
@@ -274,7 +278,7 @@ The links below will take you to a visualization of the mappings of each profile
     {% assign folder = relative_path | split: '/' | first %}
     {% if folder  == 'profiles' %}
     {% assign title = relative_path | split: '/' | last | replace: '_', ' ' | split: '.html' %}
-    <span onClick="var iframe = document.getElementById('iframe'); iframe.removeAttribute('style'); iframe.setAttribute('src', '{{ relative_path }}'); iframe.scrollIntoView();" class="profile-item">{{ title }}</span>
+    <span onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.removeAttribute('style'); var profileIframe = document.getElementById('profile-iframe'); profileIframe.setAttribute('src', '{{ relative_path }}');" class="profile-item">{{ title }}</span>
     {% endif %}
     {% endfor %}
 </div>
