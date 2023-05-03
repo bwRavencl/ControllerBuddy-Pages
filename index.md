@@ -268,7 +268,7 @@ The links below will take you to a visualization of the mappings of each profile
 
 <div id="profile-iframe-container" class="profile-iframe-container" style="display: none">
   <iframe id="profile-iframe" class="profile-iframe"></iframe>
-  <button class="close-button" onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.setAttribute('style', 'display: none');">Close</button>
+  <a class="close-button" onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.setAttribute('style', 'display: none');"></a>
 </div>
 
 <div class="profiles-container">
