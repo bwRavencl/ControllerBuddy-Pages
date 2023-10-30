@@ -76,7 +76,7 @@ accordion:
         - In *Look Mode* the left stick controls the view and is used for looking around. Usually you will want to use two relative vJoy axes for mapping these controls.
         - The D-Pad shifts the head up and down and left and right.
         - The Y and A buttons shift the head forward and back.
-        - Pressing down the left or right stick zooms the view in or out.
+        - Pressing the right stick down zooms the view in, pressing the left stick down zooms out.
 
         - **Changing and centering the view** is done with the X button:
         - As soon as the X button gets pressed the view is centered and the zoom level gets reset.  
