@@ -96,9 +96,9 @@ accordion:
         In this case the Mode-switching is configured to toggle between *Default Mode* and *Mouse Mode*, this means that pressing down the left stick once activates the *Mouse Mode* and pressing it again toggles it off again.  
         When *Mouse Mode* is active you can perform mouse inputs as follows:
         - The left stick controls the mouse cursor
-        - The A button performs a left-click
-        - The B button performs a right-click
-        - The Y button performs a middle-click
+        - The right trigger performs a left-click
+        - The left trigger performs a right-click
+        - The Start button performs a middle-click
         - Pressing D-Pad up or down scrolls up or down
 
         - The **On-Screen Keyboard** can be toggled on and off by pressing down the right stick.  
