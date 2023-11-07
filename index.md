@@ -204,8 +204,8 @@ accordion:
         Haptic feedback is a special feature, which can be enabled for relative axis mappings. It will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached. Support for this feature is implemented for the most common controllers on both Windows and Linux.
   - title: Which controller do you recommend?
     content: |
-        The author recommends a Sony DualSense or DualShock 4 controller, connected via bluetooth to your computer.  
-        Both of these Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like a usual touchpad of a laptop computer.
+        The author either recommends a Microsoft XBox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.  
+        Both Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like the typical touchpad of a laptop computer.
   - title: How can I keep track of the battery status of wireless controllers?
     content: |
         When using a Sony DualSense or DualShock 4 controller or a XInput controller on Windows, ControllerBuddy reads the battery state of the device and displays it in the tooltip of the tray icon. For both Sony controllers, ControllerBuddy also adjusts the lighting to keep the user aware of the battery state at a glance.
