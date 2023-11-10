@@ -106,15 +106,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .profile-item {
+    background-color: unset;
+    border: unset;
     font-size: 12pt;
     width: 12em;
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
+    padding: unset;
+    text-align: unset;
     text-decoration: underline;
-
-    &:hover {
-        cursor: pointer;
-    }
 }
 
 .profile-iframe-container {
@@ -153,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .close-button {
+    background-color: unset;
     position: absolute;
     width: 1.5em;
     height: 1.5em;
@@ -162,7 +163,6 @@ h1, h2, h3, h4, h5, h6 {
     border-style: solid;
     border-radius: 1em;
     border-width: 0.15em;
-    cursor: pointer;
 
     &:before, &:after {
         position: absolute;

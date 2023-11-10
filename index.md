@@ -245,7 +245,7 @@ accordion:
 Ever wanted to fly your favorite **flight simulators with a gamepad**?  
 > Then look no further **ControllerBuddy** is what you have been looking for!
 
-On this page you will find everything you need to get you up in the air with your favorite game controller.
+On this page you will find everything you need to get you up in the skies with your favorite game controller.
 
 ## Getting Started
 
@@ -264,21 +264,20 @@ Links:
 All of the profiles listed below can be obtained from the author's [ControllerBuddy-Profiles repository on GitHub](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.  
 Please note that these profiles are continuously updated and improved by the author.
 
-The links below will take you to a visualization of the mappings of each profile.
+The links below will take you to a visualization of each profile:
 
 <div id="profile-iframe-container" class="profile-iframe-container" style="display: none">
   <iframe id="profile-iframe" class="profile-iframe"></iframe>
-  <a class="close-button" onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.setAttribute('style', 'display: none');"></a>
+  <button class="close-button" onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.setAttribute('style', 'display: none');"></button>
 </div>
 
 <div class="profiles-container">
-    <a class="profile-item"></a>
     {% for file in site.static_files %}
     {% assign relative_path = file.path | remove_first: '/' %}
     {% assign folder = relative_path | split: '/' | first %}
     {% if folder  == 'profiles' %}
     {% assign title = relative_path | split: '/' | last | replace: '_', ' ' | split: '.html' %}
-    <span onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.removeAttribute('style'); var profileIframe = document.getElementById('profile-iframe'); profileIframe.setAttribute('src', '{{ relative_path }}');" class="profile-item">{{ title }}</span>
+    <button onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.removeAttribute('style'); var profileIframe = document.getElementById('profile-iframe'); profileIframe.setAttribute('src', '{{ relative_path }}');" class="profile-item">{{ title }}</button>
     {% endif %}
     {% endfor %}
 </div>
