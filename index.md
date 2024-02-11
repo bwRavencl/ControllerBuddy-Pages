@@ -199,6 +199,22 @@ accordion:
         To download the a ZIP-package containing the latest versions of all profiles and configurations [click here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.  
         Please follow the instructions listed in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} to get you started.  
         Additionally is is recommended to check out the visualization for each profile either inside ControllerBuddy's visualization tab, after loading the profile, or [below](#profiles) on this website.
+  - title: Why is the overlay not displayed?
+    content: |
+        Please try the following solutions:
+        - Ensure the overlay is enabled in the profile settings tab.
+        - When running on Windows, make sure the  [Windows Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/) are enabled.
+        - When running a Vulkan- or OpenGL-based application on a Windows system with an NVIDIA GPU, in the NVIDIA Control Panel, try forcing the setting called 'Vulkan/OpenGL present method' to 'Prefer layered on DXGI swapchain', as shown [here](https://www.reddit.com/r/nvidia/comments/yf6hiw/psa_you_can_now_elevate_openglvulkan_games_to_a/).
+        - When running on a Linux system with X11, make sure you have the display compositor enabled, [this article](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)) explains how to configure the Compositor for the most common desktop environments - just remember for ControllerBuddy you will want the compositor enabled not disabled!
+  - title: How can I ensure the vJoy device takes precedence over any physical controllers?
+    content: |
+        - On Windows, make sure the vJoy device is the preferred input device - proceed as follows:
+          1. Start -> Run -> enter `joy.cpl` -> OK
+          2. Advanced -> Preferred device -> select 'vJoy Device'
+        - On Linux in combination with Wine, you can entirely disable physical input devices with the following steps:
+          1. From a terminal session run `wine control`
+          2. Select each physical input device listed below 'Connected' and click 'Disable' - make sure you do not disable the device called 'ControllerBuddy Joystick'.  
+             There should be no devices listed below 'Connected (xinput device)'.
   - title: What is haptic feedback?
     content: |
         Haptic feedback is a special feature, which can be enabled for relative axis mappings. It will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached. Support for this feature is implemented for the most common controllers on both Windows and Linux.
