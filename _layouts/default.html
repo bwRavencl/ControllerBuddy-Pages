@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link rel="stylesheet" href="{{ './assets/css/style.css?v=' | append: site.github.build_revision }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
@@ -28,12 +29,13 @@
       </div>
     </div>
     {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" target="_blank" class="btn">View on GitHub</a>
+    <a href="{{ site.github.repository_url }}" target="_blank" class="btn"><i class="btn-icon fab fa-github"></i>GitHub</a>
+    <a href="{{ site.discord_url }}" target="_blank" class="btn"><i class="btn-icon fab fa-discord"></i>Discord</a>
     {% endif %}
     {% if site.show_downloads %}
-    <a href="{{ site.download_app_url }}" target="_blank" class="btn">Download App</a>
-    <a href="{{ site.download_profiles_url }}" target="_blank" class="btn">Download Profiles</a>
-    <a href="{{ site.install_script_url }}" target="_blank" class="btn">All-in-one Auto Install Script</a>
+    <a href="{{ site.download_app_url }}" target="_blank" class="btn"><i class="btn-icon fas fa-download"></i>Download App</a>
+    <a href="{{ site.download_profiles_url }}" target="_blank" class="btn"><i class="btn-icon fas fa-download"></i>Download Profiles</a>
+    <a href="{{ site.install_script_url }}" target="_blank" class="btn"><i class="btn-icon fas fa-scroll"></i>Install Script</a>
     {% endif %}
   </section>
 

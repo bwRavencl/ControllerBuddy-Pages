@@ -42,11 +42,19 @@ $section-headings-color: $light-blue;
 
 .btn {
     @extend %btn-common;
-    min-width: 15em;
+    min-width: 13em;
+    line-height: 32pt;
+    padding: 0.25em 0.75em;
 
     &+.btn {
         @extend %btn-common;
     }
+}
+
+.btn-icon {
+    font-size: 24pt;
+    margin-right: 10pt;
+    vertical-align: middle;
 }
 
 .main-content {
