@@ -164,22 +164,22 @@ h1, h2, h3, h4, h5, h6 {
 .close-button {
     background-color: unset;
     position: absolute;
-    width: 1.5em;
-    height: 1.5em;
-    margin-top: 0.75em;
-    margin-left: -2.25em;
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    margin-left: -28px;
     border: black;
     border-style: solid;
-    border-radius: 1em;
-    border-width: 0.15em;
+    border-radius: 12px;
+    border-width: 2px;
 
     &:before, &:after {
         position: absolute;
-        content: ' ';
-        width: 0.175em;
-        height: 1em;
-        left: 0.51em;
-        top: 0.115em;
+        content: '';
+        width: 2px;
+        height: 16px;
+        left: 9px;
+        top: 2px;
         background-color: black;
     }
 
