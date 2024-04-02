@@ -284,7 +284,7 @@ The links below will take you to a visualization of each profile:
 
 <div id="profile-iframe-container" class="profile-iframe-container" style="display: none">
   <iframe id="profile-iframe" class="profile-iframe"></iframe>
-  <button class="close-button" onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.setAttribute('style', 'display: none');"></button>
+  <button class="close-button" onclick="closeProfileViewer()"></button>
 </div>
 
 <div class="profiles-container">
@@ -293,7 +293,7 @@ The links below will take you to a visualization of each profile:
     {% assign folder = relative_path | split: '/' | first %}
     {% if folder  == 'profiles' %}
     {% assign title = relative_path | split: '/' | last | replace: '_', ' ' | split: '.html' %}
-    <button onClick="var profileIframeContainer = document.getElementById('profile-iframe-container'); profileIframeContainer.removeAttribute('style'); var profileIframe = document.getElementById('profile-iframe'); profileIframe.setAttribute('src', '{{ relative_path }}');" class="profile-item">{{ title }}</button>
+    <button onclick="openProfileViewer(event, '{{ relative_path }}')" class="profile-item">{{ title }}</button>
     {% endif %}
     {% endfor %}
 </div>
