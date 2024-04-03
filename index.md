@@ -282,7 +282,7 @@ Please note that these profiles are continuously updated and improved by the aut
 
 The links below will take you to a visualization of each profile:
 
-<div id="profile-iframe-container" class="profile-iframe-container" style="display: none">
+<div id="profile-iframe-container" class="profile-iframe-container fade-out">
   <iframe id="profile-iframe" class="profile-iframe"></iframe>
   <button class="close-button" onclick="closeProfileViewer()"></button>
 </div>

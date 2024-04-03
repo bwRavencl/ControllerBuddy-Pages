@@ -161,6 +161,18 @@ h1, h2, h3, h4, h5, h6 {
     border-style: none;
 }
 
+.fade-in {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+.fade-out {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 500ms, opacity 500ms;
+}
+
 .close-button {
     background-color: unset;
     position: absolute;
