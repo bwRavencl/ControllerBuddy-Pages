@@ -236,7 +236,9 @@ accordion:
         This behavior can be useful in automation scripts to integrate ControllerBuddy tightly with other applications. For more information check out [ControllerBuddy-DCS-Integration](https://github.com/bwRavencl/ControllerBuddy-DCS-Integration){:target="_blank"}, an exemplary integration of ControllerBuddy into [DCS World](https://www.digitalcombatsimulator.com){:target="_blank"}.
   - title: Is there a way to automatically install and update ControllerBuddy?
     content: |
-        If you are running Windows, check out the bash script located in the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"} repository, it streamlines installing and updating ControllerBuddy and the profiles from the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles) repository. Please note, it is mandatory that you have installed [Git for Windows](https://git-scm.com/download/win){:target="_blank"} before running the script.
+        The easiest way to setup ControllerBuddy is via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}.  
+        The script streamlines the installation and updating of ControllerBuddy itself and of the profiles available as part of the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles) repository.  
+        Please note, on Windows it is mandatory that you install [Git for Windows](https://git-scm.com/download/win){:target="_blank"} first, in order to run the script.
   - title: What else should I be aware of as a user of ControllerBuddy?
     content: |
         ControllerBuddy is in permanent active development and has a very small userbase as of this writing. This means that new versions are released very frequently and sometimes stuff might break. As there is currently no update functionality included a user should regularly check the latest release page for updates.  
