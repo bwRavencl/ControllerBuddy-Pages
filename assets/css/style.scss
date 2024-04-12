@@ -31,8 +31,84 @@ $section-headings-color: $light-blue;
     margin-bottom: 2em;
 }
 
+@keyframes slide-in-right {
+    0% { transform: translateX(200%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slide-in-left {
+    0% { transform: translateX(-500%);  }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slide-in-top {
+    0% { transform: translateY(-100%);  }
+    100% { transform: translateY(0%); }
+}
+
+@keyframes slide-in-bottom {
+    0% { transform: translateY(100%);  }
+    100% { transform: translateY(0%); }
+}
+
+.slide-in-right {
+    animation: slide-in-right 1s;
+}
+
+.slide-in-left {
+    animation: slide-in-left 0.7s;
+}
+
+.slide-in-top {
+    animation: slide-in-top 1.2s;
+}
+
+.slide-in-bottom {
+    animation: slide-in-bottom 1.2s;
+}
+
+@keyframes bubble-anim {
+    0% {
+        transform: scale(0);
+    }
+
+    70% {
+        transform: scale(0.65);
+    }
+
+    75% {
+        transform: scale(0.25) rotateZ(-25deg);
+    }
+
+    80% {
+        transform: scale(0.25) rotateZ(25deg);
+    }
+
+    83% {
+        transform: scaleY(0.95) scaleX(1.05);
+    }
+
+    86% {
+        transform: scaleY(1.1) scaleX(0.9);
+    }
+
+    90% {
+        transform: scaleY(0.98) scaleX(1.02);
+    }
+
+    93% {
+        transform: scaleY(1.02) scaleX(0.98);
+    }
+
+    97%,
+    100% {
+        transform: scale(1);
+    }
+}
+
 .logo {
     margin-right: 1em;
+    animation: bubble-anim 2.5s ease-out normal;
 }
 
 %btn-common {
@@ -131,15 +207,14 @@ h1, h2, h3, h4, h5, h6 {
 
     @media only screen and (orientation: landscape) {
         width: 80%;
-        height: 80%;
+        height: 95%;
     }
 
     @media only screen and (orientation: portrait) {
-        width: 90%;
+        width: 95%;
         height: 50%;
     }
 
-    max-height: 35em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -150,6 +225,7 @@ h1, h2, h3, h4, h5, h6 {
     border: black;
     border-style: solid;
     border-width: 0.15em;
+    z-index: 2;
 }
 
 .profile-iframe {
