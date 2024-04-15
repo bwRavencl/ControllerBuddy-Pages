@@ -8,12 +8,26 @@ $blue-green: #1b9cab;
 $light-green: #01a0a0;
 $brown: #a52a2a;
 $light-brown: #d35555;
+$dark-gray: #2b2d31;
+$light-gray: #949ba4;
+$svg-gray: #969696;
 
 $header-bg-color: $light-blue;
 $header-bg-color-secondary: $light-green;
 $section-headings-color: $light-blue;
 
 @import "{{ site.theme }}";
+
+:root {
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: $dark-gray;
+        color: $light-gray;
+    }
+}
 
 .html {
     scroll-behavior: smooth;
@@ -215,16 +229,27 @@ h1, h2, h3, h4, h5, h6 {
         height: 50%;
     }
 
+    @media (prefers-color-scheme: light) {
+        background: $lightest-blue;
+        border: black;
+        border-radius: 0.5em;
+        border-style: solid;
+        border-width: 0.15em;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background: $svg-gray;
+        border: white;
+        border-radius: 0.5em;
+        border-style: solid;
+        border-width: 0.15em;
+    }
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 80em;
     max-height: 50em;
-    background: $lightest-blue;
-    border-radius: 0.5em;
-    border: black;
-    border-style: solid;
-    border-width: 0.15em;
     z-index: 2;
 }
 
@@ -250,25 +275,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .close-button {
+    @media (prefers-color-scheme: light) {
+        border: black;
+        border-style: solid;
+        border-radius: 12px;
+        border-width: 2px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        border: white;
+        border-style: solid;
+        border-radius: 12px;
+        border-width: 2px;
+    }
+
     background-color: unset;
     position: absolute;
     width: 24px;
     height: 24px;
     margin-top: 4px;
     margin-left: -28px;
-    border: black;
-    border-style: solid;
-    border-radius: 12px;
-    border-width: 2px;
 
     &:before, &:after {
+        @media (prefers-color-scheme: light) {
+            background-color: black;
+        }
+    
+        @media (prefers-color-scheme: dark) {
+            background-color: white;
+        }
+
         position: absolute;
         content: '';
         width: 2px;
         height: 16px;
         left: 9px;
         top: 2px;
-        background-color: black;
     }
 
     &:hover {
