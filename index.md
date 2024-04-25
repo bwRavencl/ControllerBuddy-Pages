@@ -260,10 +260,10 @@ accordion:
 
 ## Welcome
 
-Ever wanted to fly your favorite **flight simulators with a gamepad**?  
-> Then look no further **ControllerBuddy** is what you have been looking for!
+Ever wanted to fly in your favorite **flight simulators with a gamepad**?  
+> Then **ControllerBuddy** is what you have been looking for!
 
-On this page you will find everything you need to get you up in the skies with your favorite game controller.
+On this page you will find everything you need to take to the skies with your favorite game controller.
 
 ## Getting Started
 
