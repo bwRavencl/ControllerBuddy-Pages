@@ -195,6 +195,24 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.lightbox-image img {
+    @media (prefers-color-scheme: light) {
+        background: $lightest-blue;
+        border: black;
+        border-radius: 0.5em;
+        border-style: solid;
+        border-width: 0.15em;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background: $svg-gray;
+        border: white;
+        border-radius: 0.5em;
+        border-style: solid;
+        border-width: 0.15em;
+    }
+}
+
 .profiles-container {
     display: flex;
     flex-wrap: wrap;
