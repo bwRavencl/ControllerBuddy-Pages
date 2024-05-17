@@ -290,7 +290,8 @@ The links below will take you to a visualization of each profile:
 </div>
 
 <div class="profiles-container">
-    {% for file in site.static_files %}
+    {% assign sorted_files = site.static_files | sort_natural: 'basename' %}
+    {% for file in sorted_files %}
     {% assign relative_path = file.path | remove_first: '/' %}
     {% assign folder = relative_path | split: '/' | first %}
     {% if folder  == 'profiles' %}
