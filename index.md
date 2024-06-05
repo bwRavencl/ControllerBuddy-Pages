@@ -1,6 +1,17 @@
 ---
 title: ControllerBuddy
 
+carousels:
+  - images:
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_6.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_7.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_8.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_1.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_2.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_3.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_4.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_5.png
+
 accordion: 
   - title: What is the pupose of this FAQ?
     content: |
@@ -264,6 +275,10 @@ Ever wanted to fly in your favorite **flight simulators with a gamepad**?
 > Then **ControllerBuddy** is what you have been looking for!
 
 On this page you will find everything you need to take to the skies with your favorite game controller.
+
+## Screenshots
+
+{% include carousel.html height="65" unit="%" duration="10" number="1" %}
 
 ## Getting Started
 

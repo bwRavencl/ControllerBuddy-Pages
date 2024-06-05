@@ -195,6 +195,36 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.carousel__track {
+    margin-bottom: 90px !important;
+}
+
+.carousel__control {
+    border-color: unset !important;
+}
+
+.carousel__control--backward {
+    left: 50% !important;
+    translate: -150px;
+    bottom: 20px !important;
+    top: unset !important;
+}
+
+.carousel__control--forward {
+    right: 50% !important;
+    translate: 150px;
+    bottom: 20px !important;
+    top: unset !important;
+}
+
+.carousel__slide {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    // bottom: 15%;
+    top: unset !important;
+}
+
 .lightbox-image img {
     @media (prefers-color-scheme: light) {
         background: $lightest-blue;
