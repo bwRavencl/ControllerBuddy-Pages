@@ -243,6 +243,26 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.note-box {
+    @media (prefers-color-scheme: light) {
+        border: $light-brown;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 0.5em;
+        border-spacing: 1em;
+        padding: 1em;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        border: $brown;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 0.5em;
+        border-spacing: 1em;
+        padding: 0.5em;
+    }
+}
+
 .profiles-container {
     display: flex;
     flex-wrap: wrap;
