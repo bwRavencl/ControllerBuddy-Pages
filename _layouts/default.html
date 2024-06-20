@@ -54,7 +54,7 @@
   <script type="text/javascript">
     const profileIframeContainer = document.getElementById('profile-iframe-container');
     const profileIframe = document.getElementById('profile-iframe');
-    const documentClickListener = (e) => closeProfileViewer();
+    const documentClickListener = (e) => {if(e && e.target && e.target.className && !e.target.className.startsWith('carousel__')) closeProfileViewer();}
     function openProfileViewer(event, relative_path){event.stopPropagation(); profileIframeContainer.classList.remove('fade-out'); profileIframeContainer.classList.toggle('fade-in', true); profileIframe.setAttribute('src', relative_path); document.addEventListener('click', documentClickListener);}
     function closeProfileViewer(){document.removeEventListener('click', documentClickListener); profileIframe.removeAttribute('src'); profileIframeContainer.classList.remove('fade-in'); profileIframeContainer.classList.toggle('fade-out', true); }
   </script>
