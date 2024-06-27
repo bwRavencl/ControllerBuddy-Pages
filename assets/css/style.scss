@@ -152,6 +152,13 @@ $section-headings-color: $light-blue;
     max-width: 80rem;
 }
 
+@media (prefers-color-scheme: dark) {
+    .main-content code {
+        color: white !important;
+        background-color: #5e5e5e !important;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     a.anchor-symbol {
         padding-left: 0.375em;
