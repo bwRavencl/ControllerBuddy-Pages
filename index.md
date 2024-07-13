@@ -33,9 +33,9 @@ accordion:
         Popular examples for this type of input device are:
         - DualShock 4 Controller  
         - DualSense Controller  
-        - XBox 360 Controller  
-        - XBox One Controller  
-        - XBox Series X\|S Controller
+        - Xbox 360 Controller  
+        - Xbox One Controller  
+        - Xbox Series X\|S Controller
   - title: Why would I use a gamepad to control a flight simulator?
     content: |
         While a joystick or yoke in combination with a throttle is probably the most obvious choice for controlling a virtual aircraft, the usage of a gamepad offers a number of advantages, which for some people can make it an interesting alternative:
@@ -191,7 +191,7 @@ accordion:
         7. Experiment around! After some time you can come up with input profiles quite fast, but only actual usage of a profile will show up its weaknesses. In that case ControllerBuddy's interface makes it easy for you to make some quick alterations, try them out, and only keep them if you like how they feel.
   - title: What are the hardware and software requirements?
     content: |
-        - A gamepad supported by the [SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB){:target="_blank"} project (e.g. XBox Controller, DualShock 4 or DualSense)
+        - A gamepad supported by the [SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB){:target="_blank"} project (e.g. Xbox Controller, DualShock 4 or DualSense)
         - Windows 7 / 8 / 10 / 11 (x64) or Linux (x64)
   - title: Where can I get the necessary software?
     content: |
@@ -231,9 +231,9 @@ accordion:
         Haptic feedback is a special feature, which can be enabled for relative axis mappings. It will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached. Support for this feature is implemented for the most common controllers on both Windows and Linux.
   - title: Which controller do you recommend?
     content: |
-        The author either recommends a Microsoft XBox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.  
+        The author either recommends a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.  
         Both Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like the typical touchpad of a laptop computer.
-  - title: Why is my XBox Controller not recognized by ControllerBuddy?
+  - title: Why is my Xbox Controller not recognized by ControllerBuddy?
     content: |
         Please verify that you do **not** have Steam's 'Xbox Extended Feature Support Driver' installed.  
         The following screenshot shows how to uninstall this driver from within Steam. Please note that you will need to reboot your PC afterwards.
