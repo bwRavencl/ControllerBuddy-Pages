@@ -58,19 +58,26 @@
       if (e && e.target && e.target.className && !e.target.className.startsWith('carousel__'))
         closeProfileViewer();
     }
+
     function openProfileViewer(event, relative_path) {
-      event.stopPropagation();
+      if (event)
+        event.stopPropagation();
       profileIframeContainer.classList.remove('fade-out');
       profileIframeContainer.classList.toggle('fade-in', true);
       profileIframe.setAttribute('src', relative_path);
       document.addEventListener('click', documentClickListener);
     }
+
     function closeProfileViewer() {
       document.removeEventListener('click', documentClickListener);
       profileIframe.removeAttribute('src');
       profileIframeContainer.classList.remove('fade-in');
       profileIframeContainer.classList.toggle('fade-out', true);
     }
+
+    const relative_path = location.hash?.slice(1).match("^profiles\/.+\.html$")?.at(0)
+    if (relative_path?.match('^profiles\/.+\.html$'))
+      openProfileViewer(null, relative_path);
   </script>
 
   <script type="text/javascript" src="js/lightbox.js"></script>
