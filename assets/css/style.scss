@@ -356,14 +356,14 @@ h1, h2, h3, h4, h5, h6 {
     @media (prefers-color-scheme: light) {
         border: black;
         border-style: solid;
-        border-radius: 12px;
+        border-radius: 50%;
         border-width: 2px;
     }
 
     @media (prefers-color-scheme: dark) {
         border: white;
         border-style: solid;
-        border-radius: 12px;
+        border-radius: 50%;
         border-width: 2px;
     }
 
