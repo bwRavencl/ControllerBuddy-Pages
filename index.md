@@ -228,7 +228,8 @@ accordion:
              There should be no devices listed below 'Connected (xinput device)'.
   - title: What is haptic feedback?
     content: |
-        Haptic feedback is a special feature, which can be enabled for relative axis mappings. It will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached. Support for this feature is implemented for the most common controllers on both Windows and Linux.
+        Haptic feedback is a special feature, which can be enabled for relative axis mappings. It will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached.  
+        Support for this feature is implemented for the most common controllers on both Windows and Linux.
   - title: Which controller do you recommend?
     content: |
         The author either recommends a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.  
