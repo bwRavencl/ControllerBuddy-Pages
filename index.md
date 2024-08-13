@@ -226,6 +226,9 @@ accordion:
           1. From a terminal session run `wine control`
           2. Select each physical input device listed below 'Connected' and click 'Disable' - make sure you do not disable the device called 'ControllerBuddy Joystick'.  
              There should be no devices listed below 'Connected (xinput device)'.
+  - title: Is it possible to easily swap the left and right sticks?
+    content: |
+        Yes! Go to the global settings tab and enable the 'Swap Left and Right Sticks' option.
   - title: What is haptic feedback?
     content: |
         Haptic feedback is a special feature, which can be enabled for relative axis mappings. It will cause the controller to vibrate slightly, when either end of a relative axis, or a user defined axis position (dentent), is reached.  
