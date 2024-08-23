@@ -66,6 +66,7 @@
       profileIframeContainer.classList.toggle('fade-in', true);
       profileIframe.setAttribute('src', relative_path);
       document.addEventListener('click', documentClickListener);
+      window.location.href = window.location.origin + '#'  + relative_path;
     }
 
     function closeProfileViewer() {
@@ -73,6 +74,7 @@
       profileIframe.removeAttribute('src');
       profileIframeContainer.classList.remove('fade-in');
       profileIframeContainer.classList.toggle('fade-out', true);
+      window.location.href = window.location.origin
     }
 
     const relative_path = location.hash?.slice(1).match("^profiles\/.+\.html$")?.at(0)
