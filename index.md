@@ -3,14 +3,14 @@ title: ControllerBuddy
 
 carousels:
   - images:
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_6.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_7.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_8.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_1.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_2.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_3.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_4.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/example_screenshot_5.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_6.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_8.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_1.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_2.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_3.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_4.png
+    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_5.png
 
 accordion: 
   - title: What is the pupose of this FAQ?
@@ -64,7 +64,7 @@ accordion:
         ControllerBuddy also provides a special mode in which an **on-screen-keyboard** is displayed that can be controlled via specialized actions. This is helpful when you want to type in chat messages without having to rely on a physical keyboard. This can be especially interesting to people who would like to use ControllerBuddy in combination with VR.
         Since the required inputs vary greatly from simulator to simulator and even from aircraft to aircraft, a custom tailored profile for each simulator, and in case of complex titles such as DCS for each aircraft, is necessary. These profiles can be edited within ControllerBuddy and be permanently stored as files on your computer.
 
-        [![Overlay](https://github.com/bwRavencl/ControllerBuddy/raw/master/example_screenshot_7.png)](https://github.com/bwRavencl/ControllerBuddy/raw/master/example_screenshot_7.png)
+        [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)
   - title: How do modes (shift-states) work?
     content: |
         **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad. A mode-swichting action can be configured to either temporarily switch to a mode, for as long as the corresponding button is depressed or to permanently toggle a mode on and off by a single press of the button. Depending on the concrete usage scenario one or the other configuration may be preferable.  
