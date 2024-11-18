@@ -54,32 +54,57 @@
   <script type="text/javascript">
     const profileIframeContainer = document.getElementById('profile-iframe-container');
     const profileIframe = document.getElementById('profile-iframe');
-    const documentClickListener = (e) => {
-      if (e && e.target && e.target.className && !e.target.className.startsWith('carousel__'))
+    const documentClickListener = (event) => {
+      if (event && event.target && eventtarget.className && !event.target.className.startsWith('carousel__'))
         closeProfileViewer();
     }
 
     function openProfileViewer(event, relative_path) {
-      if (event)
-        event.stopPropagation();
+      event?.stopPropagation();
       profileIframeContainer.classList.remove('fade-out');
       profileIframeContainer.classList.toggle('fade-in', true);
-      profileIframe.setAttribute('src', relative_path);
+      profileIframe.contentWindow.location.replace(relative_path);
       document.addEventListener('click', documentClickListener);
-      window.location.href = window.location.origin + '#'  + relative_path;
+      const hashPath = '#'  + relative_path;
+      if (!event)
+        window.location.href = window.location.origin + hashPath;
+      else if (event.type === 'popstate')
+        history.replaceState(null, null, hashPath);
+      else
+        history.pushState(null, null, hashPath);
+      document.title = '{{ site.title }} | ' + relative_path.replace(/^profiles\//, '').replace(/.html$/, '').replace('_', ' ');
     }
 
-    function closeProfileViewer() {
+    function closeProfileViewer(event) {
       document.removeEventListener('click', documentClickListener);
-      profileIframe.removeAttribute('src');
       profileIframeContainer.classList.remove('fade-in');
       profileIframeContainer.classList.toggle('fade-out', true);
-      window.location.href = window.location.origin
+      if (event?.type === 'popstate' && location.hash) {
+        history.scrollRestoration = 'manual';
+        window.location.href = window.location.origin + location.hash;
+      } else {
+        const url = event?.type === 'popstate' ? location.hash : '/';
+        if (event?.type === 'popstate')
+          history.replaceState(null, null, url);
+        else
+          history.pushState(null, null, url);
+      }
+      document.title = '{{ site.title }} | {{ site.description }}';
     }
 
-    const relative_path = location.hash?.slice(1).match("^profiles\/.+\.html$")?.at(0)
-    if (relative_path?.match('^profiles\/.+\.html$'))
-      openProfileViewer(null, relative_path);
+    function handleRelativePath(event) {
+      event?.stopPropagation();
+
+      const relative_path = location.hash?.slice(1).match("^profiles\/.+\.html$")?.at(0)
+      if (relative_path?.match('^profiles\/.+\.html$'))
+        openProfileViewer(event, relative_path);
+      else if (event?.type === 'popstate')
+        closeProfileViewer(event);
+    }
+
+    window.addEventListener('popstate', (event) => handleRelativePath(event));
+
+    handleRelativePath(null);
   </script>
 
   <script type="text/javascript" src="js/lightbox.js"></script>
