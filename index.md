@@ -75,20 +75,20 @@ accordion:
         All axes and buttons that do not have a different actions assigned by the currently active mode retain the actions of the mode one level below.
   - title: What does a basic profile look like?
     content: |
-        Usually you will want to create an individual profile for each simulator and in many cases for each aircraft simulated. However, most profiles will have a common base, which may look like this:
+        Typically, you will want to create a unique profile for each simulator, and in many cases, for each aircraft simulated. However, most profiles will have a common base, which may look like this:
 
         - For the **primary controls**, the basic idea behind the control scheme is based on the way radio-controlled aircraft are steered with a radio transmitter:  
         - The right stick controls pitch and roll, just like a typical joystick.
-        - The left stick's vertical axis is mapped to a relative vJoy axis that controls the throttle, while the horizontal axis of the stick controls the yaw.
+        - The vertical axis of the left stick is mapped to a relative vJoy axis that controls the throttle, while the horizontal axis controls the yaw.
 
-        Due to the small range of a gamepad's physical axes, you will want to configure at least a small dead zone and some expo (i.e. *curves*) in-game for the vJoy axes that control pitch, yaw and roll.  
-        Note that the right stick should never be mapped to anything else in other modes, as control of the pitch and roll of the aircraft is essential in all situations, but the left stick can be reused for other functions in other modes, as throttle and yaw control is not usually required at all times.
+        Due to the small range of a gamepad's physical axes, you will want to configure at least a small dead zone and some expo (i.e. *curves*) in-game for the vJoy axes that control pitch, yaw, and roll.  
+        Note that the right stick should never be mapped to anything else in other modes, as controlling the pitch and roll of the aircraft is essential in all situations, but the left stick can be reused for other functions in other modes, as throttle and yaw control is not usually needed all the time.
 
         - **Secondary controls**, such as flaps, landing gear and air brake can be mapped to the D-Pad.  
-        Note that the gear mapped to the lower part of the D-Pad, sice it is physically located on the lower side of the aircraft, while the air brake is usually located on-top of the fuselage or wings and is therefore mapped to the upper part of the D-Pad. Following this logic, it only makes sense to use the horizontal segement of the D-Pad for the flaps. Mapping the controls in such a way makes profiles a lot more intuitive and natural to use.
+        Note that the gear is mapped to the down button of the D-Pad because it is physically located on the bottom of the aircraft, while the air brake is usually located on-top of the fuselage or wings and is therefore mapped to the up button. Following this logic, it only makes sense to use the horizontal section of the D-Pad for the flaps. Mapping the controls in such a way makes profiles much more intuitive and natural to use.
 
         - **Looking around** is done by pressing and holding the right shoulder button to activate *Look Mode*:
-        - In *Look Mode* the left stick controls the view and is used for looking around. You will normally want to use two relative vJoy axes for mapping these controls.
+        - In *Look Mode*, the left stick controls the view and is used to look around. You will normally want to use two relative vJoy axes for mapping these controls.
         - The D-Pad shifts the head up and down and left and right.
         - The Y and A buttons shift the head forward and backward.
         - Pressing the right stick down zooms the view in, pressing the left stick down zooms out.
@@ -97,18 +97,18 @@ accordion:
         - As soon as the X button gets pressed the view is centered and the zoom level gets reset.  
         In order to achieve this, usually multiple actions must be performed:
             - The relative vJoy axes that are mapped to looking around must be centered - this can be done via configuring two specialized actions called *Reset vJoy Axis* that target the respective vJoy axes.
-            - The in-game commad(s) to center the view in all view axes must be fired.
+            - The in-game command(s) to center the view in all view axes must be fired.
             - The in-game command to reset the zoom level must be fired.
-        - In addition, while holding the X button the *View Mode* gets activated:  
-        In *View Mode*, the D-Pad is used to switch between the most important views, such as the cockpit view, external views or map view.
+        - Additionally, holding down the X button will activate the *View Mode*:  
+        In this mode, the D-Pad is used to switch between the main views, such as the cockpit view, external views or map view.
 
         - **Triming the aircraft** can be done while activating *Trim Mode* by pressing and holding the left shoulder button:
-        - In *Trim Mode* the D-Pad is used to change the pitch and roll trim, while the X and B buttons are used to change yaw trim.
-        - Some aircraft may have a *Center Trim* command which can be assigned to the A Button.
-        - For most helicopters no dedicated Mode is necessary, instead the left shoulder button should simply be mapped to a *Force Trim* command if available.
+        - While in this mode, the D-Pad is used to change the pitch and roll trim, while the X and B buttons are used to change yaw trim.
+        - Some aircraft may have a *Center Trim* command that can be assigned to the A Button.
+        - For most helicopters, no dedicated Mode is necessary. Instead, the left shoulder button should simply be mapped to a *Force Trim* command, if available.
 
-        - The *Mouse Mode*  allows you to control basic mouse functions via your gamepad. It is activated by pressing down the left stick.  
-        In this case the Mode-switching is configured to toggle between *Default Mode* and *Mouse Mode*, this means that pressing down the left stick once activates the *Mouse Mode* and pressing it again toggles it off again.  
+        - The *Mouse Mode*  allows you to control basic mouse functions with your gamepad. It is activated by pressing down the left stick.  
+        In this case, the Mode-switching is configured to toggle between *Default Mode* and *Mouse Mode*, i.e. pressing down the left stick once will activate the *Mouse Mode*, and pressing it again will deactivate it and return to *Default Mode*.  
         When *Mouse Mode* is active you can perform mouse inputs as follows:
         - The left stick controls the mouse cursor
         - The right trigger performs a left-click
@@ -116,17 +116,17 @@ accordion:
         - The Start button performs a middle-click
         - Pressing D-Pad up or down scrolls up or down
 
-        - The **On-Screen Keyboard** can be toggled on and off by pressing down the right stick.  
-        In *On-Screen Keyboard Mode* the following actions are configured:
-        - The D-Pad moves the key selector of the On-Screen Keyboard around.
-        - The A button presses down the currently selected On-Screen Keyboard key - if the A button is released also the respective key on the keyboard gets released.
-        - The B button locks the currently selected On-Screen Keyboard key down - the key stays in the pressed down state until it is unlocked in the same way.
-        - The Y button releases all keys of the On-Screen Keyboard  
-        By locking down multiple keys it is possible to perform key-strokes that consist of multiple keys pressed simultaneously.  
-        When the *On-Screen Keyboard Mode* is toggled off by pressing down the right stick, all locked keys are automatically released.
+        - Pressing down on the right stick toggles the **On-Screen Keyboard** on and off.  
+        In *On-Screen Keyboard Mode*, the following actions are configured:
+        - The D-Pad moves the On-Screen Keyboard key selector around.
+        - The A button depresses the currently selected On-Screen Keyboard key - when the A button is released, the corresponding key on the keyboard is also released.
+        - The B button locks the currently selected On-Screen Keyboard key down - the key remains in depressed state until it is unlocked by selecting it with the selector and pressing the B button again.
+        - The Y button is shortcut to release all locked keys at once.  
+        By locking multiple keys, it is possible to perform key-strokes consisting of multiple keys pressed simultaneously.  
+        When the *On-Screen Keyboard Mode* is exited by pressing down the right stick, all locked keys are automatically released.
 
         This completes the base upon which a real profile can be built. It is important to note, that you should keep these basics of all your profiles as similar as possible, this will make it much easier when switching between different aircraft models and simulators!  
-        As you may have noticed we practically have already covered all the typical controls required for flying a virtual aircraft and controlling the most important aspects of the simulator. Most importantly, we still have quite a few buttons available for mapping some of the more specialized controls of an aircraft.
+        By now, we have covered all the basic controls needed to fly a virtual aircraft and to control the most important aspects of the simulator. Most importantly, at this point we still have quite a few unused buttons available for things like avionics, weapons, and so on.
 
         ##### Default Mode:
         [![Basic Profile Default Mode](assets/svg/basic_profile_default_mode.svg)](assets/svg/basic_profile_default_mode.svg)
