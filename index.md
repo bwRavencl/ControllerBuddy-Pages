@@ -195,7 +195,7 @@ accordion:
   - title: What are the hardware and software requirements?
     content: |
         - A gamepad supported by the [SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB){:target="_blank"} project (e.g. Xbox Controller, DualShock 4 or DualSense)
-        - Windows 7 / 8 / 10 / 11 (x64) or Linux (x64)
+        - Windows 10 / 11 (x64) or Linux (x64 / aarch64)
   - title: Where can I get premade profiles?
     content: |
         ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.
