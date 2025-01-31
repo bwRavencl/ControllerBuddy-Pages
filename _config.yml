@@ -47,6 +47,7 @@ discord_url: https://discord.gg/2Sg9ggZrAp
 download_app_url: https://github.com/bwRavencl/ControllerBuddy/releases/latest
 download_profiles_url: https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip
 install_script_url: https://github.com/bwRavencl/ControllerBuddy-Install-Script
+flatpak_url: https://github.com/bwRavencl/ControllerBuddy-Flatpak
 
 # Build settings
 theme: jekyll-theme-cayman

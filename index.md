@@ -263,7 +263,9 @@ accordion:
 
         The script streamlines the installation and updating of ControllerBuddy itself and of the profiles available as part of the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles) repository.
 
-        **Note:**  on Windows it is mandatory that you install [Git for Windows](https://git-scm.com/download/win){:target="_blank"} first, in order to run the script.
+        **Note:** on Windows it is mandatory that you install [Git for Windows](https://git-scm.com/download/win){:target="_blank"} first, in order to run the script.
+
+        Alternatively, Linux users have the option of installing [ControllerBuddy as a Flatpak package](https://github.com/bwRavencl/ControllerBuddy-Flatpak).
   - title: How can I report bugs?
     content: |
         If you encounter any bugs, please use the [GitHub issue system](https://github.com/bwRavencl/ControllerBuddy/issues){:target="_blank"} to report them to the author.  
