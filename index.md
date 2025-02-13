@@ -235,10 +235,6 @@ accordion:
         The author either recommends a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.
         
         Both Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like the typical touchpad of a laptop computer.
-  - title: How can I keep track of the battery status of wireless controllers?
-    content: |
-        When using a Sony DualSense or DualShock 4 controller or a XInput controller on Windows, ControllerBuddy reads the battery state of the device and displays it in the tooltip of the tray icon.  
-        For both Sony controllers, ControllerBuddy also adjusts the lighting to keep the user aware of the battery state at a glance.
   - title: Is there a way to automate launching ControllerBuddy and loading profiles from within simulators?
     content: |
         ControllerBuddy supports multiple command line parameters which are listed [here](https://github.com/bwRavencl/ControllerBuddy/blob/master/README.md#command-line-parameters){:target="_blank"}.
