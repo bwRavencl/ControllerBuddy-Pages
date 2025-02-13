@@ -5,7 +5,6 @@ carousels:
   - images:
     - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_6.png
     - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_8.png
     - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_1.png
     - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_2.png
     - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_3.png
@@ -43,7 +42,7 @@ accordion:
         - Many people who own a gaming PC already own a gamepad to begin with. These days joysticks have become more of a rarity compared to the heyday of flight simulators during the 1990s. This is something especially newcomers to the flight simulation genre may be facing or if you are a veteran virtual-pilot and are trying to get a friend interested in this great hobby, who does not (yet) own the necessary peripherials.
         - When it comes to comparing the price tag of a high quality gamepad with the one of a HOTAS- or yoke-based system, the gamepad is obviously the much cheaper choice, making it especially interesting for newcomers, who are just undertaking their first steps in the genre of flight simulation.  
         - While a joystick with a throttle can be considered the bare minimum to start out with, many more senior virtual pilots will say that you will also need a rudder pedals and a headtracking unit to take your experience to a satisfactory level. Depending on your desk you may also need a suitable mounting solution to install your input decvices at a proper height. All these things are not only an additional cost factor, but can also quickly come in someone's way if your PC is not dedicated to your flying hobby.  
-        - Even if you call all of the above named devices your own, you most likely will still depend on a keyboard and mouse to be able to navigate the menus of your simulator und to handle switches and buttons inside the virtual cockpit, this means having to take your hands off frin the throttle and stick, which can be cumbersome, which is especially true for VR.
+        - Even if you call all of the above named devices your own, you most likely will still depend on a keyboard and mouse to be able to navigate the menus of your simulator und to handle switches and buttons inside the virtual cockpit, this means having to take your hands off frin the throttle and stick, which can be cumbersome.
         - A wireless gamepad used in the way as described in this guide, offers you exceptional freedom in the sense that you are no longer tightly bound to a seating position from which all of the necessary input devices are reachable. If your screen is large enough, flying from a comfortable spot on your couch may come to one's mind.  
         - While a gamepad does certainly not come as close to the controls found in a real plane, it still can emulate the controls more or less acurately. If upmost realism is your top priority, you will probably prefer to use a classic stick, but be aware that one set of input devices can usually only realistically represent one particular model of aircraft from the real world. If you like to fly general aviation aircraft, airliners, military jets and helicopters, you actually would need vastly different sets of input devices for at least each one of these categories.
         - Physical strain is another issue I would like to mention: From my experience flying with a gamepad for a long time now has been very comfortable and a lot less straining than with a joystick and throttle, I find this especially true for helicopter flying, where constant very precise inputs are necessary.
@@ -64,7 +63,7 @@ accordion:
 
         Another function of ControllerBuddy is the so called **overlay**. The overlay is a transparent window that is displayed on top of the simulator to show the currently active mode and the state of the axes of the virtual axes. This is especially useful for relative axes, for example it is very hard to tell the current throttle setting without such an indication. The overlay can be freely moved around the screen and configured to include only indicators for certain axes of interest.
 
-        ControllerBuddy also provides a special mode in which an **on-screen-keyboard** is displayed that can be controlled via specialized actions. This is helpful when you want to type in chat messages without having to rely on a physical keyboard. This can be especially interesting to people who would like to use ControllerBuddy in combination with VR.  
+        ControllerBuddy also provides a special mode in which an **on-screen-keyboard** is displayed that can be controlled via specialized actions. This is helpful when you want to type in chat messages without having to rely on a physical keyboard.  
         Since the required inputs vary greatly from simulator to simulator and even from aircraft to aircraft, a custom tailored profile for each simulator, and in case of complex titles such as DCS for each aircraft, is necessary. These profiles can be edited within ControllerBuddy and be permanently stored as files on your computer.
 
         [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)
@@ -246,11 +245,6 @@ accordion:
     content: |
         When using a Sony DualSense or DualShock 4 controller or a XInput controller on Windows, ControllerBuddy reads the battery state of the device and displays it in the tooltip of the tray icon.  
         For both Sony controllers, ControllerBuddy also adjusts the lighting to keep the user aware of the battery state at a glance.
-  - title: Can I use ControllerBuddy in VR?
-    content: |
-        ControllerBuddy allows the user to fully control all input aspects (game controls and the UI) solely via a gamepad. Hence, the user never has to put his gamepad aside in order to reach for a mouse or keyboard. This makes ControllerBuddy predestined for a VR environment, in which the user cannot see any peripherials.
-
-        Both the overlay and the on-screen-keyboard of ControllerBuddy are available as overlays inside OpenVR applications, just as they are in a regular non-VR application.
   - title: Is there a way to automate launching ControllerBuddy and loading profiles from within simulators?
     content: |
         ControllerBuddy supports multiple command line parameters which are listed [here](https://github.com/bwRavencl/ControllerBuddy/blob/master/README.md#command-line-parameters){:target="_blank"}.
