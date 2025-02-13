@@ -235,12 +235,6 @@ accordion:
         The author either recommends a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.
         
         Both Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like the typical touchpad of a laptop computer.
-  - title: Why is my Xbox Controller not recognized by ControllerBuddy?
-    content: |
-        Please verify that you do **not** have Steam's 'Xbox Extended Feature Support Driver' installed.  
-        The following screenshot shows how to uninstall this driver from within Steam. Please note that you will need to reboot your PC afterwards.
-        
-        [![Xbox Extended Feature Support Driver](https://steamuserimages-a.akamaihd.net/ugc/2012593630419989216/C1FE814A0D119E67EF7736BD0DC90E34773E0833/)](https://steamuserimages-a.akamaihd.net/ugc/2012593630419989216/C1FE814A0D119E67EF7736BD0DC90E34773E0833/)
   - title: How can I keep track of the battery status of wireless controllers?
     content: |
         When using a Sony DualSense or DualShock 4 controller or a XInput controller on Windows, ControllerBuddy reads the battery state of the device and displays it in the tooltip of the tray icon.  
