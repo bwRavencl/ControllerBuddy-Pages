@@ -48,10 +48,10 @@ accordion:
         - Physical strain is another issue I would like to mention: From my experience flying with a gamepad for a long time now has been very comfortable and a lot less straining than with a joystick and throttle, I find this especially true for helicopter flying, where constant very precise inputs are necessary.
   - title: What are the drawbacks of a using a gamepad compared to a HOTAS or yoke?
     content: |
-        - The major issue of a gamepad is that is does usually not posess any *relative* axes. A relative axis is an axis which is not spring loaded and stays in the position you last put it into when taking your fingers off from it. Relative axes are the preferred means to control the throttle, propeller pitch and mixture of an aircraft.  
+        - An inherent disadvantage of using gamepads for flight simulators is that they do not have *relative* axes. A relative axis is an axis that is not spring-loaded, like a slider, and is the preferred means of controlling the throttle, propeller pitch, and mixture of an aircraft.  
         - Since the two sticks of a gamepad are a lot smaller than a dedicated joystick, they offer a smaller range and thus require more precise inputs.  
-        - Due to the declared goal to control an entire aircraft with a gamepad that offers am ample, but still limited number of buttons and axes, we can not avoid using them for more than one function. This esentially means that a very complex aircraft with many buttons on its real-life controls, will probably also require a very complex input profile for your gamepad. This may require more time to get familiar with, compared to a HOTAS-system which already closely resembles the controls of the real aircraft.  
-        - Lastly als already mentioned above, a gamepad will certainly never be able to offer the same realism than a well-made joystick or yoke.
+        - Due to the stated goal of controlling a complete aircraft with a gamepad that offers a large but still limited number of buttons and axes, we cannot avoid using modifiers to make some of them perform more than one function.  
+        - Lastly as already mentioned above, a gamepad will certainly never be able to offer the same realism than a well-made joystick or yoke.
   - title: How can we get around these drawbacks?
     content: |
         Instead of binding axes and buttons directly to our gamepad we use a *virtual* joystick.  
