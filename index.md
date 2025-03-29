@@ -112,7 +112,7 @@ accordion:
         - The left stick controls the mouse cursor
         - The right trigger performs a left-click
         - The left trigger performs a right-click
-        - The Start button performs a middle-click
+        - The Back button performs a middle-click
         - Pressing D-Pad up or down scrolls up or down
 
         - Pressing down on the right stick toggles the **On-Screen Keyboard** on and off.  
