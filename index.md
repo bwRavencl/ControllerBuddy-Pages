@@ -193,7 +193,7 @@ accordion:
         7. Experiment! After a while you can quickly come up with input profiles, but it is only when you actually use a profile that its weaknesses become apparent. In this case, ControllerBuddy's interface makes it easy for you to make some quick changes, try them out, and only keep them if you like how they feel in action.
   - title: What are the hardware and software requirements?
     content: |
-        - A gamepad supported by the [SDL_GameControllerDB](https://github.com/gabomdq/SDL_GameControllerDB){:target="_blank"} project (e.g. Xbox Controller, DualShock 4 or DualSense)
+        - A gamepad supported by the [SDL_GameControllerDB](https://github.com/mdqinc/SDL_GameControllerDB){:target="_blank"} project (e.g. Xbox Controller, DualShock 4 or DualSense)
         - Windows 10 / 11 (x64) or Linux (x64 / aarch64)
   - title: Where can I get premade profiles?
     content: |
