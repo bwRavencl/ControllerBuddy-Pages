@@ -34,6 +34,40 @@ body {
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    a.anchor-symbol {
+        padding-left: 0.375em;
+        opacity: 0;
+        transition: opacity 0.125s ease;
+    }
+
+    &:hover a.anchor-symbol {
+        opacity: 0.26;
+
+        &:hover, &:focus {
+            opacity: 1;
+        }
+    }
+}
+
+img {
+    @media (prefers-color-scheme: light) {
+        background: $lightest-blue;
+        border: black;
+        border-radius: 0.5em;
+        border-style: solid;
+        border-width: 0.15em;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background: $svg-gray;
+        border: white;
+        border-radius: 0.5em;
+        border-style: solid;
+        border-width: 0.15em;
+    }
+}
+
 .html {
     scroll-behavior: smooth;
 }
@@ -169,22 +203,6 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    a.anchor-symbol {
-        padding-left: 0.375em;
-        opacity: 0;
-        transition: opacity 0.125s ease;
-    }
-
-    &:hover a.anchor-symbol {
-        opacity: 0.26;
-
-        &:hover, &:focus {
-            opacity: 1;
-        }
-    }
-}
-
 .nav {
     position: fixed;
     top: 0;
@@ -239,24 +257,6 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center !important;
     background-repeat: no-repeat !important;
     top: unset !important;
-}
-
-img {
-    @media (prefers-color-scheme: light) {
-        background: $lightest-blue;
-        border: black;
-        border-radius: 0.5em;
-        border-style: solid;
-        border-width: 0.15em;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        background: $svg-gray;
-        border: white;
-        border-radius: 0.5em;
-        border-style: solid;
-        border-width: 0.15em;
-    }
 }
 
 .note-box {
