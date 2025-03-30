@@ -129,22 +129,22 @@ accordion:
         By now, we have covered all the basic controls needed to fly a virtual aircraft and to control the most important aspects of the simulator. Most importantly, at this point we still have quite a few unused buttons available for things like avionics, weapons, and so on.
 
         ##### Default Mode:
-        [![Basic Profile Default Mode](assets/svg/basic_profile_default_mode.svg)](assets/svg/basic_profile_default_mode.svg)
+        ![Basic Profile Default Mode](assets/svg/basic_profile_default_mode.svg)
 
         ##### Look Mode (*hold RB*):
-        [![Basic Profile Look Mode](assets/svg/basic_profile_look_mode.svg)](assets/svg/basic_profile_look_mode.svg)
+        ![Basic Profile Look Mode](assets/svg/basic_profile_look_mode.svg)
 
         ##### View Mode (*hold X*):
-        [![Basic Profile View Mode](assets/svg/basic_profile_view_mode.svg)](assets/svg/basic_profile_view_mode.svg)
+        ![Basic Profile View Mode](assets/svg/basic_profile_view_mode.svg)
 
         ##### Trim Mode (*hold LB*):
-        [![Basic Profile Trim Mode](assets/svg/basic_profile_trim_mode.svg)](assets/svg/basic_profile_trim_mode.svg)
+        ![Basic Profile Trim Mode](assets/svg/basic_profile_trim_mode.svg)
 
         ##### Mouse Mode (*toggled by pressing left stick*):
-        [![Basic Profile Mouse Mode](assets/svg/basic_profile_mouse_mode.svg)](assets/svg/basic_profile_mouse_mode.svg)
+        ![Basic Profile Mouse Mode](assets/svg/basic_profile_mouse_mode.svg)
 
         ##### On-Screen Keyboard Mode (*toggled by pressing right stick*):
-        [![Basic Profile On-Screen Keyboard Mode](assets/svg/basic_profile_on_screen_keyboard_mode.svg)](assets/svg/basic_profile_on_screen_keyboard_mode.svg)
+        ![Basic Profile On-Screen Keyboard Mode](assets/svg/basic_profile_on_screen_keyboard_mode.svg)
   - title: What about more complex profiles?
     content: |
         The more complex the simulated aircraft is, the more time it will take to create a profile and to figure out what is most intuitive. However nothing is impossible and in the author's experience even the most complex systems can be mapped to the limited number of buttons a gamepad offers.
