@@ -271,10 +271,13 @@ accordion:
 
 ## Welcome
 
-Ever wanted to fly in your favorite **flight simulators with a gamepad**?  
-> Then **ControllerBuddy** is what you have been looking for!
-
-On this page you will find everything you need to take to the skies with your favorite game controller.
+<p class="welcome-paragraph">
+<strong>Your gamepad, your cockpit - no compromises!</strong>
+<br>
+Ditch the expensive gear and fly with ease.
+<br>
+Enjoy <strong>any flight simulator with just a game controller</strong> - Take off now with <strong>ControllerBuddy</strong>!
+</p>
 
 ## Screenshots
 
