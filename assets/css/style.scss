@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
     top: unset !important;
 }
 
-.lightbox-image img {
+img {
     @media (prefers-color-scheme: light) {
         background: $lightest-blue;
         border: black;
