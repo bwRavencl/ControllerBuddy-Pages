@@ -9,6 +9,7 @@ $light-green: #01a0a0;
 $brown: #a52a2a;
 $light-brown: #d35555;
 $dark-gray: #2b2d31;
+$mid-gray: #4f4f4f;
 $light-gray: #949ba4;
 $svg-gray: #969696;
 
@@ -22,8 +23,12 @@ $section-headings-color: $light-blue;
     color-scheme: light dark;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
+body {
+    @media (prefers-color-scheme: light) {
+        color: $mid-gray;
+    }
+
+    @media (prefers-color-scheme: dark) {
         background: $dark-gray;
         color: $light-gray;
     }
