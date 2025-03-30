@@ -271,13 +271,31 @@ accordion:
 
 ## Welcome
 
-<p class="welcome-paragraph">
-<strong>Your gamepad, your cockpit - no compromises!</strong>
-<br>
-Ditch the expensive gear and fly with ease.
-<br>
-Enjoy <strong>any flight simulator with just a game controller</strong> - Take off now with <strong>ControllerBuddy</strong>!
-</p>
+<div class="centering-container slide-in-right">
+  <div class="post-it">
+      <div class="pin">
+      <div class="shadow"></div>
+      <div class="metal"></div>
+      <div class="bottom-circle"></div>
+    </div>
+    <div class="welcome-headline">
+      Your&nbsp;gamepad, your&nbsp;cockpit&nbsp;-
+      <br>
+      no&nbsp;compromises!
+    </div>
+    <div class="welcome-text">
+      Ditch the expensive gear and fly with ease.
+    </div>
+    <div class="welcome-text">
+      Enjoy any flight&nbsp;simulator
+      <br>
+      with a game&nbsp;controller.
+    </div>
+    <div class="welcome-text">
+      Take off now with <strong>ControllerBuddy</strong>!
+    </div>
+  </div>
+</div>
 
 ## Screenshots
 
