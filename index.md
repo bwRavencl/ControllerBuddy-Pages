@@ -25,35 +25,35 @@ accordion:
         In addition to simply mapping the buttons and axes of a physical game controller to keyboard and mouse input, ControllerBuddy also supports sending input commands to a virtual joystick, which for Windows is provided by the awesome vJoy device driver created by Shaul Eizikovich.
 
         ControllerBuddy's goal is to allow the user to control target applications using only a gamepad, without ever having to reach for a keyboard or mouse.
-  - title: What exactly do you mean by the term 'gamepad'?
+  - title: How do you define 'gamepad'?
     content: |
         A game controller as used by current generation gaming consoles, with two analog sticks, a D-Pad, a number of face buttons, two triggers and two shoulder buttons.
 
         Popular examples for this type of input device are:
-        - DualShock 4 Controller  
-        - DualSense Controller  
-        - Xbox 360 Controller  
-        - Xbox One Controller  
+        - DualShock 4 Controller
+        - DualSense Controller
+        - Xbox 360 Controller
+        - Xbox One Controller
         - Xbox Series X\|S Controller
-  - title: Why would I use a gamepad to control a flight simulator?
+  - title: Why choose a gamepad for flight simulation?
     content: |
         While a joystick or yoke in combination with a throttle is probably the most obvious choice for controlling a virtual aircraft, the usage of a gamepad offers a number of advantages, which for some people can make it an interesting alternative:
         - Gamepads, especially the ones name above, offer a high build quality and are very sturdy, which sadly is a virtue only few of the joysticks on the market can offer, that from my experience can break often and are sometimes hard to repair.
         - Many people who own a gaming PC already own a gamepad to begin with. These days joysticks have become more of a rarity compared to the heyday of flight simulators during the 1990s. This is something especially newcomers to the flight simulation genre may be facing or if you are a veteran virtual-pilot and are trying to get a friend interested in this great hobby, who does not (yet) own the necessary peripherials.
-        - When it comes to comparing the price tag of a high quality gamepad with the one of a HOTAS- or yoke-based system, the gamepad is obviously the much cheaper choice, making it especially interesting for newcomers, who are just undertaking their first steps in the genre of flight simulation.  
-        - While a joystick with a throttle can be considered the bare minimum to start out with, many more senior virtual pilots will say that you will also need a rudder pedals and a headtracking unit to take your experience to a satisfactory level. Depending on your desk you may also need a suitable mounting solution to install your input decvices at a proper height. All these things are not only an additional cost factor, but can also quickly come in someone's way if your PC is not dedicated to your flying hobby.  
+        - When it comes to comparing the price tag of a high quality gamepad with the one of a HOTAS- or yoke-based system, the gamepad is obviously the much cheaper choice, making it especially interesting for newcomers, who are just undertaking their first steps in the genre of flight simulation.
+        - While a joystick with a throttle can be considered the bare minimum to start out with, many more senior virtual pilots will say that you will also need a rudder pedals and a headtracking unit to take your experience to a satisfactory level. Depending on your desk you may also need a suitable mounting solution to install your input decvices at a proper height. All these things are not only an additional cost factor, but can also quickly come in someone's way if your PC is not dedicated to your flying hobby.
         - Even if you call all of the above named devices your own, you most likely will still depend on a keyboard and mouse to be able to navigate the menus of your simulator und to handle switches and buttons inside the virtual cockpit, this means having to take your hands off frin the throttle and stick, which can be cumbersome.
         - Even handheld devices like the Steam Deck, can become a viable platform to enjoy flight simulators when used in conjunction with ControllerBuddy as demonstrated in [this video](https://www.youtube.com/watch?v=HLd0bi02wmE){:target="_blank"}.
-        - A wireless gamepad used in the way as described in this guide, offers you exceptional freedom in the sense that you are no longer tightly bound to a seating position from which all of the necessary input devices are reachable. If your screen is large enough, flying from a comfortable spot on your couch may come to one's mind.  
+        - A wireless gamepad used in the way as described in this guide, offers you exceptional freedom in the sense that you are no longer tightly bound to a seating position from which all of the necessary input devices are reachable. If your screen is large enough, flying from a comfortable spot on your couch may come to one's mind.
         - While a gamepad does certainly not come as close to the controls found in a real plane, it still can emulate the controls more or less acurately. If upmost realism is your top priority, you will probably prefer to use a classic stick, but be aware that one set of input devices can usually only realistically represent one particular model of aircraft from the real world. If you like to fly general aviation aircraft, airliners, military jets and helicopters, you actually would need vastly different sets of input devices for at least each one of these categories.
         - Physical strain is another issue I would like to mention: From my experience flying with a gamepad for a long time now has been very comfortable and a lot less straining than with a joystick and throttle, I find this especially true for helicopter flying, where constant very precise inputs are necessary.
-  - title: What are the drawbacks of a using a gamepad compared to a HOTAS or yoke?
+  - title: What are the limitations of using a gamepad?
     content: |
-        - An inherent disadvantage of using gamepads for flight simulators is that they do not have *relative* axes. A relative axis is an axis that is not spring-loaded, like a slider, and is the preferred means of controlling the throttle, propeller pitch, and mixture of an aircraft.  
-        - Since the two sticks of a gamepad are a lot smaller than a dedicated joystick, they offer a smaller range and thus require more precise inputs.  
-        - Due to the stated goal of controlling a complete aircraft with a gamepad that offers a large but still limited number of buttons and axes, we cannot avoid using modifiers to make some of them perform more than one function.  
+        - An inherent disadvantage of using gamepads for flight simulators is that they do not have *relative* axes. A relative axis is an axis that is not spring-loaded, like a slider, and is the preferred means of controlling the throttle, propeller pitch, and mixture of an aircraft.
+        - Since the two sticks of a gamepad are a lot smaller than a dedicated joystick, they offer a smaller range and thus require more precise inputs.
+        - Due to the stated goal of controlling a complete aircraft with a gamepad that offers a large but still limited number of buttons and axes, we cannot avoid using modifiers to make some of them perform more than one function.
         - Lastly as already mentioned above, a gamepad will certainly never be able to offer the same realism than a well-made joystick or yoke.
-  - title: How can we get around these drawbacks?
+  - title: How to overcome the limitations of a gamepad?
     content: |
         Instead of binding axes and buttons directly to our gamepad we use a *virtual* joystick.  
         On Windows, this virtual joystick is provided by the excellent **vJoy**. Created by Shaul Eizikovich as open-source software, vJoy is a device driver that provides virtual joysticks that can be controlled from other applications (in our case ControllerBuddy).  
@@ -73,42 +73,61 @@ accordion:
         **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad. A mode-swichting action can be configured to either temporarily switch to a mode, for as long as the corresponding button is depressed or to permanently toggle a mode on and off by a single press of the button. Depending on the concrete usage scenario one or the other configuration may be preferable.
 
         All axes and buttons that do not have a different actions assigned by the currently active mode retain the actions of the mode one level below.
-  - title: What does a basic profile look like?
+  - title: What should a basic profile include?
     content: |
         Typically, you will want to create a unique profile for each simulator, and in many cases, for each aircraft simulated. However, most profiles will have a common base, which may look like this:
 
-        - For the **primary controls**, the basic idea behind the control scheme is based on the way radio-controlled aircraft are steered with a radio transmitter:  
-        - The right stick controls pitch and roll, just like a typical joystick.
-        - The vertical axis of the left stick is mapped to a relative vJoy axis that controls the throttle, while the horizontal axis controls the yaw.
+        **Primary controls:**  
+        The control scheme presented here originates from the world of RC planes:
+        - The right stick functions like a traditional joystick, controlling pitch and roll.
+        - The left stick's vertical axis is mapped to a relative vJoy axis for throttle control, while its horizontal axis manages yaw.
+        Given the limited range of a gamepad's physical axes, it's advisable to configure at least a small dead zone and some expo (curves) in-game for the vJoy axes controlling pitch, yaw, and roll.
 
-        Due to the small range of a gamepad's physical axes, you will want to configure at least a small dead zone and some expo (i.e. *curves*) in-game for the vJoy axes that control pitch, yaw, and roll.  
-        Note that the right stick should never be mapped to anything else in other modes, as controlling the pitch and roll of the aircraft is essential in all situations, but the left stick can be reused for other functions in other modes, as throttle and yaw control is not usually needed all the time.
+        Note:  
+        We will keep the right stick dedicated to pitch and roll control because these inputs are crucial in all situations. In contrast, the left stick will be repurposed for other functions in other modes, since throttle and yaw control are not always necessary.
 
-        - **Secondary controls**, such as flaps, landing gear and air brake can be mapped to the D-Pad.  
+        **Secondary controls:**  
+        Controls such as flaps, landing gear and air brake can be mapped to the D-Pad.  
         Note that the gear is mapped to the down button of the D-Pad because it is physically located on the bottom of the aircraft, while the air brake is usually located on-top of the fuselage or wings and is therefore mapped to the up button. Following this logic, it only makes sense to use the horizontal section of the D-Pad for the flaps. Mapping the controls in such a way makes profiles much more intuitive and natural to use.
 
-        - **Looking around** is done by pressing and holding the right shoulder button to activate *Look Mode*:
-        - In *Look Mode*, the left stick controls the view and is used to look around. You will normally want to use two relative vJoy axes for mapping these controls.
+        ##### Default Mode:
+        ![Basic Profile Default Mode](assets/svg/basic_profile_default_mode.svg)
+
+        **Looking around**:  
+        Pressing and holding the right shoulder button activates *Look Mode*:
+        - In this mode the left stick controls the view and is used to look around. You will normally want to use two relative vJoy axes for mapping these controls.
         - The D-Pad shifts the head up and down and left and right.
         - The Y and A buttons shift the head forward and backward.
         - Pressing the right stick down zooms the view in, pressing the left stick down zooms out.
 
-        - **Changing and centering the view** is done with the X button:
-        - As soon as the X button gets pressed the view is centered and the zoom level gets reset.  
+        ##### Look Mode (*hold RB*):
+        ![Basic Profile Look Mode](assets/svg/basic_profile_look_mode.svg)
+
+        **Centering and changing views:**  
+        The X button does two things:
+        1. As soon as the X button gets pressed the view is centered and the zoom level gets reset.  
         In order to achieve this, usually multiple actions must be performed:
             - The relative vJoy axes that are mapped to looking around must be centered - this can be done via configuring two specialized actions called *Reset vJoy Axis* that target the respective vJoy axes.
             - The in-game command(s) to center the view in all view axes must be fired.
             - The in-game command to reset the zoom level must be fired.
-        - Additionally, holding down the X button will activate the *View Mode*:  
+        2. Holding down the X button will also activate *View Mode*:  
         In this mode, the D-Pad is used to switch between the main views, such as the cockpit view, external views or map view.
 
-        - **Triming the aircraft** can be done while activating *Trim Mode* by pressing and holding the left shoulder button:
+        ##### View Mode (*hold X*):
+        ![Basic Profile View Mode](assets/svg/basic_profile_view_mode.svg)
+
+        **Triming the aircraft:**  
+        Pressing and holding the left shoulder button activates *Trim Mode*.
         - While in this mode, the D-Pad is used to change the pitch and roll trim, while the X and B buttons are used to change yaw trim.
         - Some aircraft may have a *Center Trim* command that can be assigned to the A Button.
         - For most helicopters, no dedicated Mode is necessary. Instead, the left shoulder button should simply be mapped to a *Force Trim* command, if available.
 
-        - The *Mouse Mode*  allows you to control basic mouse functions with your gamepad. It is activated by pressing down the left stick.  
-        In this case, the Mode-switching is configured to toggle between *Default Mode* and *Mouse Mode*, i.e. pressing down the left stick once will activate the *Mouse Mode*, and pressing it again will deactivate it and return to *Default Mode*.  
+        ##### Trim Mode (*hold LB*):
+        ![Basic Profile Trim Mode](assets/svg/basic_profile_trim_mode.svg)
+
+        **Controlling the mouse:**  
+        *Mouse Mode* allows you to control basic mouse functions with your gamepad. It is activated by pressing down the left stick momentarily.  
+        Pressing down on it once more will deactivate it and drop you back to *Default Mode*.  
         When *Mouse Mode* is active you can perform mouse inputs as follows:
         - The left stick controls the mouse cursor
         - The right trigger performs a left-click
@@ -116,8 +135,11 @@ accordion:
         - The Back button performs a middle-click
         - Pressing D-Pad up or down scrolls up or down
 
-        - Pressing down on the right stick toggles the **On-Screen Keyboard** on and off.  
-        In *On-Screen Keyboard Mode*, the following actions are configured:
+        ##### Mouse Mode (*toggled by pressing left stick*):
+        ![Basic Profile Mouse Mode](assets/svg/basic_profile_mouse_mode.svg)
+
+        **Generic keyboard inputs:**  
+        Pressing down the right stick toggles *On-Screen Keyboard Mode* on and off. As the name implies, this mode brings up a special On-Screen Keyboard, which can be controlled via as follows:
         - The D-Pad moves the On-Screen Keyboard key selector around.
         - The A button depresses the currently selected On-Screen Keyboard key - when the A button is released, the corresponding key on the keyboard is also released.
         - The B button locks the currently selected On-Screen Keyboard key down - the key remains in depressed state until it is unlocked by selecting it with the selector and pressing the B button again.
@@ -125,26 +147,12 @@ accordion:
         By locking multiple keys, it is possible to perform key-strokes consisting of multiple keys pressed simultaneously.  
         When the *On-Screen Keyboard Mode* is exited by pressing down the right stick, all locked keys are automatically released.
 
-        This completes the base upon which a real profile can be built. It is important to note, that you should keep these basics of all your profiles as similar as possible, this will make it much easier when switching between different aircraft models and simulators!  
-        By now, we have covered all the basic controls needed to fly a virtual aircraft and to control the most important aspects of the simulator. Most importantly, at this point we still have quite a few unused buttons available for things like avionics, weapons, and so on.
-
-        ##### Default Mode:
-        ![Basic Profile Default Mode](assets/svg/basic_profile_default_mode.svg)
-
-        ##### Look Mode (*hold RB*):
-        ![Basic Profile Look Mode](assets/svg/basic_profile_look_mode.svg)
-
-        ##### View Mode (*hold X*):
-        ![Basic Profile View Mode](assets/svg/basic_profile_view_mode.svg)
-
-        ##### Trim Mode (*hold LB*):
-        ![Basic Profile Trim Mode](assets/svg/basic_profile_trim_mode.svg)
-
-        ##### Mouse Mode (*toggled by pressing left stick*):
-        ![Basic Profile Mouse Mode](assets/svg/basic_profile_mouse_mode.svg)
-
         ##### On-Screen Keyboard Mode (*toggled by pressing right stick*):
         ![Basic Profile On-Screen Keyboard Mode](assets/svg/basic_profile_on_screen_keyboard_mode.svg)
+
+        **Wrap-up:**  
+        This forms the foundation upon which a complete profile can be built. It is recommended to keep certain core principles consistent across all your profiles, as this will make switching between different aircraft models and simulators much easier.  
+        At this stage, we have covered all the essential controls for flying a virtual aircraft and managing the simulator's key functions. Most importantly, we still have several unused buttons available for avionics, weapons, and other features.
   - title: What about more complex profiles?
     content: |
         The more complex the simulated aircraft is, the more time it will take to create a profile and to figure out what is most intuitive. However nothing is impossible and in the author's experience even the most complex systems can be mapped to the limited number of buttons a gamepad offers.
@@ -155,7 +163,7 @@ accordion:
         - Propeller and Mixture levers
         - Sensor controls (e.g. Radar and [FLIR](https://en.wikipedia.org/wiki/Forward-looking_infrared){:target="_blank"})
         - Countermeasure controls (Chaff, Flare and [ECM](https://en.wikipedia.org/wiki/Electronic_countermeasure){:target="_blank"}) 
-  - title: How do I create such profiles?
+  - title: Which steps are needed to create a profile?
     content: |
         A profile always targets a specific game. The game must be configured so that the inputs that ControllerBuddy simulates are bound to actual actions in the game.  
         For example, if a ControllerBuddy profile contains an action that should perform a *G*-Key press to raise and lower the landing gear, the *G*-Key must be mapped to the landing gear function in the game.
@@ -196,7 +204,7 @@ accordion:
     content: |
         - A gamepad supported by the [SDL_GameControllerDB](https://github.com/mdqinc/SDL_GameControllerDB){:target="_blank"} project (e.g. Xbox Controller, DualShock 4 or DualSense)
         - Windows 10 / 11 (x64) or Linux (x64 / aarch64)
-  - title: Where can I get premade profiles?
+  - title: Are there preconfigured profiles available?
     content: |
         ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.
 
@@ -207,14 +215,14 @@ accordion:
 
         Please follow the instructions listed in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} to get you started.  
         Additionally, it is recommended to check out the visualization for each profile, either in ControllerBuddy's visualization tab after loading the profile, or [below](#profiles) on this website.
-  - title: Why is the overlay not displayed?
+  - title: Why can't I see the ControllerBuddy overlay?
     content: |
         Please try the following solutions:
         - Ensure the overlay is enabled in the profile settings tab.
         - When running on Windows, make sure the  [Windows Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/) are enabled.
         - When running a Vulkan- or OpenGL-based application on a Windows system with an NVIDIA GPU, in the NVIDIA Control Panel, try forcing the setting called 'Vulkan/OpenGL present method' to 'Prefer layered on DXGI swapchain', as shown [here](https://www.reddit.com/r/nvidia/comments/yf6hiw/psa_you_can_now_elevate_openglvulkan_games_to_a/).
         - When running on a Linux system with X11, make sure you have the display compositor enabled, [this article](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)) explains how to configure the Compositor for the most common desktop environments - just remember for ControllerBuddy you will want the compositor enabled not disabled!
-  - title: How can I ensure the vJoy device takes precedence over any physical controllers?
+  - title: How can I ensure the vJoy device is used as the primary input?
     content: |
         - On Windows, make sure the vJoy device is the preferred input device - proceed as follows:
           1. Start -> Run -> enter `joy.cpl` -> OK
@@ -223,7 +231,7 @@ accordion:
           1. From a terminal session run `wine control`
           2. Select each physical input device listed below 'Connected' and click 'Disable' - make sure you do not disable the device called 'ControllerBuddy Joystick'.  
              There should be no devices listed below 'Connected (xinput device)'.
-  - title: Is it possible to easily swap the left and right sticks?
+  - title: Can I swap the left and right stick functions?
     content: |
         Yes! Go to the global settings tab and enable the 'Swap Left and Right Sticks' option.
   - title: What is haptic feedback?
@@ -231,12 +239,12 @@ accordion:
         Haptic feedback is a special feature that can be enabled for relative axis mappings. It causes the controller to vibrate slightly when either end of a relative axis, or a user defined axis position (dentent), is reached.
 
         Haptic feedback support is implemented for the most popular controllers on both Windows and Linux.
-  - title: Which controller do you recommend?
+  - title: What's the best controller for ControllerBuddy?
     content: |
-        The author either recommends a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.
+        The author recommends either a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.
         
         Both Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like the typical touchpad of a laptop computer.
-  - title: Is there a way to automate launching ControllerBuddy and loading profiles from within simulators?
+  - title: Can ControllerBuddy launch automatically with a sim?
     content: |
         ControllerBuddy supports multiple command line parameters which are listed [here](https://github.com/bwRavencl/ControllerBuddy/blob/master/README.md#command-line-parameters){:target="_blank"}.
 
