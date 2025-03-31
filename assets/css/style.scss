@@ -508,3 +508,7 @@ img {
         transform: rotate(-45deg);
     }
 }
+
+ul.jekyllcodex_accordion li label::before {
+    padding-right: 0.5em !important;
+}
