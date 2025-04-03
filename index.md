@@ -270,7 +270,7 @@ accordion:
         Online, people new to flight simulation are regularly asking how they can enjoy this hobby without a joystick, so the next time you see one of these posts, help them out and let them know about ControllerBuddy!
 
         If you are a developer and would like to contribute to ControllerBuddy by implementing a feature or fixing a bug feel free to do so and open a pull-request on GitHub.  
-        ControllerBuddy is free and open-source software, licensed under the [GNU General Public License v2.0](https://github.com/bwRavencl/ControllerBuddy/blob/master/LICENSE){:target="_blank"}, this allows everyone to participate in its development.  
+        ControllerBuddy is free and open-source software, licensed under the [GNU General Public License v3.0](https://github.com/bwRavencl/ControllerBuddy/blob/master/LICENSE){:target="_blank"}, this allows everyone to participate in its development.  
         Please note that the author will only accept features that he personally finds useful and that meet his standards for code quality.
   - title: How can I get in touch with you?
     content: |
