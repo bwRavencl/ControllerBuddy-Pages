@@ -20,11 +20,15 @@ accordion:
         Secondly, it is intended as a guide to **ControllerBuddy**, an advanced open-source game controller mapping software developed by the author of this document.
   - title: What is ControllerBuddy?
     content: |
-        ControllerBuddy is a highly advanced gamepad mapping software that supports the creation of input profiles for complex target applications such as flight simulators.
+        ControllerBuddy is a powerful and flexible gamepad mapping tool designed for creating custom input profiles for demanding applications like flight simulators.
 
-        In addition to simply mapping the buttons and axes of a physical game controller to keyboard and mouse input, ControllerBuddy also supports sending input commands to a virtual joystick, which for Windows is provided by the awesome vJoy device driver created by Shaul Eizikovich.
+        It goes far beyond the basic button and axis remapping offered by many other gamepad mapping tools. In addition to translating gamepad input into keyboard and mouse actions, ControllerBuddy can also send input to a virtual joystick device - using vJoy on Windows or uinput on Linux.
 
-        ControllerBuddy's goal is to allow the user to control target applications using only a gamepad, without ever having to reach for a keyboard or mouse.
+        The core goal of ControllerBuddy is to let you control any flight simulator entirely with a gamepad, so you never have to reach for a keyboard or mouse during gameplay.
+  - title: What problems does ControllerBuddy solve?
+    content: |
+      - It enables you to use a gamepad to control flight simulators, even if the simulator doesn't natively support gamepads.
+      - For simulators that only offer limited or no customization of gamepad inputs, ControllerBuddy lets you create fully customized input profiles, giving you complete control over how your gamepad behaves.
   - title: How do you define 'gamepad'?
     content: |
         A game controller as used by current generation gaming consoles, with two analog sticks, a D-Pad, a number of face buttons, two triggers and two shoulder buttons.
