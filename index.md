@@ -22,7 +22,7 @@ accordion:
     content: |
         ControllerBuddy is a powerful and flexible gamepad mapping tool designed for creating custom input profiles for demanding applications like flight simulators.
 
-        It goes far beyond the basic button and axis remapping offered by many other gamepad mapping tools. In addition to translating gamepad input into keyboard and mouse actions, ControllerBuddy can also send input to a virtual joystick device - using vJoy on Windows or uinput on Linux.
+        It goes far beyond the basic button and axis remapping offered by many other gamepad mapping tools. In addition to translating gamepad input into keyboard and mouse actions, ControllerBuddy can also send input to a virtual joystick device.
 
         The core goal of ControllerBuddy is to let you control any flight simulator entirely with a gamepad, so you never have to reach for a keyboard or mouse during gameplay.
   - title: What problems does ControllerBuddy solve?
@@ -63,7 +63,7 @@ accordion:
         On Windows, this virtual joystick is provided by the excellent **vJoy**. Created by Shaul Eizikovich as open-source software, vJoy is a device driver that provides virtual joysticks that can be controlled from other applications (in our case ControllerBuddy).  
         Under Linux, ControllerBuddy dynamically creates its own virtual joystick device using the uinput kernel module.
 
-        In **ControllerBuddy** we can create **profiles** that define a mapping of the physical axes and buttons of our gamepad to so called **actions**. Among other things, actions can manipulate the axes of the vJoy device or simulate mouse and keyboard inputs. This allows us for example to work around the above mentioned issue of missing relative axes on our gamepad.  
+        In **ControllerBuddy** we can create **profiles** that define a mapping of the physical axes and buttons of our gamepad to so called **actions**. Among other things, actions can manipulate the axes of the virtual joystick device or simulate mouse and keyboard inputs. This allows us for example to work around the above mentioned issue of missing relative axes on our gamepad.  
         Due to the limited number of axes and buttons of a gamepad, a single axis or button usually must serve multiple purposes. This can be handled by so called **modes**. For example an axis normally assigned to the throttle can become the axis controlling for controlling the view (i.e. looking up and down), while swiching to view-mode.
 
         Another function of ControllerBuddy is the so called **overlay**. The overlay is a transparent window that is displayed on top of the simulator to show the currently active mode and the state of the axes of the virtual axes. This is especially useful for relative axes, for example it is very hard to tell the current throttle setting without such an indication. The overlay can be freely moved around the screen and configured to include only indicators for certain axes of interest.
@@ -84,8 +84,8 @@ accordion:
         **Primary controls:**  
         The control scheme presented here originates from the world of RC planes:
         - The right stick functions like a traditional joystick, controlling pitch and roll.
-        - The left stick's vertical axis is mapped to a relative vJoy axis for throttle control, while its horizontal axis manages yaw.
-        Given the limited range of a gamepad's physical axes, it's advisable to configure at least a small dead zone and some expo (curves) in-game for the vJoy axes controlling pitch, yaw, and roll.
+        - The left stick's vertical axis is mapped to a relative virtual joystick axis for throttle control, while its horizontal axis manages yaw.
+        Given the limited range of a gamepad's physical axes, it's advisable to configure at least a small dead zone and some expo (curves) in-game for the virtual joystick axes controlling pitch, yaw, and roll.
 
         Note:  
         We will keep the right stick dedicated to pitch and roll control because these inputs are crucial in all situations. In contrast, the left stick will be repurposed for other functions in other modes, since throttle and yaw control are not always necessary.
@@ -99,7 +99,7 @@ accordion:
 
         **Looking around**:  
         Pressing and holding the right shoulder button activates *Look Mode*:
-        - In this mode the left stick controls the view and is used to look around. You will normally want to use two relative vJoy axes for mapping these controls.
+        - In this mode the left stick controls the view and is used to look around. You will normally want to use two relative virtual joystick axes for mapping these controls.
         - The D-Pad shifts the head up and down and left and right.
         - The Y and A buttons shift the head forward and backward.
         - Pressing the right stick down zooms the view in, pressing the left stick down zooms out.
@@ -111,7 +111,7 @@ accordion:
         The X button does two things:
         1. As soon as the X button gets pressed the view is centered and the zoom level gets reset.  
         In order to achieve this, usually multiple actions must be performed:
-            - The relative vJoy axes that are mapped to looking around must be centered - this can be done via configuring two specialized actions called *Reset vJoy Axis* that target the respective vJoy axes.
+            - The relative virtual joystick axes that are mapped to looking around must be centered - this can be done via configuring two specialized actions called *Reset Joystick Axis* that target the respective virtual joystick axes.
             - The in-game command(s) to center the view in all view axes must be fired.
             - The in-game command to reset the zoom level must be fired.
         2. Holding down the X button will also activate *View Mode*:  
@@ -120,7 +120,7 @@ accordion:
         ##### View Mode (*hold X*):
         ![Basic Profile View Mode](assets/svg/basic_profile_view_mode.svg)
 
-        **Triming the aircraft:**  
+        **Trimming the aircraft:**  
         Pressing and holding the left shoulder button activates *Trim Mode*.
         - While in this mode, the D-Pad is used to change the pitch and roll trim, while the X and B buttons are used to change yaw trim.
         - Some aircraft may have a *Center Trim* command that can be assigned to the A Button.
@@ -172,27 +172,27 @@ accordion:
         A profile always targets a specific game. The game must be configured so that the inputs that ControllerBuddy simulates are bound to actual actions in the game.  
         For example, if a ControllerBuddy profile contains an action that should perform a *G*-Key press to raise and lower the landing gear, the *G*-Key must be mapped to the landing gear function in the game.
 
-        Most games come with certain default mappings, it is recommended to stick to these mappings and create ControllerBuddy profiles that target the default mappings. If a function does not have a default mapping, it should be mapped to a button of the vJoy device, both in ControllerBuddy and in the game. The same goes for all Axis functions.
+        Most games come with certain default mappings, it is recommended to stick to these mappings and create ControllerBuddy profiles that target the default mappings. If a function does not have a default mapping, it should be mapped to a button of the virtual joystick device, both in ControllerBuddy and in the game. The same goes for all axis functions.
 
         The following steps will help you decide how to map a game function to your controller:
         - Mapping an axis function:
          
-           In the game        | map the axis function to an unused axis of the vJoy device
-           In ControllerBuddy | create a matching mapping axis / button of your gamepad to the axis of the vJoy device
+           In the game        | map the axis function to an unused axis of the virtual joystick device
+           In ControllerBuddy | create a matching mapping axis / button of your gamepad to the axis of the virtual joystick device
         - Mapping a button / keyboard function that have a default keyboard shortcut:
          
            In the game        | lookup the keyboard shortcut
            In ControllerBuddy | create a matching mapping from a button / axis of your gamepad to the keyboard shortcut
         - Mapping a function that is not mapped by default:
          
-           In the game        | map the function to an unused button of the vJoy device
-           In ControllerBuddy | create a matching mapping a button / axis of your gamepad to the button of the vJoy device
+           In the game        | map the function to an unused button of the virtual joystick device
+           In ControllerBuddy | create a matching mapping a button / axis of your gamepad to the button of the virtual joystick device
 
         **Important:** It is recommended that you export or backup your game configuration and keep it with your ControllerBuddy profile.
 
         What follows are some general guidelines on how to proceed when creating a new profile from scratch:
-        1. In the game remove all existing default mappings (axes and buttons) to your gamepad, otherwise they will interfere with the mappings done via ControllerBuddy and the vJoy device.  
-        (This step is not necessary if you are using a DualShock 4 or DualSense gamepad!)
+        1. In the game remove all existing mappings (axes and buttons) for your gamepad.  
+        This is to ensure that the game only acts upon the inputs that are sent by ControllerBuddy. If you do not do this, you may end up with conflicting mappings, which will lead to unexpected behavior.
         2. Start by mapping the main control axes (elevator, ailerons, rudder, throttle) as part of the *Default Mode*
         3. Add a *Look Mode* and a *View Mode* as described above
         4. Add mappings for basic functions such as: landing gear, flaps, brakes. Normally these mappings should be part of the *Default Mode*. However, exceptions can be made: in modern aircraft such as the F/A-18 Hornet, the flaps are only used during take-off and landing and in addition other functions such as the tailhook fall into the same category. Since we only have a limited number of gamepad buttons available it makes sense to put all of these functions only used during take-off and landing into a dedicated mode.
