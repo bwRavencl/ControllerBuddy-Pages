@@ -25,6 +25,7 @@ $white-border: 2px solid white;
 
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sriracha&display=swap');
+@import url('./splide.min.css');
 
 :root {
     color-scheme: light dark;
@@ -368,35 +369,6 @@ img {
     margin: 1em
 }
 
-.carousel__track {
-    margin-bottom: 90px !important;
-}
-
-.carousel__control {
-    border-color: unset !important;
-}
-
-.carousel__control--backward {
-    left: 50% !important;
-    translate: -150px;
-    bottom: 20px !important;
-    top: unset !important;
-}
-
-.carousel__control--forward {
-    right: 50% !important;
-    translate: 150px;
-    bottom: 20px !important;
-    top: unset !important;
-}
-
-.carousel__slide {
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    top: unset !important;
-}
-
 .note-box {
     border: $black-border;
     border-radius: 0.75em;
@@ -535,4 +507,48 @@ img {
 
 ul.jekyllcodex_accordion li label::before {
     padding-right: 0.5em !important;
+}
+
+.splide {
+    margin-bottom: 2em;
+}
+
+.splide__list {
+    max-height: 600px;
+    text-align: center;
+}
+
+.splide__arrow {
+    bottom: -2.5em;
+    top: unset;
+    transform: unset;
+}
+
+.splide__arrow--next {
+    left: 65%;
+    right: unset;
+}
+
+.splide__arrow--prev {
+    left: unset;
+    right: 65%;
+}
+
+.splide__pagination {
+    bottom: -1.9em;
+}
+
+.splide__pagination__page.is-active {
+    background: $light-blue;
+}
+
+.splide__slide {
+    display: grid;
+}
+
+.splide__slide img {
+    margin: auto !important;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{{ './assets/css/style.css?v=' | append: site.github.build_revision }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/icon.ico">
+  <script type="text/javascript" src="./assets/js/splide.min.js"></script>
 </head>
 
 <body>
@@ -50,12 +51,19 @@
   </div>
 
   <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      new Splide('.splide', {
+        type: 'slide',
+        gap: 50,
+        rewind: true,
+        pagination: true,
+        autoplay: true
+      }).mount();
+    });
+
     const profileIframeContainer = document.getElementById('profile-iframe-container');
     const profileIframe = document.getElementById('profile-iframe');
-    const documentClickListener = (event) => {
-      if (event && event.target && eventtarget.className && !event.target.className.startsWith('carousel__'))
-        closeProfileViewer();
-    }
+    const documentClickListener = (event) => closeProfileViewer();
 
     function openProfileViewer(event, relative_path) {
       event?.stopPropagation();
