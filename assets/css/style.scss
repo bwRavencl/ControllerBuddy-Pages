@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-img {
+.bordered {
     border-radius: 0.75em;
 
     @media (prefers-color-scheme: light) {
@@ -70,6 +70,10 @@ img {
         background: $svg-gray;
         border: $white-border
     }
+}
+
+img {
+    @extend .bordered;
 }
 
 .html {
@@ -200,6 +204,7 @@ img {
 
 .btn {
     @extend %btn-common;
+
     min-width: 14.5em;
     line-height: 32pt;
     padding: 0.25em 1.5em;
@@ -243,23 +248,16 @@ img {
 }
 
 .nav {
+    @extend .bordered;
+
     position: fixed;
     top: 0;
     right: 0;
     z-index: 4;
     background-image: linear-gradient(45deg, $brown, $light-brown);
     height: fit-content;
-    border-radius: 0.75em;
     margin: 0.5em 0.85em;
     padding: 2px;
-
-    @media (prefers-color-scheme: light) {
-        border: $black-border;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        border: $white-border;
-    }
 }
 
 .toc {
@@ -377,8 +375,9 @@ img {
 }
 
 .note-box {
+    @extend .bordered;
+
     border: $black-border;
-    border-radius: 0.75em;
     padding: 0.5em;
     background-color: rgba(red, 0.15);
 
@@ -409,6 +408,8 @@ img {
 }
 
 .profile-iframe-container {
+    @extend .bordered;
+
     position: fixed;
     top: 50%;
     left: 50%;
@@ -416,7 +417,6 @@ img {
     max-width: 80em;
     max-height: 50em;
     z-index: 2;
-    border-radius: 0.75em;
 
     @media only screen and (orientation: landscape) {
         width: 80%;
@@ -426,16 +426,6 @@ img {
     @media only screen and (orientation: portrait) {
         width: 95%;
         height: 50%;
-    }
-
-    @media (prefers-color-scheme: light) {
-        background: $lightest-blue;
-        border: $black-border;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        background: $svg-gray;
-        border: $white-border;
     }
 }
 
