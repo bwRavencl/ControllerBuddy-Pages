@@ -260,6 +260,11 @@ img {
     padding: 2px;
 }
 
+@keyframes toc-grow {
+    0% { font-size: 0%; }
+    100% { font-size: large; }
+}
+
 .toc {
     display: none;
     padding: 1em 1em 0 0;
@@ -268,6 +273,7 @@ img {
 
     body.menuopen & {
         display: block;
+        animation: toc-grow 0.2s;
     }
 
     a {
