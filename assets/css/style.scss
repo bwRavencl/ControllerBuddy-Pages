@@ -80,7 +80,14 @@ img {
     scroll-behavior: smooth;
 }
 
+.not-selectable {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
 .page-header {
+    @extend .not-selectable;
+
     padding: 1rem;
 
     @media screen and (min-width: 110rem) {
@@ -249,6 +256,7 @@ img {
 
 .nav {
     @extend .bordered;
+    @extend .not-selectable;
 
     position: fixed;
     top: 0;
@@ -287,6 +295,8 @@ img {
 }
 
 .post-it {
+    @extend .not-selectable;
+
     background: linear-gradient(135deg, #e5c93d, 30%, #ffed87);
     width: fit-content;
     padding: 1em;
