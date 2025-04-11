@@ -192,12 +192,19 @@ img {
     margin-right: 0.5rem;
 }
 
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .btn {
     @extend %btn-common;
     min-width: 14.5em;
     line-height: 32pt;
     padding: 0.25em 1.5em;
     border-radius: 2em;
+    max-width: 22em;
 
     &+.btn {
         @extend %btn-common;
