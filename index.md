@@ -323,6 +323,9 @@ accordion:
       <li class="splide__slide">
         <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_4.png">
       </li>
+      <li class="splide__slide">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_5.png">
+      </li>
     </ul>
   </div>
 </section>
