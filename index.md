@@ -1,16 +1,6 @@
 ---
 title: ControllerBuddy
 
-carousels:
-  - images:
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_6.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_1.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_2.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_3.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_4.png
-    - image: https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_5.png
-
 accordion: 
   - title: What is the purpose of this FAQ?
     content: |
@@ -311,7 +301,32 @@ accordion:
 
 ## Screenshots
 
-{% include carousel.html height="65" unit="%" duration="10" number="1" %}
+<div class="centering-container">
+<section class="splide">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_6.png">
+      </li>
+      <li class="splide__slide">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png">
+      </li>
+      <li class="splide__slide">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_1.png">
+      </li>
+      <li class="splide__slide">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_2.png">
+      </li>
+      <li class="splide__slide">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_3.png">
+      </li>
+      <li class="splide__slide">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_4.png">
+      </li>
+    </ul>
+  </div>
+</section>
+</div>
 
 ## Getting Started
 
