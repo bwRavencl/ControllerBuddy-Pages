@@ -63,54 +63,18 @@ h1, h2, h3, h4, h5, h6 {
 
     @media (prefers-color-scheme: light) {
         background: $lightest-blue;
-        border: $black-border
+        border: $black-border;
     }
 
     @media (prefers-color-scheme: dark) {
         background: $svg-gray;
-        border: $white-border
+        border: $white-border;
     }
-}
-
-img {
-    @extend .bordered;
-}
-
-.html {
-    scroll-behavior: smooth;
 }
 
 .not-selectable {
     -webkit-user-select: none;
     user-select: none;
-}
-
-.page-header {
-    @extend .not-selectable;
-
-    padding: 1rem;
-
-    @media screen and (min-width: 110rem) {
-        width: fit-content;
-        margin: 0.5em auto 1em auto;
-        border-radius: 0.75em;
-    }
-
-    @media screen and (min-width: 110rem) and (prefers-color-scheme: light) {
-        border: $black-border;
-    }
-
-    @media screen and (min-width: 110rem) and (prefers-color-scheme: dark) {
-        border: $white-border;
-    }
-}
-
-.headline {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2em;
 }
 
 @keyframes slide-in-right {
@@ -119,17 +83,17 @@ img {
 }
 
 @keyframes slide-in-left {
-    0% { transform: translateX(-500%);  }
+    0% { transform: translateX(-500%); }
     100% { transform: translateX(0%); }
 }
 
 @keyframes slide-in-top {
-    0% { transform: translateY(-100%);  }
+    0% { transform: translateY(-100%); }
     100% { transform: translateY(0%); }
 }
 
 @keyframes slide-in-bottom {
-    0% { transform: translateY(100%);  }
+    0% { transform: translateY(100%); }
     100% { transform: translateY(0%); }
 }
 
@@ -564,4 +528,40 @@ ul.jekyllcodex_accordion li label::before {
     height: auto;
     max-width: 100%;
     max-height: 100%;
+}
+
+img {
+    @extend .bordered;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.page-header {
+    @extend .not-selectable;
+
+    padding: 1rem;
+
+    @media screen and (min-width: 110rem) {
+        width: fit-content;
+        margin: 0.5em auto 1em auto;
+        border-radius: 0.75em;
+    }
+
+    @media screen and (min-width: 110rem) and (prefers-color-scheme: light) {
+        border: $black-border;
+    }
+
+    @media screen and (min-width: 110rem) and (prefers-color-scheme: dark) {
+        border: $white-border;
+    }
+}
+
+.headline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
 }
