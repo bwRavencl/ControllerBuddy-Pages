@@ -214,7 +214,7 @@ accordion:
         Please try the following solutions:
         - Ensure the overlay is enabled in the profile settings tab.
         - When running on Windows, make sure the  [Windows Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/) are enabled.
-        - When running a Vulkan- or OpenGL-based application on a Windows system with an NVIDIA GPU, in the NVIDIA Control Panel, try forcing the setting called 'Vulkan/OpenGL present method' to 'Prefer layered on DXGI swapchain', as shown [here](https://www.reddit.com/r/nvidia/comments/yf6hiw/psa_you_can_now_elevate_openglvulkan_games_to_a/).
+        - When running a Vulkan- or OpenGL-based application on a Windows system with an NVIDIA GPU, in the 'NVIDIA Control Panel', try forcing the setting called 'Vulkan/OpenGL present method' to 'Prefer layered on DXGI swapchain', as shown [here](https://www.reddit.com/r/nvidia/comments/yf6hiw/psa_you_can_now_elevate_openglvulkan_games_to_a/).
         - When running on a Linux system with X11, make sure you have the display compositor enabled, [this article](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)) explains how to configure the Compositor for the most common desktop environments - just remember for ControllerBuddy you will want the compositor enabled not disabled!
   - title: How can I ensure the vJoy device is used as the primary input?
     content: |
