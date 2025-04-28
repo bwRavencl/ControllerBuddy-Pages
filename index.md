@@ -225,6 +225,16 @@ accordion:
           1. From a terminal session run `wine control`
           2. Select each physical input device listed below 'Connected' and click 'Disable' - make sure you do not disable the device called 'ControllerBuddy Joystick'.  
              There should be no devices listed below 'Connected (xinput device)'.
+  - title: Why is the mouse cursor so sensitive on Linux with KDE?
+    content: |
+        By default, KDE has pointer acceleration enabled, which can cause the mouse cursor to feel overly sensitive.  
+        To disable pointer acceleration, follow these steps:
+        1. Start ControllerBuddy and make sure, the
+        2. Open the KDE 'System Settings' application.
+        3. In the left sidebar, select 'Mouse & Touchpad'.
+        4. In the 'Mouse' section, choose 'ControllerBuddy Mouse' from the 'Device' dropdown menu.
+        5. Set 'Pointer acceleration' to 'None'.
+        6. Click 'Apply' to save the changes.
   - title: Can I swap the left and right stick functions?
     content: |
         Yes! Go to the global settings tab and enable the 'Swap Left and Right Sticks' option.
