@@ -488,6 +488,9 @@ ul.jekyllcodex_accordion li label::before {
 
 .splide {
     margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .splide__list {
@@ -524,7 +527,9 @@ ul.jekyllcodex_accordion li label::before {
 }
 
 .splide__slide {
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 100% !important;
 }
 
