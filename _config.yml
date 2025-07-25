@@ -48,6 +48,7 @@ download_app_url: https://github.com/bwRavencl/ControllerBuddy/releases/latest
 download_profiles_url: https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip
 install_script_url: https://github.com/bwRavencl/ControllerBuddy-Install-Script
 flatpak_url: https://github.com/bwRavencl/ControllerBuddy-Flatpak
+paypal_url: https://www.paypal.com/donate/?hosted_button_id=XUH49UM2GZPZN
 
 # Build settings
 theme: jekyll-theme-cayman

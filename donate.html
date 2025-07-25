@@ -1,0 +1,22 @@
+---
+permalink: /donate
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url={{ site.paypal_url }}" />
+  <link rel="canonical" href="{{ site.paypal_url }}" />
+  <title>Redirecting to PayPal Donation Page...</title>
+  <script type="text/javascript">
+    window.location.href = "{{ site.paypal_url }}";
+  </script>
+</head>
+<body>
+  <p>Redirecting you to the PayPal donation page...</p>
+  <p>If you are not redirected, <a href="{{ site.paypal_url }}" rel="nofollow">click here to donate</a>.</p>
+</body>
+</html>
