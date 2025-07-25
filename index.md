@@ -276,6 +276,16 @@ accordion:
         If you are a developer and would like to contribute to ControllerBuddy by implementing a feature or fixing a bug feel free to do so and open a pull-request on GitHub.  
         ControllerBuddy is free and open-source software, licensed under the [GNU General Public License v3.0](https://github.com/bwRavencl/ControllerBuddy/blob/master/LICENSE){:target="_blank"}, this allows everyone to participate in its development.  
         Please note that the author will only accept features that he personally finds useful and that meet his standards for code quality.
+  - title: Do you take donations?
+    content: |
+        First of all, thank you so much for even considering a donation!
+
+        I created ControllerBuddy primarily for myself - not to make any money.  
+        That said, receiving a donation is one of the most meaningful ways to show appreciation for the thousands of hours I've put into the project. It genuinely motivates me to keep going.
+
+        If you'd like to support ControllerBuddy, you can send a donation via PayPal by clicking [here](/donate){:target="_blank"}.
+
+        Please only donate if it’s easy for you. Otherwise, just sending me a quick message to say you enjoy using ControllerBuddy means just as much to me!
   - title: How can I get in touch with you?
     content: |
         Please refer to the [ControllerBuddy Discord](https://discord.gg/2Sg9ggZrAp){:target="_blank"} if you have any additional questions that were not covered here.
