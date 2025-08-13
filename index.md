@@ -196,8 +196,15 @@ accordion:
         7. Experiment! After a while you can quickly come up with input profiles, but it is only when you actually use a profile that its weaknesses become apparent. In this case, ControllerBuddy's interface makes it easy for you to make some quick changes, try them out, and only keep them if you like how they feel in action.
   - title: What are the hardware and software requirements?
     content: |
-        - A gamepad supported by the [SDL_GameControllerDB](https://github.com/mdqinc/SDL_GameControllerDB){:target="_blank"} project (e.g. Xbox Controller, DualShock 4 or DualSense)
-        - Windows 10 / 11 (x64) or Linux (x64 / aarch64)
+        **Hardware:**
+        - Xbox Controller
+        - DualShock 4
+        - DualSense
+        - Any other controller supported by [SDL_GameControllerDB](https://github.com/mdqinc/SDL_GameControllerDB)
+
+        **Operating System:**
+        - Windows 10 or 11 (x64)
+        - Linux (x64 or aarch64)
   - title: Are there preconfigured profiles available?
     content: |
         ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.
