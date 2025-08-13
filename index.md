@@ -220,7 +220,8 @@ accordion:
 
         To download the a ZIP-package containing the latest versions of all profiles and configurations [click here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
 
-        If you have installed ControllerBuddy via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, you do not need to download the profiles separately, because the script has already placed a copy into your *Documents* folder.  
+        If you have installed ControllerBuddy via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, you do not need to download the profiles separately, because the script has already placed a copy into your *Documents* folder.
+
         **Note:** When the script is launched via the *Update ControllerBuddy* shortcut, it will not only update ControllerBuddy, but attempt to update the profiles to the latest available version, that's why it is recommended to save your personal profiles or modified profiles to a different folder.
 
         Please follow the instructions listed in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} to get you started.  
