@@ -164,19 +164,28 @@ accordion:
 
         Most games come with certain default mappings, it is recommended to stick to these mappings and create ControllerBuddy profiles that target the default mappings. If a function does not have a default mapping, it should be mapped to a button of the virtual joystick device, both in ControllerBuddy and in the game. The same goes for all axis functions.
 
-        The following steps will help you decide how to map a game function to your controller:
-        - Mapping an axis function:
-         
-           In the game        | map the axis function to an unused axis of the virtual joystick device
-           In ControllerBuddy | create a matching mapping axis / button of your gamepad to the axis of the virtual joystick device
-        - Mapping a button / keyboard function that have a default keyboard shortcut:
-         
-           In the game        | lookup the keyboard shortcut
-           In ControllerBuddy | create a matching mapping from a button / axis of your gamepad to the keyboard shortcut
-        - Mapping a function that is not mapped by default:
-         
-           In the game        | map the function to an unused button of the virtual joystick device
-           In ControllerBuddy | create a matching mapping a button / axis of your gamepad to the button of the virtual joystick device
+        The steps below will guide you in assigning game functions to your controller:
+
+        **Mapping an axis function:**
+
+        | Location           | Action                                                                                          |
+        |--------------------|-------------------------------------------------------------------------------------------------|
+        | In the game        | Map the desired axis function to an unused axis on the virtual joystick device.                 |
+        | In ControllerBuddy | Create a corresponding mapping from a gamepad axis or button to the same virtual joystick axis. |
+
+        **Mapping a function with a default shortcut:**
+
+        | Location           | Action                                                                                               |
+        |--------------------|------------------------------------------------------------------------------------------------------|
+        | In the game        | Identify the default keyboard shortcut for the desired function.                                     |
+        | In ControllerBuddy | Create a corresponding mapping from a gamepad axis or button to trigger that same keyboard shortcut. |
+
+        **Mapping a function without a default shortcut:**
+
+        | Location           | Action                                                                                                     |
+        |--------------------|------------------------------------------------------------------------------------------------------------|
+        | In the game        | Map the desired function to an unused button on the virtual joystick device.                               |
+        | In ControllerBuddy | Create a corresponding mapping from a gamepad axis or button to trigger that same virtual joystick button. |
 
         **Important:** It is recommended that you export or backup your game configuration and keep it with your ControllerBuddy profile.
 
