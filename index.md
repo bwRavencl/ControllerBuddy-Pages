@@ -370,20 +370,7 @@ accordion:
 
 ## Getting Started
 
-<iframe class="bordered" width="100%" height="315" src="https://www.youtube.com/embed/nHhCSEwaTEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p class="note-box">
-  <strong>
-    Note:
-    <br>
-    With the <a href="https://github.com/bwRavencl/ControllerBuddy-Install-Script">ControllerBuddy-Install-Script</a> there is now an automated way to install and update ControllerBuddy and configure your flight sims for the official profiles!
-  </strong>
-</p>
-
-Links:
-- [Download vJoy](https://github.com/jshafer817/vJoy/releases/latest){:target="_blank"}
-- [Download ControllerBuddy](https://github.com/bwRavencl/ControllerBuddy/releases/latest){:target="_blank"}
-- [Download ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}
+<iframe class="bordered" width="100%" height="315" src="https://www.youtube.com/embed/AYBr_zzQCqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## FAQ
 
