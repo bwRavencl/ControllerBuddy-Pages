@@ -378,10 +378,15 @@ accordion:
 
 ## Profiles
 
-All of the profiles listed below can be obtained from the author's [ControllerBuddy-Profiles repository on GitHub](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.  
-Please note that these profiles are continuously updated and improved by the author.
+All profiles listed below are available in the [ControllerBuddy-Profiles repository](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.
 
-The links below will take you to a visualization of each profile:
+These profiles are continuously updated and refined by the author to ensure the best experience.
+
+If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script) to set up ControllerBuddy, the latest versions of these profiles will be installed automatically.
+
+You can use the official profiles as they are, or modify them - or create your own from scratch-according to your needs.
+
+Click the links to view a visualization of each profile:
 
 <div id="profile-iframe-container" class="profile-iframe-container fade-out">
   <iframe id="profile-iframe" class="profile-iframe"></iframe>
