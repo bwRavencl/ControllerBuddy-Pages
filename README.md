@@ -2,7 +2,8 @@
 
 ## 📖 Description
 
-This is the source code repository of ControllerBuddy-Pages, regular users should refer to [ControllerBuddy's Homepage](https://controllerbuddy.org) to get started.
+This repository hosts the source code behind the official ControllerBuddy homepage.  
+To learn more about ControllerBuddy, click [here](https://controllerbuddy.org) to visit the site.
 
 ## ⚖️ License
 
