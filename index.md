@@ -370,7 +370,17 @@ accordion:
 
 ## Getting Started
 
-<iframe class="youtube-iframe" src="https://www.youtube.com/embed/AYBr_zzQCqA?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Installation and Updating
+
+<center>
+  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/AYBr_zzQCqA?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+### User Interface Tour
+
+<center>
+  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/aVGV_F0h148?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ## FAQ
 
