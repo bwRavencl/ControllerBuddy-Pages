@@ -370,6 +370,8 @@ accordion:
 
 ## Video Tutorials
 
+Watch these videos to learn how to set up ControllerBuddy, explore its core features, and understand what makes it unique.
+
 ### Relative Axes for Smooth Throttle Controls
 
 <center>
