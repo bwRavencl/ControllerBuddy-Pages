@@ -368,7 +368,7 @@ accordion:
 </section>
 </div>
 
-## Getting Started
+## Video Tutorials
 
 ### Relative Axes for Smooth Throttle Controls
 
