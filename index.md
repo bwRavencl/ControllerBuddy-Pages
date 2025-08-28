@@ -370,6 +370,12 @@ accordion:
 
 ## Getting Started
 
+### Relative Axes for Smooth Throttle Controls
+
+<center>
+  <iframe class="youtube-iframe" src="https://www.youtube.com/embed/akzzSO4chZo?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 ### Installation and Updating
 
 <center>
