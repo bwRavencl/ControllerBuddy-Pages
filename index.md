@@ -203,6 +203,11 @@ accordion:
         6. In rare cases it may be useful to have certain axes or buttons double-bound within a mode, even for unrelated functions. For example, in my profiles I often double-bind the gamepad triggers for left and right braking, as well as for dropping weapons and firing the gun.  
         This is possible because when you are on the ground (when it makes sense to use the brakes), the weapon systems are turned off, so pulling the trigger has no effect at that point. Conversely, if you are in combat and the weapon safety is off, pulling the trigger will also activate the corresponding brake, but since you are in the air and the landing gear is retracted, braking will have no effect.
         7. Experiment! After a while you can quickly come up with input profiles, but it is only when you actually use a profile that its weaknesses become apparent. In this case, ControllerBuddy's interface makes it easy for you to make some quick changes, try them out, and only keep them if you like how they feel in action.
+  - title: Can I map a mode action to a combination of buttons?
+    content: |
+        ControllerBuddy does not support assigning a mode action to a combination of multiple buttons.  
+        Additionally, mode actions cannot be bound within another mode - they must be assigned at the top level (Default Mode).  
+        This limitation is the result of specific design choices, and there are currently no plans to change this behavior.
   - title: What are the hardware and software requirements?
     content: |
         **Hardware:**
