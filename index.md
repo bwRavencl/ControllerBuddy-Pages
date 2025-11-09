@@ -285,6 +285,17 @@ accordion:
         **Note:** on Windows it is mandatory that you install [Git for Windows](https://git-scm.com/download/win){:target="_blank"} first, in order to run the script.
 
         Alternatively, Linux users have the option of installing [ControllerBuddy as a Flatpak package](https://github.com/bwRavencl/ControllerBuddy-Flatpak).
+  - title: How does the versioning scheme work?
+    content: |
+        The version numbers used by ControllerBuddy follow the pattern `X.Y.Z-GIT_HASH` (for example, `1.5.9-d009903b`).  
+        The following table explains the meaning of each part:
+
+        | Part     | Label             | Description                                                                                                                                                                                        |
+        |----------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+        | X        | Major version     | Increased for major releases that introduce breaking changes and make older profile files incompatible.                                                                                            |
+        | Y        | Minor version     | Increased when new features are added to the profile format or network protocol (e.g., support for new action types). Newer versions can read older profiles, but not always the other way around. |
+        | Z        | Patch version     | Increased with each commit. Maintains compatibility but may include notable improvements or new features.                                                                                          |
+        | GIT_HASH | Commit identifier | Abbreviated Git hash uniquely identifying the exact commit of the build.                                                                                                                           |
   - title: How can I report bugs?
     content: |
         If you encounter any bugs, please use the [GitHub issue system](https://github.com/bwRavencl/ControllerBuddy/issues){:target="_blank"} to report them to the author.  
