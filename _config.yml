@@ -53,6 +53,8 @@ paypal_url: https://www.paypal.com/donate/?hosted_button_id=XUH49UM2GZPZN
 # Build settings
 theme: jekyll-theme-cayman
 
+permalink: news/:title
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

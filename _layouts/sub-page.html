@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section class="page-header slide-in-top">
+  <div class="headline">
+    <img src="{{ site.logo }}" alt="ControllerBuddy Logo" class="logo">
+    <div>
+      <h1 class="project-name slide-in-right">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline slide-in-left">{{ site.description | default: site.github.project_tagline }}</h2>
+    </div>
+  </div>
+  <a href="/" class="btn"><i class="btn-icon fas fa-arrow-left"></i>Return to Index</a>
+</section>
+
+{{ content }}

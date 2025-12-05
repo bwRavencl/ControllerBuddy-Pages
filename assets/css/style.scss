@@ -23,6 +23,8 @@ $section-headings-color: $light-blue;
 $black-border: 2px solid black;
 $white-border: 2px solid white;
 
+$main-content-width: 76rem;
+
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sriracha&display=swap');
 @import url('./splide.min.css');
@@ -31,15 +33,10 @@ $white-border: 2px solid white;
     color-scheme: light dark;
 }
 
-body {
-    @media (prefers-color-scheme: light) {
-        color: $mid-gray;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        background: $dark-gray;
-        color: $light-gray;
-    }
+html {
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -221,9 +218,36 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;
 }
 
+.body-content {
+    display: flow-root;
+
+    @media (prefers-color-scheme: light) {
+        color: $mid-gray;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background: $dark-gray;
+        color: $light-gray;
+    }
+}
+
+.post-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 2em 0em 2em;
+
+    @media (prefers-color-scheme: light) {
+        color: $mid-gray;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        color: black
+    }
+}
+
 .main-content {
     @media screen and (min-width: 85rem) {
-        max-width: 76rem;
+        max-width: $main-content-width;
         margin: 1em auto 0.5em auto;
         padding: 2rem 4rem;
         background-color: rgba($light-blue, 0.05);
@@ -406,6 +430,46 @@ h1, h2, h3, h4, h5, h6 {
     aspect-ratio: 16 / 9;
 }
 
+.post-list {
+    padding-left: 0.5em;
+}
+
+.post-item {
+    display: flex;
+    flex-direction: column;
+    line-height: 16pt;
+}
+
+.post-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.post-date {
+    font-size: 10pt;
+    opacity: 85%;
+    white-space: nowrap;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.post-title {
+    margin: 0;
+    line-height: 1.25;
+}
+
+.post-content {
+    align-self: center;
+    max-width: 60rem;
+    margin-top: 1em;
+}
+
 .profiles-container {
     display: flex;
     flex-wrap: wrap;
@@ -423,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-.profile-iframe-container {
+.viewer-container {
     @extend .bordered;
 
     position: fixed;
@@ -441,11 +505,19 @@ h1, h2, h3, h4, h5, h6 {
 
     @media only screen and (orientation: portrait) {
         width: 95%;
-        height: 50%;
+        height: 65%;
     }
 }
 
-.profile-iframe {
+.viewer-container-tall {
+    @extend .viewer-container;
+
+    @media only screen and (orientation: portrait) {
+        height: 85%;
+    }
+}
+
+.viewer-iframe {
     width: 100%;
     height: 100%;
     padding-top: 3em;
@@ -576,10 +648,6 @@ img {
     @extend .bordered;
 }
 
-.html {
-    scroll-behavior: smooth;
-}
-
 .page-header {
     @extend .not-selectable;
 
@@ -587,6 +655,7 @@ img {
 
     @media screen and (min-width: 110rem) {
         width: fit-content;
+        min-width: $main-content-width;
         margin: 0.5em auto 1em auto;
         border-radius: 0.75em;
     }

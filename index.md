@@ -1,6 +1,6 @@
 ---
 title: ControllerBuddy
-
+layout: index
 accordion: 
   - title: What is the purpose of this FAQ?
     content: |
@@ -406,6 +406,19 @@ Watch these videos to learn how to set up ControllerBuddy, explore its core feat
   <iframe class="youtube-iframe" src="https://www.youtube.com/embed/aVGV_F0h148?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
+{% if site.posts.size > 0 %}
+## News
+
+{% for post in site.posts %}
+  <ul class="post-list">
+    <li class="post-item">
+        <a class="post-link" onclick="openViewer(event, '{{ post.url | relative_url | remove_first: "/" | escape }}')">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+  </ul>
+{% endfor %}
+{% endif %}
+
 ## FAQ
 
 {% include accordion.html %}
@@ -422,20 +435,20 @@ You can use the official profiles as they are, or modify them - or create your o
 
 Click the links to view a visualization of each profile:
 
-<div id="profile-iframe-container" class="profile-iframe-container fade-out">
-  <iframe id="profile-iframe" class="profile-iframe"></iframe>
-  <button class="close-button" onclick="closeProfileViewer()"></button>
+<div id="viewer-container" class="viewer-container fade-out">
+  <iframe id="viewer-iframe" class="viewer-iframe"></iframe>
+  <button class="close-button" onclick="closeViewer()"></button>
 </div>
 
 <div class="profiles-container">
     {% assign sorted_files = site.static_files | sort_natural: 'basename' %}
     {% for file in sorted_files %}
-    {% assign relative_path = file.path | remove_first: '/' %}
-    {% assign folder = relative_path | split: '/' | first %}
-    {% if folder  == 'profiles' %}
-    {% assign title = relative_path | split: '/' | last | replace: '_', ' ' | split: '.html' %}
-    <button onclick="openProfileViewer(event, '{{ relative_path }}')" class="profile-item">{{ title }}</button>
-    {% endif %}
+      {% assign relative_path = file.path | remove_first: '/' %}
+      {% assign folder = relative_path | split: '/' | first %}
+      {% if folder  == 'profiles' %}
+        {% assign title = relative_path | split: '/' | last | replace: '_', ' ' | split: '.html' %}
+        <button onclick="openViewer(event, '{{ relative_path }}')" class="profile-item">{{ title }}</button>
+      {% endif %}
     {% endfor %}
 </div>
 

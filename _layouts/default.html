@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="html" lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}">
 
 <head>
   <meta charset="UTF-8">
@@ -7,115 +7,14 @@
   {% seo %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
-  <link rel="stylesheet" href="{{ './assets/css/style.css?v=' | append: site.github.build_revision }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/icon.ico">
-  <script type="text/javascript" src="./assets/js/splide.min.js"></script>
+  <script type="text/javascript" src="/assets/js/splide.min.js"></script>
 </head>
 
 <body>
-  <div class="nav slide-in-right">
-    {% include toggle-menu.html %}
-    <div class="toc">
-      {% include toc.html html=content sanitize="true" h_min=2 h_max=2 %}
-    </div>
-  </div>
-
-  <section class="page-header slide-in-top">
-    <div class="headline">
-      <img src="{{ site.logo }}" alt="ControllerBuddy Logo" class="logo">
-      <div>
-        <h1 class="project-name slide-in-right">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline slide-in-left">{{ site.description | default: site.github.project_tagline }}</h2>
-      </div>
-    </div>
-    <div class="button-container slide-in-right">
-      {% if site.github.is_project_page %}
-      <a href="{{ site.github.repository_url }}" target="_blank" class="btn"><i
-          class="btn-icon fab fa-github"></i>GitHub</a>
-      <a href="{{ site.discord_url }}" target="_blank" class="btn"><i class="btn-icon fab fa-discord"></i>Discord</a>
-      {% endif %}
-      {% if site.show_downloads %}
-      <a href="{{ site.download_app_url }}" target="_blank" class="btn"><i class="btn-icon fas fa-download"></i>Download App</a>
-      <a href="{{ site.download_profiles_url }}" target="_blank" class="btn"><i class="btn-icon fas fa-download"></i>Download Profiles</a>
-      <a href="{{ site.install_script_url }}" target="_blank" class="btn"><i class="btn-icon fas fa-scroll"></i>Install Script</a>
-      <a href="{{ site.flatpak_url }}" target="_blank" class="btn"><i class="btn-icon fas fa-cube"></i>Flatpak</a>
-      {% endif %}
-    </div>
-  </section>
-
-  <div class="slide-in-bottom">
-    <section class="main-content">
-      {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor-symbol" %}
-    </section>
-  </div>
-
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', () => {
-      new Splide('.splide', {
-        "type": "slide",
-        "gap": 50,
-        "rewind": true,
-        "pagination": true,
-        "autoplay": true,
-        "reducedMotion": {
-          "autoplay": true,
-          "speed": 400
-        }
-      }).mount();
-    });
-
-    const profileIframeContainer = document.getElementById('profile-iframe-container');
-    const profileIframe = document.getElementById('profile-iframe');
-    const documentClickListener = (event) => closeProfileViewer();
-
-    function openProfileViewer(event, relative_path) {
-      event?.stopPropagation();
-      profileIframeContainer.classList.remove('fade-out');
-      profileIframeContainer.classList.toggle('fade-in', true);
-      profileIframe.contentWindow.location.replace(relative_path);
-      document.addEventListener('click', documentClickListener);
-      const hashPath = '#'  + relative_path;
-      if (!event)
-        window.location.href = window.location.origin + hashPath;
-      else if (event.type === 'popstate')
-        history.replaceState(null, null, hashPath);
-      else
-        history.pushState(null, null, hashPath);
-      document.title = '{{ site.title }} | ' + relative_path.replace(/^profiles\//, '').replace(/.html$/, '').replace('_', ' ');
-    }
-
-    function closeProfileViewer(event) {
-      document.removeEventListener('click', documentClickListener);
-      profileIframeContainer.classList.remove('fade-in');
-      profileIframeContainer.classList.toggle('fade-out', true);
-      if (event?.type === 'popstate' && location.hash) {
-        history.scrollRestoration = 'manual';
-        window.location.href = window.location.origin + location.hash;
-      } else {
-        const url = event?.type === 'popstate' ? location.hash : '/';
-        if (event?.type === 'popstate')
-          history.replaceState(null, null, url);
-        else
-          history.pushState(null, null, url);
-      }
-      document.title = '{{ site.title }} | {{ site.description }}';
-    }
-
-    function handleRelativePath(event) {
-      event?.stopPropagation();
-
-      const relative_path = location.hash?.slice(1).match("^profiles\/.+\.html$")?.at(0)
-      if (relative_path?.match('^profiles\/.+\.html$'))
-        openProfileViewer(event, relative_path);
-      else if (event?.type === 'popstate')
-        closeProfileViewer(event);
-    }
-
-    window.addEventListener('popstate', (event) => handleRelativePath(event));
-
-    handleRelativePath(null);
-  </script>
+  {{ content }}
 
   {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
