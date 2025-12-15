@@ -55,7 +55,7 @@ layout: default
     }).mount();
   });
 
-  const viewerContainer = document.getElementById('viewer-container');
+  const viewerDialog = document.getElementById('viewer-dialog');
   const viewerIframe = document.getElementById('viewer-iframe');
   const documentClickListener = (event) => closeViewer();
 
@@ -79,13 +79,14 @@ layout: default
   function openViewer(event, relative_path) {
     event?.stopPropagation();
     if (relative_path.startsWith('news/')) {
-      viewerContainer.classList.add('viewer-container-tall');
+      viewerDialog.classList.add('viewer-dialog-tall');
     } else {
-      viewerContainer.classList.remove('viewer-container-tall');
+      viewerDialog.classList.remove('viewer-dialog-tall');
     }
-    viewerContainer.classList.remove('fade-out');
-    viewerContainer.classList.toggle('fade-in', true);
     viewerIframe.contentWindow.location.replace(relative_path);
+    viewerDialog.showModal();
+    viewerDialog.classList.remove('fade-out');
+    viewerDialog.classList.toggle('fade-in', true);
     document.addEventListener('click', documentClickListener);
     const hashPath = '#'  + relative_path;
     if (!event)
@@ -104,8 +105,12 @@ layout: default
 
   function closeViewer(event) {
     document.removeEventListener('click', documentClickListener);
-    viewerContainer.classList.remove('fade-in');
-    viewerContainer.classList.toggle('fade-out', true);
+    viewerDialog.classList.remove('fade-in');
+    viewerDialog.classList.toggle('fade-out', true);
+    setTimeout(() => {
+        viewerDialog.close();
+        viewerIframe.contentWindow.location = 'about:blank';
+    }, 500);
     if (event?.type === 'popstate' && location.hash) {
       history.scrollRestoration = 'manual';
       window.location.href = window.location.origin + location.hash;

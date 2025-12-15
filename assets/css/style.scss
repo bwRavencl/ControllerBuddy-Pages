@@ -486,13 +486,9 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-.viewer-container {
+.viewer-dialog {
     @extend .bordered;
 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     max-width: 80em;
     max-height: 50em;
     z-index: 2;
@@ -508,8 +504,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.viewer-container-tall {
-    @extend .viewer-container;
+.viewer-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.viewer-dialog-tall {
+    @extend .viewer-dialog;
 
     @media only screen and (orientation: portrait) {
         height: 85%;
@@ -518,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .viewer-iframe {
     width: 100%;
-    height: 100%;
+    height: 99%;
     padding-top: 3em;
     padding-bottom: 0.5em;
     padding-right: 0.25em;

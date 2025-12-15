@@ -435,10 +435,10 @@ You can use the official profiles as they are, or modify them - or create your o
 
 Click the links to view a visualization of each profile:
 
-<div id="viewer-container" class="viewer-container fade-out">
+<dialog id="viewer-dialog" class="viewer-dialog fade-out">
   <iframe id="viewer-iframe" class="viewer-iframe"></iframe>
   <button class="close-button" onclick="closeViewer()"></button>
-</div>
+</dialog>
 
 <div class="profiles-container">
     {% assign sorted_files = site.static_files | sort_natural: 'basename' %}
