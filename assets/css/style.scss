@@ -469,6 +469,35 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
 }
 
+.faq-details {
+    margin: 0.25em 0;
+    padding-left: 1em;
+
+    &[open] {
+        >.faq-summary {
+            font-weight: bold;
+        }
+
+        .faq-content {
+            opacity: 1;
+        }
+    }
+}
+
+.faq-summary {
+    display: list-item;
+    cursor: pointer;
+    line-height: 2rem;
+    list-style-position: outside;
+    padding-left: 0.5em;
+}
+
+.faq-content {
+    padding: 0.5em 1em;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
 .profiles-container {
     display: flex;
     flex-wrap: wrap;
