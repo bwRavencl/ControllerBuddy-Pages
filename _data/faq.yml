@@ -60,7 +60,7 @@
       [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)
 - title: How do modes (shift-states) work?
   content: |
-      **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad. A mode-swichting action can be configured to either temporarily switch to a mode, for as long as the corresponding button is depressed or to permanently toggle a mode on and off by a single press of the button. Depending on the concrete usage scenario one or the other configuration may be preferable.
+      **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad. A mode-swichting action can be configured to either momentarily switch to a mode momentarily, while the corresponding button is held down, or to toggle a mode on and off with a single press of the button. Depending on the specific usage scenario, one configuration may be preferable to the other.
 
       All axes and buttons that do not have a different actions assigned by the currently active mode retain the actions of the mode one level below.
 - title: What should a basic profile include?
