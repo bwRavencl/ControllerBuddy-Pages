@@ -215,18 +215,31 @@
       **Operating System:**
       - Windows 10 or 11 (x64)
       - Linux (x64 or aarch64)
-- title: Are there preconfigured profiles available?
+- title: Are there any preconfigured profiles available?
   content: |
-      ControllerBuddy's author is maintaining an exhaustive list of profiles for almost all current flight simulators. All of these profiles, along with matching game configurations can be found in a special GitHub repository called [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}.
+      An extensive collection of official profiles for various flight simulators is maintained in the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"} GitHub repository.
 
-      To download the a ZIP-package containing the latest versions of all profiles and configurations [click here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
+      Getting these profiles:
+      - **Automatic Installation:** If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, the profiles are already in your Documents folder.  
+      Configuration of the games for usage with the profiles can be performed automatically for the most part by allow the install script to run the corresponding configuration scripts.  
+      If you encounter configuration issues, you can re-run these scripts at any time by clicking the *Update ControllerBuddy* shortcut.
+      - **Manual Download:** You can manually download the latest versions of all profiles as a ZIP package here(https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
 
-      If you have installed ControllerBuddy via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, you do not need to download the profiles separately, because the script has already placed a copy into your *Documents* folder.
+      **Warning:** When you click the *Update ControllerBuddy* shortcut, the script automatically updates all official profiles. To prevent your custom changes from being overwritten, always save personal or modified profiles in a separate folder.
 
-      **Note:** When the script is launched via the *Update ControllerBuddy* shortcut, it will not only update ControllerBuddy, but attempt to update the profiles to the latest available version, that's why it is recommended to save your personal profiles or modified profiles to a different folder.
+      **Hint:** Remember that it is not enough to simply load a profile in ControllerBuddy. Each game must be configured correctly for the profile to work.  
+      Follow the instructions in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} for instructions on how to configure your games for usage with the profiles.  
 
-      Please follow the instructions listed in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} to get you started.  
-      Additionally, it is recommended to check out the visualization for each profile, either in ControllerBuddy's visualization tab after loading the profile, or [below](#profiles) on this website.
+      It is recommended to check out the layout for each profile, either in ControllerBuddy's visualization tab after loading the profile, or [below](#profiles) on this website.
+- title: What is the recommended way to install and update ControllerBuddy?
+  content: |
+      The easiest way to setup ControllerBuddy is via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}.
+
+      The script streamlines the installation and updating of ControllerBuddy itself and of the profiles available as part of the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles) repository.
+
+      **Note:** on Windows it is mandatory that you install [Git for Windows](https://git-scm.com/download/win){:target="_blank"} first, in order to run the script.
+
+      Alternatively, Linux users have the option of installing [ControllerBuddy as a Flatpak package](https://github.com/bwRavencl/ControllerBuddy-Flatpak).
 - title: Why can't I see the ControllerBuddy overlay?
   content: |
       Please try the following solutions:
@@ -272,15 +285,6 @@
 
       ControllerBuddy is a single-instance application, this means that if an instance of ControllerBuddy is already running, and the user launches a second instance, any supplied command line parameters are passed on to the first instance and the second instance terminates immediately.  
       This behavior can be useful in automation scripts to integrate ControllerBuddy tightly with other applications. For more information check out [ControllerBuddy-DCS-Integration](https://github.com/bwRavencl/ControllerBuddy-DCS-Integration){:target="_blank"}, an exemplary integration of ControllerBuddy into [DCS World](https://www.digitalcombatsimulator.com){:target="_blank"}.
-- title: Is there a way to automatically install and update ControllerBuddy?
-  content: |
-      The easiest way to setup ControllerBuddy is via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}.
-
-      The script streamlines the installation and updating of ControllerBuddy itself and of the profiles available as part of the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles) repository.
-
-      **Note:** on Windows it is mandatory that you install [Git for Windows](https://git-scm.com/download/win){:target="_blank"} first, in order to run the script.
-
-      Alternatively, Linux users have the option of installing [ControllerBuddy as a Flatpak package](https://github.com/bwRavencl/ControllerBuddy-Flatpak).
 - title: How does the versioning scheme work?
   content: |
       The version numbers used by ControllerBuddy follow the pattern `X.Y.Z-GIT_HASH` (for example, `1.5.9-d009903b`).  
