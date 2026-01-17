@@ -332,6 +332,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 35px;
     border-radius: 50%;
     background: radial-gradient(#c9bf8d, 20%, rgba(201, 191, 141, 0));
+    filter: blur(0.3px);
 }
 
 .metal {
@@ -354,6 +355,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     background-color: $pin-color;
     background: radial-gradient(circle at bottom right, $pin-light, 25%, $pin-dark, 90%, $pin-color);
+    filter: blur(0.3px);
 }
 
 .bottom-circle::before {
@@ -378,6 +380,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 25px;
     border-radius: 50%;
     background: radial-gradient(circle at right, $pin-light, 30%, $pin-color, $pin-dark 80%);
+    filter: blur(0.7px);
 }
 
 .welcome-headline {
