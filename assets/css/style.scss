@@ -78,11 +78,13 @@ h1, h2, h3, h4, h5, h6 {
     from {
         opacity: 0;
         transform: translateX(300%);
+        filter: blur(25px);
     }
 
     to {
         opacity: 1;
         transform: translateX(0%);
+        filter: unset
     }
 }
 
@@ -90,11 +92,13 @@ h1, h2, h3, h4, h5, h6 {
     from {
         opacity: 0;
         transform: translateX(-100%);
+        filter: blur(25px);
     }
 
     to {
         opacity: 1;
         transform: translateX(0%);
+        filter: unset
     }
 }
 
@@ -102,11 +106,13 @@ h1, h2, h3, h4, h5, h6 {
     from {
         opacity: 0;
         transform: translateY(-100%);
+        filter: blur(25px);
     }
 
     to {
         opacity: 1;
         transform: translateY(0%);
+        filter: unset
     }
 }
 
