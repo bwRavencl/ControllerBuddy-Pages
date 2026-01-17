@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes slide-in-right {
     from {
         opacity: 0;
-        transform: translateX(200%);
+        transform: translateX(300%);
     }
 
     to {
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes slide-in-left {
     from {
         opacity: 0;
-        transform: translateX(-500%);
+        transform: translateX(-100%);
     }
 
     to {
@@ -111,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slide-in-right {
-    animation: slide-in-right 1s;
+    animation: slide-in-right 1.2s;
 }
 
 .slide-in-left {
-    animation: slide-in-left 0.7s;
+    animation: slide-in-left 1.2s;
 }
 
 .slide-in-top {
