@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bordered {
-    border-radius: 0.75em;
+    border-radius: 12px;
 
     @media (prefers-color-scheme: light) {
         background: $lightest-blue;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 14.5em;
     line-height: 32pt;
     padding: 0.25em 1.5em;
-    border-radius: 2em;
+    border-radius: 32px;
     max-width: 22em;
 
     &+.btn {
@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 1em auto 0.5em auto;
         padding: 2rem 4rem;
         background-color: rgba($light-blue, 0.05);
-        border-radius: 0.75em;
+        border-radius: 12px;
     }
 
     @media screen and (min-width: 85rem) and (prefers-color-scheme: light) {
@@ -679,7 +679,7 @@ img {
         width: fit-content;
         min-width: $main-content-width;
         margin: 0.5em auto 1em auto;
-        border-radius: 0.75em;
+        border-radius: 12px;
     }
 
     @media screen and (min-width: 110rem) and (prefers-color-scheme: light) {
