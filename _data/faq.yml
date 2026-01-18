@@ -209,14 +209,14 @@
       - Xbox Controller
       - DualShock 4
       - DualSense
-      - Any other controller supported by [SDL_GameControllerDB](https://github.com/mdqinc/SDL_GameControllerDB)
+      - Any other controller supported by [SDL_GameControllerDB](https://github.com/mdqinc/SDL_GameControllerDB){:target="_blank"}
 
       **Operating System:**
       - Windows 10 or 11 (x64)
       - Linux (x64 or aarch64)
 - title: Are there any preconfigured profiles available?
   content: |
-      An extensive collection of official profiles for various flight simulators is maintained in the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"} GitHub repository.
+      An extensive collection of official profiles for various flight simulators is maintained in the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}{:target="_blank"} GitHub repository.
 
       Getting these profiles:
       - **Automatic Installation:** If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, the profiles are already in your Documents folder.  
@@ -258,18 +258,18 @@
   content: |
       The easiest way to setup ControllerBuddy is via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}.
 
-      The script streamlines the installation and updating of ControllerBuddy itself and of the profiles available as part of the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles) repository.
+      The script streamlines the installation and updating of ControllerBuddy itself and of the profiles available as part of the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"} repository.
 
       **Note:** On Windows it is mandatory that you install [Git for Windows](https://git-scm.com/download/win){:target="_blank"} first, in order to run the script.
 
-      Alternatively, Linux users have the option of installing [ControllerBuddy as a Flatpak package](https://github.com/bwRavencl/ControllerBuddy-Flatpak).
+      Alternatively, Linux users have the option of installing [ControllerBuddy as a Flatpak package](https://github.com/bwRavencl/ControllerBuddy-Flatpak){:target="_blank"}.
 - title: Why can't I see the ControllerBuddy overlay?
   content: |
       Please try the following solutions:
       - Ensure the overlay is enabled in the profile settings tab.
-      - When running on Windows, make sure the  [Windows Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/) are enabled.
-      - When running a Vulkan- or OpenGL-based application on a Windows system with an NVIDIA GPU, in the 'NVIDIA Control Panel', try forcing the setting called 'Vulkan/OpenGL present method' to 'Prefer layered on DXGI swapchain', as shown [here](https://www.reddit.com/r/nvidia/comments/yf6hiw/psa_you_can_now_elevate_openglvulkan_games_to_a/).
-      - When running on a Linux system with X11, make sure you have the display compositor enabled, [this article](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)) explains how to configure the Compositor for the most common desktop environments - just remember for ControllerBuddy you will want the compositor enabled not disabled!
+      - When running on Windows, make sure the  [Windows Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/){:target="_blank"} are enabled.
+      - When running a Vulkan- or OpenGL-based application on a Windows system with an NVIDIA GPU, in the 'NVIDIA Control Panel', try forcing the setting called 'Vulkan/OpenGL present method' to 'Prefer layered on DXGI swapchain', as shown [here](https://www.reddit.com/r/nvidia/comments/yf6hiw/psa_you_can_now_elevate_openglvulkan_games_to_a/){:target="_blank"}.
+      - When running on a Linux system with X11, make sure you have the display compositor enabled, [this article](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)){:target="_blank"} explains how to configure the Compositor for the most common desktop environments - just remember for ControllerBuddy you will want the compositor enabled not disabled!
 - title: How can I ensure the vJoy device is used as the primary input?
   content: |
       - On Windows, make sure the vJoy device is the preferred input device - proceed as follows:
