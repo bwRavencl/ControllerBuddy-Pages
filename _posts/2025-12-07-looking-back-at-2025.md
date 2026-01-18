@@ -15,7 +15,7 @@ So, without further ado, let's dive into what was achieved in the past months:
 
 ### The Year of the Linux Desktop
 
-For me, 2025 was somewhat of a turning point with my switch to [Linux](https://www.linux.org/){:target="_blank"} (I use [Arch](https://archlinux.org/){:target="_blank"}, by the way) as my daily driver.
+For me, 2025 was somewhat of a turning point with my switch to [Linux](https://kernel.org/){:target="_blank"} (I use [Arch](https://archlinux.org/){:target="_blank"}, by the way) as my daily driver.
 
 Having used Linux for gaming and simming on and off during the mid-2000s, I'm by no means a novice to Linux as a desktop operating system. Over the past few years, mainly due to [Valve Software's](https://www.valvesoftware.com/){:target="_blank"} initiatives, gaming on Linux has become easier than ever. Compatibility and performance have improved by leaps and bounds, reaching the point where Linux is now a viable alternative to Windows, for most flight simulators.
 
