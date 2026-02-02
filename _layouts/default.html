@@ -1,3 +1,7 @@
+---
+google_analytics: G-MM2RFZFV1L
+---
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
@@ -16,16 +20,14 @@
 <body>
   {{ content }}
 
-  {% if site.google_analytics %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ page.google_analytics }}"></script>
   <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '{{ site.google_analytics }}');
+      gtag('config', '{{ page.google_analytics }}');
   </script>
-  {% endif %}
 </body>
 
 </html>
