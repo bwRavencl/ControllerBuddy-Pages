@@ -191,11 +191,11 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
     @extend %btn-common;
 
-    min-width: 14.5em;
+    min-width: 13em;
+    max-width: 13em;
     line-height: 32pt;
     padding: 0.25em 1.5em;
     border-radius: 32px;
-    max-width: 22em;
 
     &+.btn {
         @extend %btn-common;
