@@ -39,6 +39,17 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    @media (prefers-color-scheme: light) {
+        color: $mid-gray;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background: $dark-gray;
+        color: $light-gray;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     a.anchor-symbol {
         padding-left: 0.375em;
@@ -211,15 +222,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .body-content {
     display: flow-root;
-
-    @media (prefers-color-scheme: light) {
-        color: $mid-gray;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        background: $dark-gray;
-        color: $light-gray;
-    }
 }
 
 .post-wrapper {
