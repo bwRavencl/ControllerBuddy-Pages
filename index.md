@@ -38,25 +38,25 @@ layout: index
   <div class="splide__track">
     <ul class="splide__list">
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_6.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_6.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_7.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_1.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_1.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_2.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_2.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_3.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_3.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_4.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_4.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_5.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_5.png">
       </li>
     </ul>
   </div>
