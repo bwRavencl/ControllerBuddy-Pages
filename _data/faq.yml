@@ -203,6 +203,10 @@
       ControllerBuddy does not support assigning a mode action to a combination of multiple buttons.  
       Additionally, mode actions cannot be bound within another mode - they must be assigned at the top level (Default Mode).  
       This limitation is the result of specific design choices, and there are currently no plans to change this behavior.
+- title: Can the triggers on the gamepad be configured to function as the rudder axis?
+  content: |
+      No, the triggers cannot be configured to function as a single combined axis for rudder control.  
+      The merging of the two triggers into a single axis is not supported by ControllerBuddy, and there are currently no plans to implement this feature.
 - title: What are the hardware and software requirements?
   content: |
       **Hardware:**
