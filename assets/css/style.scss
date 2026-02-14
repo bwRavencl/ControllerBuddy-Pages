@@ -34,10 +34,14 @@ $main-content-width: 76rem;
 }
 
 html {
-    overscroll-behavior: contain;
     scrollbar-width: thin;
     scroll-behavior: smooth;
 }
+
+html:has(dialog[open]) {
+    overflow: hidden;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     a.anchor-symbol {
