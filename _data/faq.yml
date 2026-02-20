@@ -333,7 +333,7 @@
       The easiest way everybody can contribute to ControllerBuddy is simply by spreading the word:  
       Online, people new to flight simulation are regularly asking how they can enjoy this hobby without a joystick, so the next time you see one of these posts, help them out and let them know about ControllerBuddy!
 
-      If you are a developer and would like to contribute to ControllerBuddy by implementing a feature or fixing a bug feel free to do so and open a pull-request on GitHub.  
+      If you are a developer and would like to contribute to ControllerBuddy by implementing a feature or fixing a bug feel free to fork the project on GitHub and develop your changes in a separate branch. When you are ready, please contact the author via a message on the [ControllerBuddy Discord](https://discord.gg/2Sg9ggZrAp){:target="_blank"} to discuss your changes and to get feedback on how to proceed with a pull request.  
       ControllerBuddy is free and open-source software, licensed under the [GNU General Public License v3.0](https://github.com/bwRavencl/ControllerBuddy/blob/master/LICENSE){:target="_blank"}, this allows everyone to participate in its development.  
       Please note that the author will only accept features that he personally finds useful and that meet his standards for code quality.
 - title: Do you take donations?
