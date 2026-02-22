@@ -134,20 +134,20 @@
       {% if beforeHeading %}
         {% capture anchor %}{{ anchor }} {% endcapture %}
       {% else %}
-        {% capture anchor %} {{ anchor }}{% endcapture %}
+        {% capture anchor %}{{ anchor }}{% endcapture %}
       {% endif %}
     {% endif %}
 
     {% capture new_heading %}
-      <h{{ _hAttrToStrip }}
-        {{ include.bodyPrefix }}
-        {% if beforeHeading %}
-          {{ anchor }}{{ header }}
-        {% else %}
-          {{ header }}{{ anchor }}
-        {% endif %}
-        {{ include.bodySuffix }}
-      </h{{ headerLevel }}>
+      <h{{- _hAttrToStrip -}}
+        {{- include.bodyPrefix -}}
+        {%- if beforeHeading -%}
+          {{- anchor -}}{{- header -}}
+        {%- else -%}
+          {{- header -}}{{- anchor -}}
+        {%- endif -%}
+        {{- include.bodySuffix -}}
+      </h{{- headerLevel -}}>
     {% endcapture %}
 
     <!--
