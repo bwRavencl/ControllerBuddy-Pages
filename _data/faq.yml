@@ -306,6 +306,13 @@
       The author recommends either a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.
       
       Both Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like the typical touchpad of a laptop computer.
+- title: Why is my Xbox controller not detected by ControllerBuddy?
+  content: |
+      If your computer has a Bluetooth adapter, check if your controller has been paired with your computer via Bluetooth.  
+      If that is the case, the controller may prefer the Bluetooth connection over a wired connection.
+
+      You need to make sure that the controller is actually turned on and connected.  
+      To do so, press the Guide button (the big Xbox logo button in the middle of the controller).
 - title: Can ControllerBuddy launch automatically with a sim?
   content: |
       ControllerBuddy supports multiple command line parameters which are listed [here](https://github.com/bwRavencl/ControllerBuddy/blob/master/README.md#command-line-parameters){:target="_blank"}.
