@@ -303,9 +303,10 @@
       Haptic feedback support is implemented for the most popular controllers on both Windows and Linux.
 - title: What's the best controller for ControllerBuddy?
   content: |
-      The author recommends either a Microsoft Xbox Series X\|S Controller or a Sony DualSense or DualShock 4 controller.
+      While most controllers work seamlessly with ControllerBuddy, the best choice ultimately comes down to your individual preference and comfort.
+      The author's top pick is currently the 8BitDo Ultimate 2C Wireless Controller, though the Xbox Series X|S and Sony's DualSense or DualShock 4 are also excellent choices.
       
-      Both Sony controllers feature a touchpad, which is supported by ControllerBuddy to function like the typical touchpad of a laptop computer.
+      A standout feature of the Sony models is their touchpad. When used with ControllerBuddy, it mimics a traditional laptop touchpad for seamless control of the mouse cursor.
 - title: Why is my Xbox controller not detected by ControllerBuddy?
   content: |
       If your computer has a Bluetooth adapter, check if your controller has been paired with your computer via Bluetooth.  
