@@ -57,7 +57,7 @@
       ControllerBuddy also provides a special mode in which an **on-screen-keyboard** is displayed that can be controlled via specialized actions. This is helpful when you want to type in chat messages without having to rely on a physical keyboard.  
       Since the required inputs vary greatly from simulator to simulator and even from aircraft to aircraft, a custom tailored profile for each simulator, and in case of complex titles such as DCS for each aircraft, is necessary. These profiles can be edited within ControllerBuddy and be permanently stored as files on your computer.
 
-      [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshot_7.png)
+      [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/overlay.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/overlay.png)
 - title: How do modes (shift-states) work?
   content: |
       **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad. A mode-swichting action can be configured to either switch to a mode momentarily, for as long as the corresponding button is held down, or to toggle a mode on and off with a single press of the button. Depending on the specific usage scenario, one configuration may be preferable to the other.

@@ -38,25 +38,25 @@ layout: index
   <div class="splide__track">
     <ul class="splide__list">
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_6.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/visualization_tab.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_7.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_1.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/modes_tab.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_2.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/assignments_tab.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_3.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/component_editor_button.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_4.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/component_editor_axis.png">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/screenshot_5.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_tab_dark_theme.png">
       </li>
     </ul>
   </div>
