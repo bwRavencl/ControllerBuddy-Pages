@@ -309,11 +309,14 @@
       A standout feature of the Sony models is their touchpad. When used with ControllerBuddy, it mimics a traditional laptop touchpad for seamless control of the mouse cursor.
 - title: Why is my Xbox controller not detected by ControllerBuddy?
   content: |
-      If your computer has a Bluetooth adapter, check if your controller has been paired with your computer via Bluetooth.  
-      If that is the case, the controller may prefer the Bluetooth connection over a wired connection.
-
-      You need to make sure that the controller is actually turned on and connected.  
-      To do so, press the Guide button (the big Xbox logo button in the middle of the controller).
+      Unfortunately, there is no single solution to this problem, as it can be caused by a variety of factors.  
+      However, here are some common troubleshooting steps you can try:
+      1. Uncheck the 'Enable XInput Support' option in ControllerBuddy's global settings tab.  
+      This can sometimes resolve detection issues for third-party Xbox-compatible controllers.  
+      If disabling XInput does not help, please re-enable it.
+      2. If your computer has a Bluetooth adapter, check if your controller has been paired with your computer via Bluetooth.  
+      If that is the case, the controller may prefer the Bluetooth connection over a wired connection.  
+      You need to make sure that the controller is actually turned on and connected. To do so, press the Guide button (the big Xbox logo button in the middle of the controller).
 - title: Can ControllerBuddy launch automatically with a sim?
   content: |
       ControllerBuddy supports multiple command line parameters which are listed [here](https://github.com/bwRavencl/ControllerBuddy/blob/master/README.md#command-line-parameters){:target="_blank"}.
