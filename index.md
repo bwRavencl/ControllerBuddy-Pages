@@ -5,9 +5,14 @@ layout: index
 
 ## Welcome
 
-<div class="centering-container slide-in-right">
+<div class="welcome-section slide-in-right">
+  <div class="glow-text slide-in-top">
+    <p>ControllerBuddy is <b>the</b> powerful <b>game controller mapping</b> tool crafted specifically <b>for flight simulators</b>.</p>
+    <p>It <b>eliminates</b> the need for <b>an expensive HOTAS setup</b> to enjoy your favorite simulators.</p>
+    <p>And gives you <b>full control using just a gamepad</b> - without even needing a keyboard or mouse.</p>
+  </div>
   <div class="post-it">
-      <div class="pin">
+    <div class="pin">
       <div class="shadow"></div>
       <div class="metal"></div>
       <div class="bottom-circle"></div>

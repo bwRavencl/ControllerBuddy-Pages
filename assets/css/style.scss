@@ -1,8 +1,10 @@
 ---
 ---
 
+$mid-blue: #006ec7;
 $light-blue: #448ade;
 $lighter-blue: #459dc6;
+$bright-blue: #00cfff;
 $lightest-blue: #d3e2e7;
 $blue-green: #1b9cab;
 $light-green: #01a0a0;
@@ -301,8 +303,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .centering-container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.welcome-section {
+    @extend .centering-container;
+
+    flex-direction: row !important;
+    flex-wrap: wrap;
+}
+
+.glow-text {
+    width: 33%;
+    margin: 0 3.5em 1em 0;
+    flex-grow: 1;
+    font-size: 14pt;
+    line-height: 1.75;
+    letter-spacing: 0.25px;
+    text-shadow:
+        0 0 1px rgba(255, 255, 255, 0.85), 0 0 15px rgba(0, 207, 255, 0.6), 0 0 10px rgba(0, 207, 255, 0.4), 0 0 20px rgba(0, 150, 255, 0.2);
+
+    @media (prefers-color-scheme: light) {
+        color: $mid-blue;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        color: $bright-blue;
+    }
 }
 
 .post-it {
