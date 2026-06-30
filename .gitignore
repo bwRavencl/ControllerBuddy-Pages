@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/jekyll,ruby,windows,linux,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=jekyll,ruby,windows,linux,macos
+# Created by https://www.toptal.com/developers/gitignore/api/ruby,linux,macos,jekyll,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=ruby,linux,macos,jekyll,windows
 
 ### Jekyll ###
 _site/
@@ -32,8 +32,7 @@ vendor/
 .LSOverride
 
 # Icon must end with two \r
-Icon
-
+Icon
 
 # Thumbnails
 ._*
@@ -141,4 +140,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/jekyll,ruby,windows,linux,macos
+# End of https://www.toptal.com/developers/gitignore/api/ruby,linux,macos,jekyll,windows
