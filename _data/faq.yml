@@ -78,7 +78,7 @@
       Since the required inputs vary greatly from simulator to simulator and even from aircraft to aircraft, a custom tailored profile for each simulator, and in case of complex titles such as DCS for each aircraft, is necessary.
       These profiles can be edited within ControllerBuddy and be permanently stored as files on your computer.
 
-      [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/overlay.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/overlay.png)
+      [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png)
 - title: How do modes (shift-states) work?
   content: |
       **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad.
