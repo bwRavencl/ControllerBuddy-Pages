@@ -298,7 +298,8 @@
       Yes! Go to the global settings tab and enable the 'Swap Left and Right Sticks' option.
 - title: What is haptic feedback?
   content: |
-      Haptic feedback is a special feature that can be enabled for relative axis mappings. It causes the controller to vibrate slightly when either end of a relative axis, or a user defined axis position (dentent), is reached.
+      Haptic feedback is a special feature that can be enabled for relative axis mappings.
+      It causes the controller to vibrate slightly when either end of a relative axis, or a user defined axis position (dentent), is reached.
 
       Haptic feedback support is implemented for the most popular controllers on both Windows and Linux.
 - title: What's the best controller for ControllerBuddy?
@@ -323,6 +324,15 @@
 
       ControllerBuddy is a single-instance application, this means that if an instance of ControllerBuddy is already running, and the user launches a second instance, any supplied command line parameters are passed on to the first instance and the second instance terminates immediately.  
       This behavior can be useful in automation scripts to integrate ControllerBuddy tightly with other applications. For more information check out [ControllerBuddy-DCS-Integration](https://github.com/bwRavencl/ControllerBuddy-DCS-Integration){:target="_blank"}, an exemplary integration of ControllerBuddy into [DCS World](https://www.digitalcombatsimulator.com){:target="_blank"}.
+- title: Why are updates released so frequently?
+  content: |
+      ControllerBuddy uses a [rolling release](https://en.wikipedia.org/wiki/Rolling_release) model, which means that updates are released as soon as they are ready.
+      This approach allows users to benefit from new features, improvements, and bug fixes as soon as possible, without having to wait for a major release.
+
+      While often changes are minor and just include updates to dependencies, bug fixes, and small improvements, some releases may include new features or significant changes.
+
+      As a result, it is recommended to check for updates regularly to ensure you are using the latest version of ControllerBuddy.  
+      Through all of this, backward compatibility is mainted on a best-effort basis, but it is not guaranteed.
 - title: How does the versioning scheme work?
   content: |
       The version numbers used by ControllerBuddy follow the pattern `X.Y.Z-GIT_HASH` (for example, `1.5.9-d009903b`).  
