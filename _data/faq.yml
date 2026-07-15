@@ -407,7 +407,7 @@
       | GIT_HASH | Commit identifier | Abbreviated Git hash uniquely identifying the exact commit of the build.                                                                                                       |
 - title: How can I report bugs?
   content: |
-      If you encounter any bugs, please use the [GitHub issue system](https://github.com/bwRavencl/ControllerBuddy/issues){:target="_blank"} to report them to the author.  
+      If you encounter any bugs, please use [GitHub Issues](https://github.com/bwRavencl/ControllerBuddy/issues){:target="_blank"} to report them to the author.  
       Always include information about your system, including the operating system version and controller hardware you are using.  
       Also, please take the time to provide exact steps on how to reproduce the problem you encountered.
 - title: How can I contribute?
