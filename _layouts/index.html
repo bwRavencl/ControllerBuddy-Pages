@@ -74,7 +74,7 @@ layout: default
 
   function openViewer(event, relative_path) {
     event?.stopPropagation();
-    if (relative_path.startsWith('news/')) {
+    if (relative_path.startsWith('blog/')) {
       viewerDialog.classList.add('viewer-dialog-tall');
     } else {
       viewerDialog.classList.remove('viewer-dialog-tall');
@@ -94,8 +94,8 @@ layout: default
 
     if (relative_path.startsWith('profiles/')) {
       document.title = '{{ site.title }} | ' + relative_path.replace(/^profiles\//, '').replace(/.html$/, '').replace('_', ' ');
-    } else if (relative_path.startsWith('news/')) {
-      document.title = '{{ site.title }} | ' + toTitleCase(relative_path.replace(/^news\//, '').replaceAll('-', ' '));
+    } else if (relative_path.startsWith('blog/')) {
+      document.title = '{{ site.title }} | ' + toTitleCase(relative_path.replace(/^blog\//, '').replaceAll('-', ' '));
     }
   }
 
@@ -122,15 +122,19 @@ layout: default
 
   function handleRelativePath(event) {
     event?.stopPropagation();
-    const hash_path = location.hash?.slice(1);
+    let hash_path = location.hash?.slice(1);
+    if (hash_path?.startsWith('news/')) {
+      hash_path = hash_path.replace(/^news\//, 'blog/');
+      history.replaceState(null, '', `#${hash_path}`);
+    }
     const profile_regex = /^profiles\/.+\.html$/;
-    const news_regex = /^news\/.+\/?$/;
+    const blog_regex = /^blog\/.+\/?$/;
     let relative_path = null;
     if (hash_path?.match(profile_regex)) {
       relative_path = hash_path.match(profile_regex)?.at(0);
       openViewer(event, relative_path);
-    } else if (hash_path?.match(news_regex)) {
-      relative_path = hash_path.match(news_regex)?.at(0);
+    } else if (hash_path?.match(blog_regex)) {
+      relative_path = hash_path.match(blog_regex)?.at(0);
       openViewer(event, relative_path); 
     } else if (event?.type === 'popstate' || hash_path === '') {
       closeViewer(event);

@@ -91,7 +91,7 @@ Watch these videos to learn how to set up ControllerBuddy, explore its core feat
 </center>
 
 {% if site.posts.size > 0 %}
-## News
+## Blog
 
 {% for post in site.posts %}
   <ul class="post-list">
