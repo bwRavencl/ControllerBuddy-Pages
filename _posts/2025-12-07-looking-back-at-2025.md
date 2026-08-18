@@ -78,7 +78,7 @@ Also during November, with the 1.6 release of ControllerBuddy, button actions we
 
 At the beginning of this month, I replaced the previously used [Apache Batik](https://xmlgraphics.apache.org/batik/){:target="_blank"} library with the more modern [jsvg](https://github.com/weisJ/jsvg){:target="_blank"} alternative.  
 jsvg is used to render the [SVG](https://en.wikipedia.org/wiki/SVG){:target="_blank"} visualizations of profiles.  
-While I had to introduce more custom code to handle the correct sizing of the [viewBox](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/viewBox){:target="_blank"} (i.e. the viewport of an SVG), the switch had the benefit of reducing the overall size of the entire ControllerBuddy folder by about 3 to 4 MB, depending on the platform.
+While I had to introduce more custom code to handle the correct sizing of the [viewBox](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/viewBox){:target="_blank"} (i.e., the viewport of an SVG), the switch had the benefit of reducing the overall size of the entire ControllerBuddy folder by about 3 to 4 MB, depending on the platform.
 
 Also, in fact just yesterday, I was very happily surprised with the first donation I received from a ControllerBuddy user, who pressed the donation button that I first introduced a few months ago.  
 I am so grateful for this wonderful gesture, as it perfectly validates the appreciation for the long hours I have poured into this project over the last decade. Thank you!

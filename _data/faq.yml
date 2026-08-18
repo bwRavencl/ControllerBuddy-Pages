@@ -185,8 +185,7 @@
       For aircraft that follow the [HOTAS](https://en.wikipedia.org/wiki/HOTAS){:target="_blank"} concept, this will already include almost everything needed to operate the aircraft and its systems.
       2. Now you can focus on additional bindings for convenience, such as:
       - Propeller and Mixture levers
-      - Sensor controls (e.g.
-      Radar and [FLIR](https://en.wikipedia.org/wiki/Forward-looking_infrared){:target="_blank"})
+      - Sensor controls (e.g., Radar and [FLIR](https://en.wikipedia.org/wiki/Forward-looking_infrared){:target="_blank"})
       - Countermeasure controls (Chaff, Flare and [ECM](https://en.wikipedia.org/wiki/Electronic_countermeasure){:target="_blank"}) 
 - title: Which steps are needed to create a profile?
   content: |
@@ -233,13 +232,11 @@
       Normally these mappings should be part of the *Default Mode*.
       However, exceptions can be made: in modern aircraft such as the F/A-18 Hornet, the flaps are only used during take-off and landing and in addition other functions such as the tailhook fall into the same category.
       Since we only have a limited number of gamepad buttons available it makes sense to put all of these functions only used during take-off and landing into a dedicated mode.
-      5. Add dedicated modes for special functions, e.g.
-      sensor controls.  
+      5. Add dedicated modes for special functions, e.g., sensor controls.  
       When assigning a gamepad button to a mode action, you have two options:
         - Toggle checked: this means that a single press of the button toggles the mode on, pressing it again toggles it off
         - Toggle unchecked: this means that the mode is only active for as long as you keep the button pressed down
-      In general, toggling is more useful for modes that should stay active for a longer period of time, e.g.
-      for a mode dedicated to operating sensor controls.
+      In general, toggling is more useful for modes that should stay active for a longer period of time, e.g., for a mode dedicated to operating sensor controls.
       6. In rare cases it may be useful to have certain axes or buttons double-bound within a mode, even for unrelated functions.
       For example, in my profiles I often double-bind the gamepad triggers for left and right braking, as well as for dropping weapons and firing the gun.  
       This is possible because when you are on the ground (when it makes sense to use the brakes), the weapon systems are turned off, so pulling the trigger has no effect at that point.
@@ -309,8 +306,7 @@
       1. **Automated Configuration:** A PowerShell script (`Configure.ps1`) is included that automates the entire configuration process.  
       For detailed instructions on executing configuration scripts, please consult [these instructions](https://github.com/bwRavencl/ControllerBuddy-Profiles?tab=readme-ov-file#-powershell-script){:target="_blank"}.  
       **Tip:** It is highly recommended to use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, as it can automatically invoke these configuration scripts for you.
-      2. **Configuration Files:** Configuration files (e.g.
-      `.ini` or `.cfg`) are provided to be integrated into the game's specific directories.  
+      2. **Configuration Files:** Configuration files (e.g., `.ini` or `.cfg`) are provided to be integrated into the game's specific directories.  
       **Note:** These files typically contain only the specific sections required for the profile (such as input or keybinding blocks).
       These snippets must be manually added to or merged with the game's existing configuration files rather than replacing them entirely.
       3. **Screenshots:** Screenshots are provided to guide you through applying the settings manually within the game's menus.
