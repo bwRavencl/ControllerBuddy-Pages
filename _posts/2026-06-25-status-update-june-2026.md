@@ -4,13 +4,13 @@ title: June 2026 Status Update
 date: 2026-06-25 23:00:00 +0200
 ---
 
-### Sun, Sweat, and Status Reports
+### Sun, Sweat, and Status Reports <!-- markdownlint-disable-line heading-increment -->
 
 With a major heatwave currently sweeping across Central Europe, summer is well and truly here. But despite the sweltering temperatures, I am keeping up with my resolution to post regular updates on the development of ControllerBuddy. Here is a look at the most important news and changes from June and the better part of May 2026.
 
 ### Assignments Tab Overhaul
 
-In the [May 2026 Status Update](#news/status-update-may-2026){:target="_blank"}, I reported on the refinements I worked on for the *Component Editor*. During the last few weeks, I took it upon myself to overhaul the *Assignments* tab.
+In the [May 2026 Status Update](/#blog/status-update-may-2026){:target="_blank"}, I reported on the refinements I worked on for the *Component Editor*. During the last few weeks, I took it upon myself to overhaul the *Assignments* tab.
 
 While the overall layout and functionality did not change, the aesthetics changed quite a bit. Although the old look was very functional, it clearly lacked the outline of a controller.  
 The previous iteration of this central part of the user interface was introduced in 2018. At that time, ControllerBuddy did not yet have a userbase to speak of. Consequently, looks were really not that important back then. In fact, at that point in time, ControllerBuddy did not even use the [FlatLaf](https://www.formdev.com/flatlaf/){:target="_blank"} Look And Feel, which was introduced during 2019.

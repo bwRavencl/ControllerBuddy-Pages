@@ -3,6 +3,7 @@ title: ControllerBuddy
 layout: index
 ---
 
+<!-- markdownlint-disable-file no-inline-html -->
 ## Welcome
 
 <div class="welcome-section slide-in-right">
@@ -43,25 +44,25 @@ layout: index
   <div class="splide__track">
     <ul class="splide__list">
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/visualization_tab.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/visualization_tab.png" alt="Visualization Tab">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png" alt="Overlay and On-Screen Keyboard">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/modes_tab.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/modes_tab.png" alt="Modes Tab">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/assignments_tab.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/assignments_tab.png" alt="Assignments Tab">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/component_editor_button.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/component_editor_button.png" alt="Component Editor (Button)">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/component_editor_axis.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/component_editor_axis.png" alt="Component Editor (Axis)">
       </li>
       <li class="splide__slide">
-        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_tab_dark_theme.png">
+        <img src="https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_tab_dark_theme.png" alt="Overlay Tab (Dark Theme)">
       </li>
     </ul>
   </div>
@@ -91,6 +92,7 @@ Watch these videos to learn how to set up ControllerBuddy, explore its core feat
 </center>
 
 {% if site.posts.size > 0 %}
+
 ## Blog
 
 {% for post in site.posts %}

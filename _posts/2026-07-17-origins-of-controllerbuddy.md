@@ -4,7 +4,7 @@ title: The Origins of ControllerBuddy
 date: 2026-07-17 20:00:00 +0200
 ---
 
-### Looking Back
+### Looking Back <!-- markdownlint-disable-line heading-increment -->
 
 While so far I have mainly posted development updates, today I felt like doing a different kind of post.  
 
@@ -26,6 +26,7 @@ Often, I would accompany him to the flying field and watch him fly them.
 Shortly before turning seven, I got my [first PC](http://kath-rottal.homeunix.org/computermuseum/Computer/Nixdorf/Nixdorf%208810%20M45/slides/Nixdorf%208810%20M45%20(1).html){:target="_blank"}, with an [Intel 486 DX2-66](https://en.wikipedia.org/wiki/I486){:target="_blank"} running [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS){:target="_blank"} 6.22.  
 Given my interest in aviation, I quickly got into flight simulators, starting with classic titles such as:
 
+<!-- markdownlint-disable no-inline-html -->
 <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30ch), 1fr)); gap: 0.5rem 2.5rem; margin: 1rem 0; padding-left: 1.2rem">
   <li><a href="https://www.mobygames.com/game/228/secret-weapons-of-the-luftwaffe/" target="_blank">Secret Weapons of the Luftwaffe</a></li>
   <li><a href="https://www.mobygames.com/game/4226/air-duel-80-years-of-dogfighting/" target="_blank">Dogfight: 80 Years of Aerial Warfare</a></li>
@@ -38,6 +39,7 @@ Given my interest in aviation, I quickly got into flight simulators, starting wi
   <li><a href="https://www.mobygames.com/game/2904/su-27-flanker/" target="_blank">Su-27 Flanker</a></li>
   <li><a href="https://www.mobygames.com/game/4540/fleet-defender/" target="_blank">Fleet Defender</a></li>
 </ul>
+<!-- markdownlint-enable no-inline-html -->
 
 At first, I was using a simple, two-axis, two-button joystick called the [InterAct PC Mission](https://web.archive.org/web/20260716125243/https://i.ebayimg.com/images/g/FDIAAOSwwxFl0fcC/s-l1600.jpg){:target="_blank"}, which I got for my birthday.  
 After it broke, I was upgraded to an original [Logitech WingMan](https://www.dosdays.co.uk/media/logitech/wingman_2.png){:target="_blank"}, which even featured a small thumbwheel for throttle control!
@@ -63,6 +65,7 @@ At the same time, for traditional flight simulators, I was using the legendary [
 It was a great device for its time, but it had a very limited number of buttons and switches.  
 Some of the sims I was flying around that time were:
 
+<!-- markdownlint-disable no-inline-html -->
 <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30ch), 1fr)); gap: 0.5rem 2.5rem; margin: 1rem 0; padding-left: 1.2rem">
   <li><a href="https://www.mobygames.com/game-group/microsoft-flight-simulator-series" target="_blank">Microsoft Flight Simulator series</a></li>
   <li><a href="https://www.mobygames.com/game/1675/microsoft-combat-flight-simulator-wwii-europe-series//" target="_blank">Microsoft Combat Flight Simulator</a></li>
@@ -72,6 +75,7 @@ Some of the sims I was flying around that time were:
   <li><a href="https://www.mobygames.com/group/8345/wings-over-series/" target="_blank">Wings over Vietnam / Europe</a></li>
   <li><a href="https://www.mobygames.com/group/6348/x-plane-series/" target="_blank">X-Plane 8 / 9</a></li>
 </ul>
+<!-- markdownlint-enable no-inline-html -->
 
 During the late 2000s, I got my first [HOTAS](https://en.wikipedia.org/wiki/HOTAS){:target="_blank"} setups: first a second-hand [Saitek X36](https://www.combatsim.com/htm/nov99/x36-usb.htm){:target="_blank"} from eBay, and then a [Saitek X52](https://en.wikipedia.org/wiki/Saitek_X52){:target="_blank"}.
 Being second-hand, the X36 was already a bit worn out and broke down after a few months of use.
@@ -109,6 +113,7 @@ This meant I could run it on my Macbook, but I couldn't control it the way I wan
 So, I came up with a plan to take what I had built specifically for X-Plane, split it up into generic building blocks, and make it universally usable with every simulator.
 
 The central goals for my new project were:
+
 1. Support any flight simulator running on Windows.
 2. Support any game controller on any host operating system (in my case, OS X).
 3. Provide a graphical user interface to build and edit profiles.

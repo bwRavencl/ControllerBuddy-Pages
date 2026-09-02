@@ -4,7 +4,7 @@ title: Looking Back at 2025 - Progress and Milestones
 date: 2025-12-07 16:00:00 +0100
 ---
 
-### The News Section Debuts!
+### The News Section Debuts! <!-- markdownlint-disable-line heading-increment -->
 
 A long-term goal since ControllerBuddy's inception 11 years ago has been to make it more accessible and better documented. While the software was always perfectly usable, the addition of the website, tutorial videos, and install script over the past years have steadily made it easier for a wider audience to set it up. As a direct result, the number of users from all over the world has steadily increased over the last few years.
 
@@ -88,7 +88,7 @@ I am so grateful for this wonderful gesture, as it perfectly validates the appre
 With my switch to Linux, I also started documenting how I personally set up my flight simulators on Linux with Proton in conjunction with ControllerBuddy.  
 At first, I only created rough notes intended to allow me to easily reproduce my results in the future. Recently, I decided to start turning these notes into fine, detailed guides that, in the future, other people will be able to follow to start simming on Linux *the ControllerBuddy way*.
 
-### Thank You and Happy Holidays!
+### Thank You and Happy Holidays
 
 Thank you for using ControllerBuddy, for following its journey, and for reading this annual review.  
 I look forward to sharing more updates with you in the new year.  

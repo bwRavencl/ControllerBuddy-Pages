@@ -4,7 +4,7 @@ title: August 2026 Status Update
 date: 2026-08-12 13:00:00 +0200
 ---
 
-### What's New in ControllerBuddy
+### What's New in ControllerBuddy <!-- markdownlint-disable-line heading-increment -->
 
 As the first half of August already comes to a close, it is time for another status update on the development of ControllerBuddy.
 Since the last regular update at the end of June, quite a few developments have piled up.
