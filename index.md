@@ -3,7 +3,7 @@ title: ControllerBuddy
 layout: index
 ---
 
-<!-- markdownlint-disable-file no-inline-html -->
+<!-- markdownlint-disable-file line-length no-inline-html -->
 ## Welcome
 
 <div class="welcome-section slide-in-right">

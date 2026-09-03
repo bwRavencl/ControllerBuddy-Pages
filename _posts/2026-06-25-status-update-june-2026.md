@@ -4,6 +4,7 @@ title: June 2026 Status Update
 date: 2026-06-25 23:00:00 +0200
 ---
 
+<!-- markdownlint-disable-file line-length -->
 ### Sun, Sweat, and Status Reports <!-- markdownlint-disable-line heading-increment -->
 
 With a major heatwave currently sweeping across Central Europe, summer is well and truly here. But despite the sweltering temperatures, I am keeping up with my resolution to post regular updates on the development of ControllerBuddy. Here is a look at the most important news and changes from June and the better part of May 2026.

@@ -4,6 +4,7 @@ title: February 2026 Status Update
 date: 2026-02-14 00:00:30 +0100
 ---
 
+<!-- markdownlint-disable-file line-length -->
 ### A New Year, New Updates <!-- markdownlint-disable-line heading-increment -->
 
 How time flies... we are now well into February, and it has already been a busy start to the year. Since my last post in early December, I have been working on several updates and improvements to ControllerBuddy and its broader ecosystem, the details of which I would like to share here.

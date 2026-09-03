@@ -4,6 +4,7 @@ title: May 2026 Status Update
 date: 2026-05-04 19:10:00 +0200
 ---
 
+<!-- markdownlint-disable-file line-length -->
 ### Aloha! <!-- markdownlint-disable-line heading-increment -->
 
 It has been a few months since the February update, and while the weather is warming up, the development pace for ControllerBuddy hasn't cooled down.

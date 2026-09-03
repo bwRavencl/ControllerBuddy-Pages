@@ -4,6 +4,7 @@ title: Looking Back at 2025 - Progress and Milestones
 date: 2025-12-07 16:00:00 +0100
 ---
 
+<!-- markdownlint-disable-file line-length -->
 ### The News Section Debuts! <!-- markdownlint-disable-line heading-increment -->
 
 A long-term goal since ControllerBuddy's inception 11 years ago has been to make it more accessible and better documented. While the software was always perfectly usable, the addition of the website, tutorial videos, and install script over the past years have steadily made it easier for a wider audience to set it up. As a direct result, the number of users from all over the world has steadily increased over the last few years.

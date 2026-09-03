@@ -4,6 +4,7 @@ title: The Origins of ControllerBuddy
 date: 2026-07-17 20:00:00 +0200
 ---
 
+<!-- markdownlint-disable-file line-length -->
 ### Looking Back <!-- markdownlint-disable-line heading-increment -->
 
 While so far I have mainly posted development updates, today I felt like doing a different kind of post.  
