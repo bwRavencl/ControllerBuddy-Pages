@@ -10,11 +10,11 @@ To learn more about ControllerBuddy, visit the site at [controllerbuddy.org](htt
 
 To test the site locally, follow these steps:
 
-1. Install [Ruby](https://www.ruby-lang.org) and [Bundler](https://bundler.io)
+1. Install [Ruby](https://www.ruby-lang.org) and [Bundler](https://bundler.io).
 2. Configure Bundler to install gems locally:
 
     ```sh
-    bundle config set --local path 'vendor/bundle'
+    bundle config set --local path vendor/bundle
     ```
 
 3. Install the required gems:
@@ -26,10 +26,10 @@ To test the site locally, follow these steps:
 4. Serve the site locally:
 
     ```sh
-    bundle exec jekyll serve --baseurl=""
+    bundle exec jekyll serve --baseurl=''
     ```
 
-5. Open your web browser and navigate to `http://localhost:4000` to view the site.
+5. Open your web browser and navigate to <http://localhost:4000> to view the site.
 
 ## ⚖️ License
 
