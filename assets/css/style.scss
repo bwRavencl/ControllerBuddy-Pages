@@ -202,6 +202,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.25em 1.5em;
     border-radius: 32px;
     color: rgba(255,255,255,0.8);
+    font-weight: bold;
 
     &+.btn {
         @extend %btn-common;
