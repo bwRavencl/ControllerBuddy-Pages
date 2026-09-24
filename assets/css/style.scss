@@ -283,8 +283,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes toc-grow {
-    from { font-size: 0%; }
-    to { font-size: large; }
+    from {
+        font-size: 0%;
+    }
+
+    to {
+        font-size: large;
+    }
 }
 
 .toc {
