@@ -58,6 +58,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+code {
+    backdrop-filter: invert(75%);
+    background-color: rgba(96, 96, 96, 0.5);
+    color:$bright-blue
+}
+
 .bordered {
     border-radius: 12px;
 
