@@ -73,7 +73,7 @@
       This is especially useful for relative axes, for example it is very hard to tell the current throttle setting without such an indication.
       The overlay can be freely moved around the screen and configured to include only indicators for certain axes of interest.
 
-      ControllerBuddy also provides a special mode in which an **on-screen-keyboard** is displayed that can be controlled via specialized actions.
+      ControllerBuddy also provides a special mode in which an **On-Screen Keyboard** is displayed that can be controlled via specialized actions.
       This is helpful when you want to type in chat messages without having to rely on a physical keyboard.  
       Since the required inputs vary greatly from simulator to simulator and even from aircraft to aircraft, a custom tailored profile for each simulator, and in case of complex titles such as DCS for each aircraft, is necessary.
       These profiles can be edited within ControllerBuddy and be permanently stored as files on your computer.
