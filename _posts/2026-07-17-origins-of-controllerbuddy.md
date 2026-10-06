@@ -33,7 +33,7 @@ Given my interest in aviation, I quickly got into flight simulators, starting wi
   <li><a href="https://www.mobygames.com/game/4226/air-duel-80-years-of-dogfighting/" target="_blank">Dogfight: 80 Years of Aerial Warfare</a></li>
   <li><a href="https://www.mobygames.com/game/773/tfx/" target="_blank">TFX</a></li>
   <li><a href="https://www.mobygames.com/game/1674/microsoft-flight-simulator-v50/" target="_blank">Microsoft Flight Simulator 5.0</a></li>
-  <li><a href="https://www.mobygames.com/game/9967/shuttle-the-space-flight-simulator//" target="_blank">Shuttle: The Space Flight Simulator</a></li>
+  <li><a href="https://www.mobygames.com/game/9967/shuttle-the-space-flight-simulator/" target="_blank">Shuttle: The Space Flight Simulator</a></li>
   <li><a href="https://www.mobygames.com/game/23350/mig-29-fulcrum/" target="_blank">MiG-29 Fulcrum</a></li>
   <li><a href="https://www.mobygames.com/game/1766/red-baron/" target="_blank">Red Baron</a></li>
   <li><a href="https://www.mobygames.com/game/1739/apache/" target="_blank">Apache</a></li>
