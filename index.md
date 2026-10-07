@@ -95,14 +95,21 @@ Watch these videos to learn how to set up ControllerBuddy, explore its core feat
 
 ## Blog
 
-{% for post in site.posts %}
+<div class="blog-container">
+  <input type="checkbox" id="post-list-toggle" class="post-list-toggle" />
+
   <ul class="post-list">
-    <li class="post-item">
+    {% for post in site.posts %}
+      <li class="post-item">
         <a class="post-link" onclick="openViewer(event, '{{ post.url | relative_url | remove_first: "/" | escape }}')">{{ post.title }}</a>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-    </li>
+      </li>
+    {% endfor %}
   </ul>
-{% endfor %}
+
+  <label for="post-list-toggle" class="toggle-btn"></label>
+</div>
+
 {% endif %}
 
 ## FAQ
