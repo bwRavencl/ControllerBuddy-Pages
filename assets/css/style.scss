@@ -640,6 +640,7 @@ code {
     z-index: 2;
     padding: unset !important;
     border: unset !important;
+    background: unset;
 
     @media only screen and (orientation: landscape) {
         width: 80%;
