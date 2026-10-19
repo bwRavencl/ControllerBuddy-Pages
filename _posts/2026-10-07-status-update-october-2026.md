@@ -5,6 +5,7 @@ date: 2026-10-07 02:00:00 +0200
 ---
 
 <!-- markdownlint-disable-file line-length -->
+
 ### Falling Leaves and Fresh Features <!-- markdownlint-disable-line heading-increment -->
 
 How time flies, we are already well into autumn, and it has been almost two months since my last post.

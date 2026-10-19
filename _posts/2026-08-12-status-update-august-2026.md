@@ -5,6 +5,7 @@ date: 2026-08-12 13:00:00 +0200
 ---
 
 <!-- markdownlint-disable-file line-length -->
+
 ### What's New in ControllerBuddy <!-- markdownlint-disable-line heading-increment -->
 
 As the first half of August already comes to a close, it is time for another status update on the development of ControllerBuddy.
