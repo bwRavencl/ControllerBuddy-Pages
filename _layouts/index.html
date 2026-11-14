@@ -215,7 +215,7 @@ layout: default
     } else if (hash_path?.match(blog_regex)) {
       relative_path = hash_path.match(blog_regex)?.at(0);
       openViewer(event, relative_path); 
-    } else if (event?.type === 'popstate' || hash_path === '') {
+    } else if (event?.type === 'popstate') {
       closeViewer(event);
     }
   }
