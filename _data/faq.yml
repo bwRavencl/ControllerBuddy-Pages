@@ -272,7 +272,8 @@
       Configuration of the games for usage with the profiles can be performed automatically for the most part by allowing the install script to run the corresponding configuration scripts.  
       If you encounter configuration issues, you can re-run these scripts at any time by clicking the *Update ControllerBuddy* shortcut.
       - **Flatpak:** If you are on Linux and use the [ControllerBuddy-Flatpak](https://github.com/bwRavencl/ControllerBuddy-Flatpak){:target="_blank"}, then you already have the profiles as they are distributed as part of the Flatpak.  
-      The profiles can be found under `/app/share/ControllerBuddy-Profiles` from within the Flatpak container.
+      The profiles can be found under `/app/share/ControllerBuddy-Profiles` from within the Flatpak container.  
+      This location is read-only, so save modified profiles to a different folder.
       - **Manual Download:** You can also manually download the latest versions of all profiles as a ZIP package [here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
 
       **Hint:** Remember that it is not enough to simply load a profile in ControllerBuddy.
