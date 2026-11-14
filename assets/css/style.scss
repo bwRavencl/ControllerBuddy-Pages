@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 code {
     backdrop-filter: invert(75%);
     background-color: rgba(96, 96, 96, 0.5);
-    color:$bright-blue
+    color: $bright-blue;
 }
 
 .bordered {
@@ -93,7 +93,7 @@ code {
     to {
         opacity: 1;
         transform: translateX(0%);
-        filter: unset
+        filter: unset;
     }
 }
 
@@ -107,7 +107,7 @@ code {
     to {
         opacity: 1;
         transform: translateX(0%);
-        filter: unset
+        filter: unset;
     }
 }
 
@@ -121,7 +121,7 @@ code {
     to {
         opacity: 1;
         transform: translateY(0%);
-        filter: unset
+        filter: unset;
     }
 }
 
@@ -257,7 +257,7 @@ code {
     }
 
     @media (prefers-color-scheme: dark) {
-        color: black
+        color: black;
     }
 }
 
@@ -463,7 +463,7 @@ code {
     color: #0b0d33;
     font-family: "Sriracha", cursive;
     font-size: 14pt;
-    margin: 1em
+    margin: 1em;
 }
 
 .note-box {
