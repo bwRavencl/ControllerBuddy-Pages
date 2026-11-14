@@ -70,6 +70,7 @@ layout: default
   const viewerIframe = document.getElementById('viewer-iframe');
   const documentClickListener = (event) => closeViewer();
   const viewerContentResizeObserver = new ResizeObserver(() => fitViewerToContent());
+  let closeViewerTimeout = null;
 
   function fitViewerToContent() {
     let contentElement;
@@ -146,6 +147,7 @@ layout: default
 
   function openViewer(event, relative_path) {
     event?.stopPropagation();
+    clearTimeout(closeViewerTimeout);
     if (relative_path.startsWith('blog/')) {
       viewerDialog.classList.add('viewer-dialog-tall');
     } else {
@@ -177,7 +179,8 @@ layout: default
     document.removeEventListener('click', documentClickListener);
     viewerDialog.classList.remove('fade-in');
     viewerDialog.classList.toggle('fade-out', true);
-    setTimeout(() => {
+    clearTimeout(closeViewerTimeout);
+    closeViewerTimeout = setTimeout(() => {
         viewerContentResizeObserver.disconnect();
         viewerDialog.close();
         viewerDialog.style.height = '';
