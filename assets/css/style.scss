@@ -436,7 +436,7 @@ code {
     transform: rotate(55deg);
     transform-origin: 100% 100%;
     border-radius: 0 0 40% 40%;
-    background: linear-gradient(to right, $pin-dark, 30%, $pin-color, 90% $pin-light);
+    background: linear-gradient(to right, $pin-dark, 30%, $pin-color, 90%, $pin-light);
 }
 
 .bottom-circle::after {
