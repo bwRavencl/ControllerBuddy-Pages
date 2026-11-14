@@ -115,6 +115,12 @@ layout: default
     }
   });
 
+  const postTitles = {
+    {%- for post in site.posts %}
+    {{ post.url | relative_url | remove_first: "/" | jsonify }}: {{ post.title | jsonify }},
+    {%- endfor %}
+  };
+
   function toTitleCase(str) {
     const minorWords = [
       'a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'in', 'nor', 'of', 'on', 'or', 'so', 'the', 'to', 'up', 'yet'
@@ -156,7 +162,8 @@ layout: default
     if (relative_path.startsWith('profiles/')) {
       document.title = '{{ site.title }} | ' + decodeURIComponent(relative_path).replace(/^profiles\//, '').replace(/\.html$/, '').replaceAll('_', ' ');
     } else if (relative_path.startsWith('blog/')) {
-      document.title = '{{ site.title }} | ' + toTitleCase(relative_path.replace(/^blog\//, '').replaceAll('-', ' '));
+      const postTitle = postTitles[relative_path.replace(/\/$/, '')];
+      document.title = '{{ site.title }} | ' + (postTitle ?? toTitleCase(relative_path.replace(/^blog\//, '').replace(/\/$/, '').replaceAll('-', ' ')));
     }
   }
 
