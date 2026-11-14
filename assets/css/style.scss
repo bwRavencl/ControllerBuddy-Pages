@@ -261,6 +261,13 @@ code {
     }
 }
 
+// match the viewer iframe's dark background when a post is opened directly
+body:has(> .post-wrapper) {
+    @media (prefers-color-scheme: dark) {
+        background-color: $svg-gray;
+    }
+}
+
 .main-content {
     @media screen and (min-width: 85rem) {
         max-width: $main-content-width;
