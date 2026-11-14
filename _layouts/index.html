@@ -69,6 +69,51 @@ layout: default
   const viewerDialog = document.getElementById('viewer-dialog');
   const viewerIframe = document.getElementById('viewer-iframe');
   const documentClickListener = (event) => closeViewer();
+  const viewerContentResizeObserver = new ResizeObserver(() => fitViewerToContent());
+
+  function fitViewerToContent() {
+    let contentElement;
+    try {
+      contentElement = viewerIframe.contentDocument?.documentElement;
+    } catch (e) {
+      return;
+    }
+    if (!contentElement || viewerIframe.contentWindow.location.href === 'about:blank') {
+      return;
+    }
+
+    // reset to the maximum height defined by the stylesheet
+    viewerDialog.style.height = '';
+    const maxDialogHeight = viewerDialog.clientHeight;
+    const iframeStyle = getComputedStyle(viewerIframe);
+    const iframeViewportHeight = viewerIframe.clientHeight - parseFloat(iframeStyle.paddingTop) - parseFloat(iframeStyle.paddingBottom);
+    const iframeHeightRatio = parseFloat(iframeStyle.height) / maxDialogHeight;
+    const contentHeight = Math.ceil(contentElement.getBoundingClientRect().height) + 1;
+    const requiredDialogHeight = maxDialogHeight + (contentHeight - iframeViewportHeight) / iframeHeightRatio;
+
+    if (requiredDialogHeight < maxDialogHeight) {
+      viewerDialog.style.height = Math.ceil(requiredDialogHeight) + 'px';
+    }
+  }
+
+  viewerIframe.addEventListener('load', () => {
+    viewerContentResizeObserver.disconnect();
+    try {
+      const contentElement = viewerIframe.contentDocument?.documentElement;
+      if (contentElement) {
+        viewerContentResizeObserver.observe(contentElement);
+      }
+    } catch (e) {
+      // cross-origin content cannot be measured, keep the default height
+    }
+    fitViewerToContent();
+  });
+
+  window.addEventListener('resize', () => {
+    if (viewerDialog.open) {
+      fitViewerToContent();
+    }
+  });
 
   function toTitleCase(str) {
     const minorWords = [
@@ -94,6 +139,7 @@ layout: default
     } else {
       viewerDialog.classList.remove('viewer-dialog-tall');
     }
+    viewerDialog.style.height = '';
     viewerIframe.contentWindow.location.replace(relative_path);
     viewerDialog.showModal();
     viewerDialog.classList.remove('fade-out');
@@ -119,7 +165,9 @@ layout: default
     viewerDialog.classList.remove('fade-in');
     viewerDialog.classList.toggle('fade-out', true);
     setTimeout(() => {
+        viewerContentResizeObserver.disconnect();
         viewerDialog.close();
+        viewerDialog.style.height = '';
         viewerIframe.contentWindow.location = 'about:blank';
     }, 500);
     if (event?.type === 'popstate' && location.hash) {
