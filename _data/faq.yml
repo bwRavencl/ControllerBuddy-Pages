@@ -341,7 +341,7 @@
   content: |
       By default, KDE has pointer acceleration enabled, which can cause the mouse cursor to feel overly sensitive.  
       To disable pointer acceleration, follow these steps:
-      1. Start ControllerBuddy and make sure, the
+      1. Start ControllerBuddy and make sure local input-output is running by selecting 'Run' -> 'Local' from the menu.
       2. Open the KDE 'System Settings' application.
       3. In the left sidebar, select 'Mouse & Touchpad'.
       4. In the 'Mouse' section, choose 'ControllerBuddy Mouse' from the 'Device' dropdown menu.
