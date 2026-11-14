@@ -306,10 +306,15 @@
       Depending on the profile, exactly **one** of the following three options will be provided for configuration:
 
       1. **Automated Configuration:** A PowerShell script (`Configure.ps1`) is included that automates the entire configuration process.  
-      For detailed instructions on executing configuration scripts, please consult [these instructions](https://github.com/bwRavencl/ControllerBuddy-Profiles?tab=readme-ov-file#-powershell-script){:target="_blank"}.  
-      **Tip:** It is highly recommended to use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, as it can automatically invoke these configuration scripts for you.
-      2. **Configuration Files:** Configuration files (e.g., `.ini` or `.cfg`) are provided to be integrated into the game's specific directories.  
-      **Note:** These files typically contain only the specific sections required for the profile (such as input or keybinding blocks).
+      For detailed instructions on executing configuration scripts, please consult [these instructions](https://github.com/bwRavencl/ControllerBuddy-Profiles?tab=readme-ov-file#-powershell-script){:target="_blank"}.
+
+          **Windows Users:** It is highly recommended to use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, as it can automatically invoke these configuration scripts for you.  
+      
+          **Flatpak Users:** The [ControllerBuddy-Flatpak](https://github.com/bwRavencl/ControllerBuddy-Flatpak){:target="_blank"} includes wrapper scripts that automatically run the configuration script when launching a Proton game.
+      
+      2. **Configuration Files:** Configuration files (e.g., `.ini` or `.cfg`) are provided to be integrated into the game's specific directories.
+      
+          **Note:** These files typically contain only the specific sections required for the profile (such as input or keybinding blocks).
       These snippets must be manually added to or merged with the game's existing configuration files rather than replacing them entirely.
       3. **Screenshots:** Screenshots are provided to guide you through applying the settings manually within the game's menus.
 
