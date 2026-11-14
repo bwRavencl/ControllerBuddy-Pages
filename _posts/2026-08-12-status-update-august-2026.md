@@ -23,7 +23,7 @@ Then, on August 4th, [1C Game Studios](https://1cgs.net/en){:target="_blank"} re
 Over the following weekend, I began building the corresponding ControllerBuddy profile.
 Fortunately, the existing configuration script for [IL-2 Great Battles](https://il2sturmovik.com/){:target="_blank"} was easily adaptable to IL-2 Korea.  
 Thanks to a fellow [Linux user](https://github.com/silv3rshi3ld){:target="_blank"} who devised a [patch](https://github.com/HansKristian-Work/vkd3d-proton/pull/3202){:target="_blank"} for [vkd3d-proton](https://github.com/HansKristian-Work/vkd3d-proton){:target="_blank"} to fix initial terrain rendering issues, IL-2 Korea now runs flawlessly on my Linux setup, and I have been thoroughly enjoying it.  
-For the Linux-users among you, I already published [a guide](https://github.com/bwRavencl/ControllerBuddy-Linux-Guides/blob/master/IL-2_Korea.md) for setting up the Steam version IL-2 Korea on Linux for usage with ControllerBuddy as part of my [ControllerBuddy-Linux-Guides](https://github.com/bwRavencl/ControllerBuddy-Linux-Guides){:target="_blank"} collection.
+For the Linux users among you, I already published [a guide](https://github.com/bwRavencl/ControllerBuddy-Linux-Guides/blob/master/IL-2_Korea.md) for setting up the Steam version of IL-2 Korea on Linux for usage with ControllerBuddy as part of my [ControllerBuddy-Linux-Guides](https://github.com/bwRavencl/ControllerBuddy-Linux-Guides){:target="_blank"} collection.
 
 I particularly appreciate what 1C did with the new *Multimenu* - it greatly improves controller usability in general and integrates seamlessly with ControllerBuddy.
 The menu is ideal for secondary commands that are rarely used during flight, eliminating the need for dedicated ControllerBuddy bindings.
@@ -80,7 +80,7 @@ Best of all, this change was entirely server-side and required no modifications 
 ### Preventing Null Pointer Exceptions
 
 To continuously improve code quality and safety, I integrated [JSpecify](https://jspecify.dev/){:target="_blank"} annotations throughout the entire codebase.
-This was a sizeable effort, but well worth it: in combination with static analysis tools like [NullAway](https://github.com/uber/NullAway){:target="_blank"}, this makes the code more robust and maintainable while helping elimina a number of redundant null checks that had accumulated over the years.
+This was a sizeable effort, but well worth it: in combination with static analysis tools like [NullAway](https://github.com/uber/NullAway){:target="_blank"}, this makes the code more robust and maintainable while helping eliminate a number of redundant null checks that had accumulated over the years.
 
 ### Mode Switching Improvements
 
