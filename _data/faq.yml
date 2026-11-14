@@ -268,17 +268,17 @@
       An extensive collection of official profiles for various flight simulators is maintained in the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"} GitHub repository.
 
       Getting these profiles:
-      - **Automatic Installation:** If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, the profiles are already in your Documents folder.  
+      - **Install-Script:** If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, the profiles are already in your Documents folder.  
       Configuration of the games for usage with the profiles can be performed automatically for the most part by allowing the install script to run the corresponding configuration scripts.  
       If you encounter configuration issues, you can re-run these scripts at any time by clicking the *Update ControllerBuddy* shortcut.
-      - **Manual Download:** You can manually download the latest versions of all profiles as a ZIP package [here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
-
-      **Warning:** When you click the *Update ControllerBuddy* shortcut, the script automatically updates all official profiles.
-      To prevent your custom changes from being overwritten, always save personal or modified profiles in a separate folder.
+      - **Flatpak:** If you are on Linux and use the [ControllerBuddy-Flatpak](https://github.com/bwRavencl/ControllerBuddy-Flatpak){:target="_blank"}, then you already have the profiles as they are distributed as part of the Flatpak.  
+      The profiles can be found under `/app/share/ControllerBuddy-Profiles` from within the Flatpak container.
+      - **Manual Download:** You can also manually download the latest versions of all profiles as a ZIP package [here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
 
       **Hint:** Remember that it is not enough to simply load a profile in ControllerBuddy.
       Each game must be configured correctly for the profile to work.  
       Follow the instructions in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} for instructions on how to configure your games for usage with the profiles.  
+      Users of the Flatpak should consult the [ControllerBuddy-Linux-Guides](https://github.com/bwRavencl/ControllerBuddy-Linux-Guides){:target="_blank"} on the topic of game configuration under Linux.
 
       It is recommended to check out the layout for each profile, either in ControllerBuddy's visualization tab after loading the profile, or [below](#profiles) on this website.
 - title: Why is it necessary to configure a game for ControllerBuddy?
