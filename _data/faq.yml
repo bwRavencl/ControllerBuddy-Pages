@@ -78,7 +78,7 @@
       Since the required inputs vary greatly from simulator to simulator and even from aircraft to aircraft, a custom tailored profile for each simulator, and in case of complex titles such as DCS for each aircraft, is necessary.
       These profiles can be edited within ControllerBuddy and be permanently stored as files on your computer.
 
-      [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png)
+      [![Overlay](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png)](https://raw.githubusercontent.com/bwRavencl/ControllerBuddy/master/screenshots/overlay_and_osk.png){:target="_blank"}
 - title: How do modes (shift-states) work?
   content: |
       **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad.
@@ -383,7 +383,7 @@
       For more information check out [ControllerBuddy-DCS-Integration](https://github.com/bwRavencl/ControllerBuddy-DCS-Integration){:target="_blank"}, an exemplary integration of ControllerBuddy into [DCS World](https://www.digitalcombatsimulator.com){:target="_blank"}.
 - title: Why are updates released so frequently?
   content: |
-      ControllerBuddy uses a [rolling release](https://en.wikipedia.org/wiki/Rolling_release) model, which means that updates are released as soon as they are ready.
+      ControllerBuddy uses a [rolling release](https://en.wikipedia.org/wiki/Rolling_release){:target="_blank"} model, which means that updates are released as soon as they are ready.
       This approach allows users to benefit from new features, improvements, and bug fixes as soon as possible, without having to wait for a major release.
 
       While often changes are minor and just include updates to dependencies, bug fixes, and small improvements, some releases may include new features or significant changes.

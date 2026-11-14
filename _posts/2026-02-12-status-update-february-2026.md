@@ -44,7 +44,7 @@ I have implemented packaging optimizations that reduced the overall size of the 
 
 #### Wayland Support
 
-I have begun work on native [Wayland](https://wayland.freedesktop.org/) support for Linux, leveraging the [JetBrains Runtime](https://github.com/JetBrains/JetBrainsRuntime){:target="_blank"}. This is an ongoing effort, and you can track the current progress and technical milestones in a dedicated [GitHub issue](https://github.com/bwRavencl/ControllerBuddy/issues/485){:target="_blank"}. While ControllerBuddy currently works well on Wayland via XWayland, native support remains a long-term goal that depends on developments within the Wayland, JetBrains Runtime, and [Wakefield](https://openjdk.org/projects/wakefield){:target="_blank"} projects.
+I have begun work on native [Wayland](https://wayland.freedesktop.org/){:target="_blank"} support for Linux, leveraging the [JetBrains Runtime](https://github.com/JetBrains/JetBrainsRuntime){:target="_blank"}. This is an ongoing effort, and you can track the current progress and technical milestones in a dedicated [GitHub issue](https://github.com/bwRavencl/ControllerBuddy/issues/485){:target="_blank"}. While ControllerBuddy currently works well on Wayland via XWayland, native support remains a long-term goal that depends on developments within the Wayland, JetBrains Runtime, and [Wakefield](https://openjdk.org/projects/wakefield){:target="_blank"} projects.
 
 ### New Profiles and Install Script Improvements
 

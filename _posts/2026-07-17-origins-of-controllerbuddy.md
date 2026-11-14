@@ -100,7 +100,7 @@ Using the left stick's Y-axis for throttle control was no longer a problem in Wa
 Crucially, it was also possible to use modifiers to bind the look axes onto the same stick.
 While you cannot compare War Thunder with a more sophisticated simulator like DCS, the basic layout behind all ControllerBuddy profiles today was established right then.
 
-After spending a few months with War Thunder, I wanted to get back into traditional flight simulators - especially [X-Plane 10](https://www.mobygames.com/game/60600/x-plane-10-global-edition/), which I had used for years.
+After spending a few months with War Thunder, I wanted to get back into traditional flight simulators - especially [X-Plane 10](https://www.mobygames.com/game/60600/x-plane-10-global-edition/){:target="_blank"}, which I had used for years.
 That's when I wrote a small X-Plane plugin in [C](https://en.wikipedia.org/wiki/C_(programming_language)){:target="_blank"} called [X-Gamepad](https://github.com/bwRavencl/X-Gamepad){:target="_blank"}.
 This plugin allowed me to use a game controller with X-Plane 10 in a very similar way to War Thunder, but with a few improvements.  
 
@@ -120,7 +120,7 @@ The central goals for my new project were:
 2. Support any game controller on any host operating system (in my case, OS X).
 3. Provide a graphical user interface to build and edit profiles.
 
-Part of the solution to the first problem came in the form of [vJoy](https://sourceforge.net/projects/vjoystick/), which was developed by Shaul Eizikovich as open-source software.
+Part of the solution to the first problem came in the form of [vJoy](https://sourceforge.net/projects/vjoystick/){:target="_blank"}, which was developed by Shaul Eizikovich as open-source software.
 It is a virtual joystick driver for Windows that allows you to create virtual joysticks and feed them input from any source.
 Instead of targeting a specific game, my new approach would emulate joystick, keyboard, and mouse inputs.
 This would make it usable with every simulator out there.
@@ -131,7 +131,7 @@ I decided on a two-part solution consisting of a server application running on t
 The client would then feed that input into vJoy and the Windows API to simulate input events.
 
 I chose to write the server application in [Java](https://en.wikipedia.org/wiki/Java_(programming_language)){:target="_blank"} since it was fast, a good fit for cross-platform support, and the language I had the most experience with.
-For the smaller client, I went with [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) because vJoy came with examples for it and it felt the most natural for accessing Windows APIs.
+For the smaller client, I went with [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)){:target="_blank"} because vJoy came with examples for it and it felt the most natural for accessing Windows APIs.
 
 Within a few weeks, I had cobbled together a rough prototype of both applications, which I named *RemoteStick Server* and [*RemoteStick Client*](https://github.com/bwRavencl/RemoteStickClient){:target="_blank"} - that was in the autumn of 2014.
 Then after the new semester at university started, work on RemoteStick stalled.
@@ -142,7 +142,7 @@ A short time later, I became quite annoyed with the declining quality of OS X, a
 I settled on a ZOTAC mini-PC, the [ZBOX EN760](https://www.zotac.com/de/product/mini_pcs/en760){:target="_blank"}, running Linux and was quite happy for a while.
 For the better part of a year, I mainly ran X-Plane and War Thunder on my new Linux PC, gradually improving X-Gamepad and expanding upon it (for example, by adding support for helicopters and add-on aircraft that required specific commands).
 
-Then, after visiting the [Jet World Masters 2015](https://youtu.be/2LNY_hlcnmg) in Leutkirch, the itch to fly some modern military jets got me again.
+Then, after visiting the [Jet World Masters 2015](https://youtu.be/2LNY_hlcnmg){:target="_blank"} in Leutkirch, the itch to fly some modern military jets got me again.
 I decided to give [DCS World](https://www.digitalcombatsimulator.com/){:target="_blank"} a try on my new system.
 Since this was by no means a powerful gaming PC, it barely ran DCS.
 Luckily, only a short time later, version 1.5 of DCS was released, which greatly improved performance with the introduction of Direct3D 11.
@@ -171,7 +171,7 @@ It was designed purely for my personal use and lacked not only many features it 
 While browsing flightsim subreddits, I occasionally encountered people looking for advice on how to use a game controller for flying.
 I knew I had the exact tool they needed, but setting it up, configuring the simulators for it, and explaining the concepts behind ControllerBuddy would have been incredibly time-consuming.  
 So, over the following years, I refined not only the application itself but also the whole ecosystem around it to make it accessible to everyone.  
-Essential components like the [website](https://controllerbuddy.org){:target="_blank"} you are on now, the [Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script), and the [videos](https://youtube.com/playlist?list=PLCrcgiMjHO83vtSqCKeNuXt_ZotBfFQ81&si=eQH4lJqFRTy7DXJH){:target="_blank"} came into being.  
+Essential components like the [website](https://controllerbuddy.org){:target="_blank"} you are on now, the [Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, and the [videos](https://youtube.com/playlist?list=PLCrcgiMjHO83vtSqCKeNuXt_ZotBfFQ81&si=eQH4lJqFRTy7DXJH){:target="_blank"} came into being.  
 On the profile side, while I started out with a handful of profiles for DCS modules, I gradually expanded the official [profile repository](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"} to support more and more simulators, both new and old.
 Today, the repository counts a total of 94 profiles!
 
@@ -198,7 +198,7 @@ While I have refactored many essential parts and switched out underlying librari
 
 I still work on ControllerBuddy almost every day in one way or another.
 While there are periods with relatively little change, during which only dependencies get updated, there are also times when I have grander ideas.
-These include user interface overhauls or even monumental tasks like switching out the underlying input system from [GLFW](https://www.glfw.org/){:target="_blank"} to [SDL3](https://www.libsdl.org/), which I undertook in early 2025.
+These include user interface overhauls or even monumental tasks like switching out the underlying input system from [GLFW](https://www.glfw.org/){:target="_blank"} to [SDL3](https://www.libsdl.org/){:target="_blank"}, which I undertook in early 2025.
 Most of the time, such ideas just come to me on a whim when I learn something new or get excited to try out a promising technology.  
 Next to working on the core application, there are always things to improve or expand upon on the website or the Install-Script, or a new simulator module gets released and a profile has to be created for it.
 All I'm saying is that it never gets boring...
