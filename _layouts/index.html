@@ -109,6 +109,12 @@ layout: default
     fitViewerToContent();
   });
 
+  viewerDialog.addEventListener('cancel', (event) => {
+    // route Escape through closeViewer so the URL, listeners and iframe get cleaned up too
+    event.preventDefault();
+    closeViewer();
+  });
+
   window.addEventListener('resize', () => {
     if (viewerDialog.open) {
       fitViewerToContent();
