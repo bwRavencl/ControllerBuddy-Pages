@@ -279,7 +279,7 @@
 
       **Hint:** Remember that it is not enough to simply load a profile in ControllerBuddy.
       Each game must be configured correctly for the profile to work.  
-      Follow the instructions in the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} for instructions on how to configure your games for usage with the profiles.  
+      See the repository's [README.md](https://github.com/bwRavencl/ControllerBuddy-Profiles#instructions){:target="_blank"} for how to configure your games for usage with the profiles.  
       Users of the Flatpak should consult the [ControllerBuddy-Linux-Guides](https://github.com/bwRavencl/ControllerBuddy-Linux-Guides){:target="_blank"} on the topic of game configuration under Linux.
 
       It is recommended to check out the layout for each profile, either in ControllerBuddy's visualization tab after loading the profile, or [below](#profiles) on this website.
