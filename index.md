@@ -131,7 +131,7 @@ These profiles are continuously updated and refined by the author to ensure the 
 
 If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"} to set up ControllerBuddy, the latest versions of these profiles will be installed automatically.
 
-You can use the official profiles as they are, or modify them - or create your own from scratch-according to your needs.
+You can use the official profiles as they are, or modify them - or create your own from scratch - according to your needs.
 
 Click the links to view a visualization of each profile:
 
