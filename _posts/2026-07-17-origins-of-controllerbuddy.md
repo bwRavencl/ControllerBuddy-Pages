@@ -63,14 +63,14 @@ Skipping ahead a few years, during the early 2000s, I started using an original 
 I mainly used the DualShock for RC simulators, such as [Aerofly Professional](https://web.archive.org/web/20040611111328/http://www.aerofly.de/index.html){:target="_blank"} and [Aerofly Professional Deluxe](https://web.archive.org/web/20070216094229/http://www.aerofly.de/www/gallery.html){:target="_blank"}.
 While this felt like a good solution, at least for RC simulators, it had a big drawback: like all game controllers, the DualShock's sticks had a spring-loaded center position, which made it impossible to hold the throttle at a specific position without constantly applying pressure on the stick.
 
-At the same time, for traditional flight simulators, I was using the legendary [Microsoft Sidewinder Force Feedback 2](https://en.wikipedia.org/wiki/Microsoft_SideWinder_Force_Feedback_2){:target="_blank"} joystick.
+At the same time, for traditional flight simulators, I was using the legendary [Microsoft SideWinder Force Feedback 2](https://en.wikipedia.org/wiki/Microsoft_SideWinder_Force_Feedback_2){:target="_blank"} joystick.
 It was a great device for its time, but it had a very limited number of buttons and switches.  
 Some of the sims I was flying around that time were:
 
 <!-- markdownlint-disable no-inline-html -->
 <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30ch), 1fr)); gap: 0.5rem 2.5rem; margin: 1rem 0; padding-left: 1.2rem">
   <li><a href="https://www.mobygames.com/game-group/microsoft-flight-simulator-series" target="_blank">Microsoft Flight Simulator series</a></li>
-  <li><a href="https://www.mobygames.com/game/1675/microsoft-combat-flight-simulator-wwii-europe-series//" target="_blank">Microsoft Combat Flight Simulator</a></li>
+  <li><a href="https://www.mobygames.com/game/1675/microsoft-combat-flight-simulator-wwii-europe-series/" target="_blank">Microsoft Combat Flight Simulator</a></li>
   <li><a href="https://www.mobygames.com/game/14558/il-2-sturmovik-forgotten-battles/" target="_blank">IL-2 Sturmovik: Forgotten Battles</a></li>
   <li><a href="https://www.mobygames.com/game/11732/lock-on-modern-air-combat/" target="_blank">Lock On: Modern Air Combat</a></li>
   <li><a href="https://www.mobygames.com/game/20430/falcon-40-allied-force/" target="_blank">Falcon 4.0: Allied Force</a></li>
@@ -105,10 +105,10 @@ That's when I wrote a small X-Plane plugin in [C](https://en.wikipedia.org/wiki/
 This plugin allowed me to use a game controller with X-Plane 10 in a very similar way to War Thunder, but with a few improvements.  
 
 I was so happy with the result that I never wanted to go back to using a HOTAS or joystick again, and I started to think about how I could use a game controller with other flight simulators as well.  
-At that time, I was using a [2012 Macbook Pro](https://en.wikipedia.org/wiki/MacBook_Pro#Retina_(2012%E2%80%932016)){:target="_blank"} running [OS X](https://en.wikipedia.org/wiki/MacOS){:target="_blank"}.
+At that time, I was using a [2012 MacBook Pro](https://en.wikipedia.org/wiki/MacBook_Pro#Retina_(2012%E2%80%932016)){:target="_blank"} running [OS X](https://en.wikipedia.org/wiki/MacOS){:target="_blank"}.
 While War Thunder and X-Plane 10 ran natively on OS X, I dearly missed a modern combat flight simulator like Lock On, which I had played during the mid-2000s on Windows.
 Lock On was already more than 10 years old at that time and ran reasonably well within a Windows virtual machine.
-This meant I could run it on my Macbook, but I couldn't control it the way I wanted...
+This meant I could run it on my MacBook, but I couldn't control it the way I wanted...
 
 ### The RemoteStick Prototype
 
@@ -125,7 +125,7 @@ It is a virtual joystick driver for Windows that allows you to create virtual jo
 Instead of targeting a specific game, my new approach would emulate joystick, keyboard, and mouse inputs.
 This would make it usable with every simulator out there.
 
-Since I was using the DualShock 3 controller connected via Bluetooth to my Macbook Pro, I needed a way to get the input from the controller into Windows.
+Since I was using the DualShock 3 controller connected via Bluetooth to my MacBook Pro, I needed a way to get the input from the controller into Windows.
 Looping the Bluetooth connection through the virtual machine was not possible at that time, so I needed a way to send the inputs over the network.
 I decided on a two-part solution consisting of a server application running on the host operating system, which would read the input from the controller, apply the necessary mappings, and send the resulting data to a client application running on Windows.
 The client would then feed that input into vJoy and the Windows API to simulate input events.
