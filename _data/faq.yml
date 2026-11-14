@@ -271,7 +271,7 @@
       - **Automatic Installation:** If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, the profiles are already in your Documents folder.  
       Configuration of the games for usage with the profiles can be performed automatically for the most part by allow the install script to run the corresponding configuration scripts.  
       If you encounter configuration issues, you can re-run these scripts at any time by clicking the *Update ControllerBuddy* shortcut.
-      - **Manual Download:** You can manually download the latest versions of all profiles as a ZIP package here(https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
+      - **Manual Download:** You can manually download the latest versions of all profiles as a ZIP package [here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
 
       **Warning:** When you click the *Update ControllerBuddy* shortcut, the script automatically updates all official profiles.
       To prevent your custom changes from being overwritten, always save personal or modified profiles in a separate folder.
