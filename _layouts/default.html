@@ -9,6 +9,7 @@ google_analytics: G-MM2RFZFV1L
   <meta charset="UTF-8">
 
   {% seo %}
+  {% if page.layout == 'index' %}{% feed_meta %}{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#157878">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision }}">
