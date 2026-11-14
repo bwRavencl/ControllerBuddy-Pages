@@ -22,7 +22,7 @@ With the release of ControllerBuddy version 1.10, a new profile feature for axis
 It comes in the form of a checkbox labeled *Use Raw Value*.
 When this option is enabled, ControllerBuddy bypasses the so-called *Circle to Square Mapping* of the corresponding axis for that specific action.
 
-![Lockable Settings Panel](/assets/images/2026-10-07-status-update-october-2026/use-raw-value.png)
+![Use Raw Value](/assets/images/2026-10-07-status-update-october-2026/use-raw-value.png)
 
 If this doesn't make sense yet, let me try to explain:
 
