@@ -154,7 +154,7 @@ layout: default
       history.pushState(null, null, hashPath);
 
     if (relative_path.startsWith('profiles/')) {
-      document.title = '{{ site.title }} | ' + relative_path.replace(/^profiles\//, '').replace(/.html$/, '').replace('_', ' ');
+      document.title = '{{ site.title }} | ' + decodeURIComponent(relative_path).replace(/^profiles\//, '').replace(/\.html$/, '').replaceAll('_', ' ');
     } else if (relative_path.startsWith('blog/')) {
       document.title = '{{ site.title }} | ' + toTitleCase(relative_path.replace(/^blog\//, '').replaceAll('-', ' '));
     }
