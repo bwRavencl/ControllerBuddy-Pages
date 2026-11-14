@@ -43,6 +43,6 @@ Continuing the tradition of staying up-to-date with the Java ecosystem, a switch
 A small update of the Install Script was necessary to support [Git for Windows](https://gitforwindows.org/){:target="_blank"} version 2.54.0. If you've been having trouble with a fresh install, this update should clear things right up.
 
 On the profile side, a new profile was added for the Steam re-release of the classic [F-22: Air Dominance Fighter](https://store.steampowered.com/app/3146140/F22_Air_Dominance_Fighter){:target="_blank"}.  
-To celebrate its release, I created [a quick video](https://www.youtube.com/watch?v=6AKwhZJNnHA){:target="_blank"} to showcase how well the F-22 ADF works with the ControllerBuddy on the Steam Deck.
+To celebrate its release, I created [a quick video](https://www.youtube.com/watch?v=6AKwhZJNnHA){:target="_blank"} to showcase how well the F-22 ADF works with ControllerBuddy on the Steam Deck.
 
 As always, various small improvements to several existing profiles were also implemented.
