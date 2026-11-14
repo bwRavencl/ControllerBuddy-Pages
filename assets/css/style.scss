@@ -570,6 +570,14 @@ body:has(> .post-wrapper) {
     white-space: nowrap;
 }
 
+.in-viewer .page-header {
+    display: none;
+}
+
+html:not(.in-viewer) .page-header + .post-wrapper {
+    margin-top: 4em;
+}
+
 .post-header {
     display: flex;
     flex-direction: column;

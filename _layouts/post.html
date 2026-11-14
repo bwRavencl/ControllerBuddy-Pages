@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<script>
+    // hide the page header while the post is displayed inside the viewer on the index page
+    if (window.self !== window.top) {
+        document.documentElement.classList.add('in-viewer');
+    }
+</script>
+
+{% include sub-page-header.html back_url='/#blog' %}
+
 <div class="post-wrapper">
     <div class="post-header">
         <h2 class="post-title">{{ page.title }}</h2>
