@@ -30,20 +30,20 @@
 - title: Why choose a gamepad for flight simulation?
   content: |
       While a joystick or yoke in combination with a throttle is probably the most obvious choice for controlling a virtual aircraft, the usage of a gamepad offers a number of advantages, which for some people can make it an interesting alternative:
-      - Gamepads, especially the ones name above, offer a high build quality and are very sturdy, which sadly is a virtue only few of the joysticks on the market can offer, that from my experience can break often and are sometimes hard to repair.
+      - Gamepads, especially the ones named above, offer a high build quality and are very sturdy, which sadly is a virtue only few of the joysticks on the market can offer, that from my experience can break often and are sometimes hard to repair.
       - Many people who own a gaming PC already own a gamepad to begin with.
       These days joysticks have become more of a rarity compared to the heyday of flight simulators during the 1990s.
-      This is something especially newcomers to the flight simulation genre may be facing or if you are a veteran virtual-pilot and are trying to get a friend interested in this great hobby, who does not (yet) own the necessary peripherials.
+      This is something especially newcomers to the flight simulation genre may be facing or if you are a veteran virtual-pilot and are trying to get a friend interested in this great hobby, who does not (yet) own the necessary peripherals.
       - When comparing the cost of a high-quality gamepad to that of a HOTAS or yoke system, the gamepad is clearly the more affordable option, making it especially appealing to newcomers taking their first steps into flight simulation.
-      - While a joystick with a throttle can be considered the bare minimum to start out with, many more senior virtual pilots will say that you will also need a rudder pedals and a headtracking unit to take your experience to a satisfactory level.
-      Depending on your desk you may also need a suitable mounting solution to install your input decvices at a proper height.
+      - While a joystick with a throttle can be considered the bare minimum to start out with, many more senior virtual pilots will say that you will also need rudder pedals and a headtracking unit to take your experience to a satisfactory level.
+      Depending on your desk you may also need a suitable mounting solution to install your input devices at a proper height.
       All these things are not only an additional cost factor, but can also quickly come in someone's way if your PC is not dedicated to your flying hobby.
-      - Even if you call all of the above named devices your own, you most likely will still depend on a keyboard and mouse to be able to navigate the menus of your simulator und to handle switches and buttons inside the virtual cockpit, this means having to take your hands off frin the throttle and stick, which can be cumbersome.
+      - Even if you call all of the above named devices your own, you most likely will still depend on a keyboard and mouse to be able to navigate the menus of your simulator and to handle switches and buttons inside the virtual cockpit, this means having to take your hands off the throttle and stick, which can be cumbersome.
       - Even handheld devices like the [Steam Deck](https://www.steamdeck.com){:target="_blank"}, can become a viable platform to enjoy flight simulators when used in conjunction with ControllerBuddy as demonstrated in [this video](https://www.youtube.com/watch?v=HLd0bi02wmE){:target="_blank"}.
       - A wireless gamepad used in the way as described in this guide, offers you exceptional freedom in the sense that you are no longer tightly bound to a seating position from which all of the necessary input devices are reachable.
       If your screen is large enough, flying from a comfortable spot on your couch may come to one's mind.
-      - While a gamepad does certainly not come as close to the controls found in a real plane, it still can emulate the controls more or less acurately.
-      If upmost realism is your top priority, you will probably prefer to use a classic stick, but be aware that one set of input devices can usually only realistically represent one particular model of aircraft from the real world.
+      - While a gamepad does certainly not come as close to the controls found in a real plane, it still can emulate the controls more or less accurately.
+      If utmost realism is your top priority, you will probably prefer to use a classic stick, but be aware that one set of input devices can usually only realistically represent one particular model of aircraft from the real world.
       If you like to fly general aviation aircraft, airliners, military jets and helicopters, you actually would need vastly different sets of input devices for at least each one of these categories.
       - Physical strain is another issue I would like to mention: From my experience flying with a gamepad for a long time now has been very comfortable and a lot less straining than with a joystick and throttle, I find this especially true for helicopter flying, where constant very precise inputs are necessary.
 - title: What are the limitations of using a gamepad?
@@ -52,7 +52,7 @@
       A relative axis is an axis that is not spring-loaded, like a slider, and is the preferred means of controlling the throttle, propeller pitch, and mixture of an aircraft.
       - Since the two sticks of a gamepad are a lot smaller than a dedicated joystick, they offer a smaller range and thus require more precise inputs.
       - Due to the stated goal of controlling a complete aircraft with a gamepad that offers a large but still limited number of buttons and axes, we cannot avoid using modifiers to make some of them perform more than one function.
-      - Lastly as already mentioned above, a gamepad will certainly never be able to offer the same realism than a well-made joystick or yoke.
+      - Lastly as already mentioned above, a gamepad will certainly never be able to offer the same realism as a well-made joystick or yoke.
 - title: How to overcome the limitations of a gamepad?
   content: |
       Instead of binding axes and buttons directly to our gamepad we use a *virtual* joystick.  
@@ -65,11 +65,11 @@
       This allows us for example to work around the above mentioned issue of missing relative axes on our gamepad.  
       Due to the limited number of axes and buttons of a gamepad, a single axis or button usually must serve multiple purposes.
       This can be handled by so called **modes**.
-      For example an axis normally assigned to the throttle can become the axis controlling for controlling the view (i.e.
-      looking up and down), while swiching to view-mode.
+      For example an axis normally assigned to the throttle can become the axis for controlling the view (i.e.
+      looking up and down), while switching to view-mode.
 
       Another function of ControllerBuddy is the so called **overlay**.
-      The overlay is a transparent window that is displayed on top of the simulator to show the currently active mode and the state of the axes of the virtual axes.
+      The overlay is a transparent window that is displayed on top of the simulator to show the currently active mode and the state of the axes of the virtual joystick.
       This is especially useful for relative axes, for example it is very hard to tell the current throttle setting without such an indication.
       The overlay can be freely moved around the screen and configured to include only indicators for certain axes of interest.
 
@@ -82,10 +82,10 @@
 - title: How do modes (shift-states) work?
   content: |
       **Switching between modes** is done via a specialized type of action for mode-switching that can be assigned to a button of your gamepad.
-      A mode-swichting action can be configured to either switch to a mode momentarily, for as long as the corresponding button is held down, or to toggle a mode on and off with a single press of the button.
+      A mode-switching action can be configured to either switch to a mode momentarily, for as long as the corresponding button is held down, or to toggle a mode on and off with a single press of the button.
       Depending on the specific usage scenario, one configuration may be preferable to the other.
 
-      All axes and buttons that do not have a different actions assigned by the currently active mode retain the actions of the mode one level below.
+      All axes and buttons that do not have different actions assigned by the currently active mode retain the actions of the mode one level below.
 - title: What should a basic profile include?
   content: |
       Typically, you will want to create a unique profile for each simulator, and in many cases, for each aircraft simulated.
@@ -159,11 +159,11 @@
 
       **Generic keyboard inputs:**  
       Pressing down the right stick toggles *On-Screen Keyboard Mode* on and off.
-      As the name implies, this mode brings up a special On-Screen Keyboard, which can be controlled via as follows:
+      As the name implies, this mode brings up a special On-Screen Keyboard, which can be controlled as follows:
       - The D-Pad moves the On-Screen Keyboard key selector around.
       - The A button depresses the currently selected On-Screen Keyboard key - when the A button is released, the corresponding key on the keyboard is also released.
       - The B button locks the currently selected On-Screen Keyboard key down - the key remains in depressed state until it is unlocked by selecting it with the selector and pressing the B button again.
-      - The Y button is shortcut to release all locked keys at once.  
+      - The Y button is a shortcut to release all locked keys at once.  
       By locking multiple keys, it is possible to perform key-strokes consisting of multiple keys pressed simultaneously.  
       When the *On-Screen Keyboard Mode* is exited by pressing down the right stick, all locked keys are automatically released.
 
@@ -269,7 +269,7 @@
 
       Getting these profiles:
       - **Automatic Installation:** If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, the profiles are already in your Documents folder.  
-      Configuration of the games for usage with the profiles can be performed automatically for the most part by allow the install script to run the corresponding configuration scripts.  
+      Configuration of the games for usage with the profiles can be performed automatically for the most part by allowing the install script to run the corresponding configuration scripts.  
       If you encounter configuration issues, you can re-run these scripts at any time by clicking the *Update ControllerBuddy* shortcut.
       - **Manual Download:** You can manually download the latest versions of all profiles as a ZIP package [here](https://github.com/bwRavencl/ControllerBuddy-Profiles/archive/refs/heads/master.zip){:target="_blank"}.
 
@@ -314,7 +314,7 @@
       **DOSBox Users:** If the game is a DOS title running within DOSBox, please refer to [this section](https://github.com/bwRavencl/ControllerBuddy-Profiles?tab=readme-ov-file#-usage-with-dosbox){:target="_blank"} for specific instructions on configuration.
 - title: What is the recommended way to install and update ControllerBuddy?
   content: |
-      The easiest way to setup ControllerBuddy is via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}.
+      The easiest way to set up ControllerBuddy is via the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}.
 
       The script streamlines the installation and updating of ControllerBuddy itself and of the profiles available as part of the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"} repository.
 
@@ -325,7 +325,7 @@
   content: |
       Please try the following solutions:
       - Ensure the overlay is enabled in the profile settings tab.
-      - When running on Windows, make sure the  [Windows Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/){:target="_blank"} are enabled.
+      - When running on Windows, make sure the [Windows Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/){:target="_blank"} are enabled.
       - When running a Vulkan- or OpenGL-based application on a Windows system with an NVIDIA GPU, in the 'NVIDIA Control Panel', try forcing the setting called 'Vulkan/OpenGL present method' to 'Prefer layered on DXGI swapchain', as shown [here](https://www.reddit.com/r/nvidia/comments/yf6hiw/psa_you_can_now_elevate_openglvulkan_games_to_a/){:target="_blank"}.
       - When running on a Linux system with X11, make sure you have the display compositor enabled, [this article](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)){:target="_blank"} explains how to configure the Compositor for the most common desktop environments - just remember for ControllerBuddy you will want the compositor enabled not disabled!
 - title: How can I ensure the vJoy device is used as the primary input?
@@ -353,7 +353,7 @@
 - title: What is haptic feedback?
   content: |
       Haptic feedback is a special feature that can be enabled for relative axis mappings.
-      It causes the controller to vibrate slightly when either end of a relative axis, or a user defined axis position (dentent), is reached.
+      It causes the controller to vibrate slightly when either end of a relative axis, or a user defined axis position (detent), is reached.
 
       Haptic feedback support is implemented for the most popular controllers on both Windows and Linux.
 - title: What's the best controller for ControllerBuddy?
@@ -389,7 +389,7 @@
       While often changes are minor and just include updates to dependencies, bug fixes, and small improvements, some releases may include new features or significant changes.
 
       As a result, it is recommended to check for updates regularly to ensure you are using the latest version of ControllerBuddy.  
-      Through all of this, backward compatibility is mainted on a best-effort basis, but it is not guaranteed.
+      Through all of this, backward compatibility is maintained on a best-effort basis, but it is not guaranteed.
 - title: How does the versioning scheme work?
   content: |
       The version numbers used by ControllerBuddy follow the pattern `X.Y.Z-GIT_HASH` (for example, `1.5.9-d009903b`).  
