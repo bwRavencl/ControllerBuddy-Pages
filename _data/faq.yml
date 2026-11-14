@@ -265,7 +265,7 @@
       - Linux (x64 or aarch64)
 - title: Are there any preconfigured profiles available?
   content: |
-      An extensive collection of official profiles for various flight simulators is maintained in the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"}{:target="_blank"} GitHub repository.
+      An extensive collection of official profiles for various flight simulators is maintained in the [ControllerBuddy-Profiles](https://github.com/bwRavencl/ControllerBuddy-Profiles){:target="_blank"} GitHub repository.
 
       Getting these profiles:
       - **Automatic Installation:** If you use the [ControllerBuddy-Install-Script](https://github.com/bwRavencl/ControllerBuddy-Install-Script){:target="_blank"}, the profiles are already in your Documents folder.  
