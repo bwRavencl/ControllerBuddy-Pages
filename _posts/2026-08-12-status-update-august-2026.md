@@ -16,7 +16,7 @@ As always, I will focus on the major changes and skip the routine housekeeping.
 
 Let us start with two new releases in the flight simulation community.
 
-At the end of July, [Heatblur](https://store.heatblur.com/){:target="_blank"} released their updated version of the F-14 Tomcat, the [F-14 B(U)](https://www.digitalcombatsimulator.com/de/products/planes/f-14bu/){:target="_blank"}, for DCS.
+At the end of July, [Heatblur](https://store.heatblur.com/){:target="_blank"} released their updated version of the F-14 Tomcat, the [F-14 B(U)](https://www.digitalcombatsimulator.com/en/products/planes/f-14bu/){:target="_blank"}, for DCS.
 I quickly overhauled the existing DCS F-14 profiles and added a dedicated profile for the B(U) variant.
 
 Then, on August 4th, [1C Game Studios](https://1cgs.net/en){:target="_blank"} released the long-awaited [IL-2 Korea](https://il2-series.com/en/store/korea/new/){:target="_blank"} out of early access.
