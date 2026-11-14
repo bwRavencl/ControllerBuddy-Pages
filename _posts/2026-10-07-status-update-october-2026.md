@@ -122,7 +122,7 @@ Since my last post in August, I added a new official profile for the classic 199
 I played around with this sim back in the late '90s when I got it as part of [a game collection](https://www.mobygames.com/game/13186/aber-hallo/){:target="_blank"}, but I never got deep into it at the time.
 
 After setting it up in DOSBox and designing a custom ControllerBuddy profile, I played through a few training missions and jumped into the campaigns.
-While its flight model and avionics cannot compare to modern implementations like the [Mi-24 in DCS](https://www.digitalcombatsimulator.com/en/shop/modules/hind/){:target="_blank"}, this '90s classic offers still some very enjoyable gameplay even today.
+While its flight model and avionics cannot compare to modern implementations like the [Mi-24 in DCS](https://www.digitalcombatsimulator.com/en/shop/modules/hind/){:target="_blank"}, this '90s classic still offers some very enjoyable gameplay even today.
 Unfortunately, even early campaign missions feature overwhelming ground and air threats, making survival quite a challenge, which is why I haven't made it very far into the campaign yet.
 
 ### GitHub Workflow Improvements
@@ -137,7 +137,7 @@ To explain, I need to go back a bit first.
 Flatpaks are built using manifest files; the manifest for ControllerBuddy is maintained in a dedicated repository called ControllerBuddy-Flatpak.
 Many Flatpak applications are hosted centrally on [Flathub](https://flathub.org){:target="_blank"}, the largest repository in the world of Flatpak.
 However, due to Flathub's strict rules regarding release cycles and ControllerBuddy's rolling-release model, I was unable to include it in the official Flathub repository.
-Instead ControllerBuddy can be obtained from its own Flatpak repository.
+Instead, ControllerBuddy can be obtained from its own Flatpak repository.
 While this requires users to manually add said repository to their system, it gives the project complete independence.
 The custom Flatpak repository is hosted via [GitHub Pages](https://docs.github.com/en/pages){:target="_blank"}.
 Whenever the manifest file in the Git repository is updated, a GitHub Actions workflow builds Flatpak packages for both x86-64 and aarch64 architectures and deploys them to GitHub Pages.
